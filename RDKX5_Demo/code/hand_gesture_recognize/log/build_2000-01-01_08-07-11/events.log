@@ -1,0 +1,988 @@
+[0.000000] (-) TimerEvent: {}
+[0.001141] (hand_gesture_detection_develop) JobQueued: {'identifier': 'hand_gesture_detection_develop', 'dependencies': OrderedDict()}
+[0.002186] (hand_gesture_detection_develop) JobStarted: {'identifier': 'hand_gesture_detection_develop'}
+[0.042322] (hand_gesture_detection_develop) JobProgress: {'identifier': 'hand_gesture_detection_develop', 'progress': 'cmake'}
+[0.044248] (hand_gesture_detection_develop) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop'], 'cwd': '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '172.30.22.219 65149 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.0.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2b879548-eefb-4117-9f21-04a0afac85f2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop'), ('SSH_CONNECTION', '172.30.22.219 65149 172.30.161.177 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098984] (-) TimerEvent: {}
+[0.199919] (-) TimerEvent: {}
+[0.300833] (-) TimerEvent: {}
+[0.354617] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.401023] (-) TimerEvent: {}
+[0.501945] (-) TimerEvent: {}
+[0.602932] (-) TimerEvent: {}
+[0.671111] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.703100] (-) TimerEvent: {}
+[0.707026] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.803346] (-) TimerEvent: {}
+[0.904465] (-) TimerEvent: {}
+[1.005508] (-) TimerEvent: {}
+[1.085583] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.105777] (-) TimerEvent: {}
+[1.155451] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.156638] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.158714] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.172844] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.205965] (-) TimerEvent: {}
+[1.306899] (-) TimerEvent: {}
+[1.407886] (-) TimerEvent: {}
+[1.508825] (-) TimerEvent: {}
+[1.589465] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.609055] (-) TimerEvent: {}
+[1.654366] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.655759] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.658619] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.670085] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.709265] (-) TimerEvent: {}
+[1.810202] (-) TimerEvent: {}
+[1.911061] (-) TimerEvent: {}
+[2.012097] (-) TimerEvent: {}
+[2.113350] (-) TimerEvent: {}
+[2.214300] (-) TimerEvent: {}
+[2.315195] (-) TimerEvent: {}
+[2.416112] (-) TimerEvent: {}
+[2.517020] (-) TimerEvent: {}
+[2.585507] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.617283] (-) TimerEvent: {}
+[2.718243] (-) TimerEvent: {}
+[2.819086] (-) TimerEvent: {}
+[2.919969] (-) TimerEvent: {}
+[2.992660] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.020209] (-) TimerEvent: {}
+[3.121406] (-) TimerEvent: {}
+[3.122258] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.221620] (-) TimerEvent: {}
+[3.314073] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.321736] (-) TimerEvent: {}
+[3.338776] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.380327] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.421965] (-) TimerEvent: {}
+[3.444101] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.522179] (-) TimerEvent: {}
+[3.528091] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.622398] (-) TimerEvent: {}
+[3.723265] (-) TimerEvent: {}
+[3.751192] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[3.762853] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[3.823428] (-) TimerEvent: {}
+[3.924254] (-) TimerEvent: {}
+[4.025104] (-) TimerEvent: {}
+[4.126108] (-) TimerEvent: {}
+[4.164893] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[4.226330] (-) TimerEvent: {}
+[4.299586] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[4.326545] (-) TimerEvent: {}
+[4.427483] (-) TimerEvent: {}
+[4.487719] (hand_gesture_detection_develop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.525781] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[4.527547] (-) TimerEvent: {}
+[4.628302] (-) TimerEvent: {}
+[4.729295] (-) TimerEvent: {}
+[4.830272] (-) TimerEvent: {}
+[4.908973] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[4.910396] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.930498] (-) TimerEvent: {}
+[5.031730] (-) TimerEvent: {}
+[5.132666] (-) TimerEvent: {}
+[5.233644] (-) TimerEvent: {}
+[5.304457] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[5.311157] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[5.333880] (-) TimerEvent: {}
+[5.435066] (-) TimerEvent: {}
+[5.535921] (-) TimerEvent: {}
+[5.609529] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)\n'}
+[5.636083] (-) TimerEvent: {}
+[5.736924] (-) TimerEvent: {}
+[5.837838] (-) TimerEvent: {}
+[5.896654] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)\n'}
+[5.904742] (hand_gesture_detection_develop) StderrLine: {'line': b'\x1b[0minvalid platform, build platform X3 default\x1b[0m\n'}
+[5.905571] (hand_gesture_detection_develop) StderrLine: {'line': b'\x1b[0mCMAKE_SYSROOT is \x1b[0m\n'}
+[5.937955] (-) TimerEvent: {}
+[6.038710] (-) TimerEvent: {}
+[6.139465] (-) TimerEvent: {}
+[6.240313] (-) TimerEvent: {}
+[6.313983] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.340468] (-) TimerEvent: {}
+[6.372256] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Generating done\n'}
+[6.392755] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop\n'}
+[6.440643] (-) TimerEvent: {}
+[6.453919] (hand_gesture_detection_develop) CommandEnded: {'returncode': 0}
+[6.458907] (hand_gesture_detection_develop) JobProgress: {'identifier': 'hand_gesture_detection_develop', 'progress': 'build'}
+[6.463706] (hand_gesture_detection_develop) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '172.30.22.219 65149 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.0.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2b879548-eefb-4117-9f21-04a0afac85f2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop'), ('SSH_CONNECTION', '172.30.22.219 65149 172.30.161.177 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[6.540847] (-) TimerEvent: {}
+[6.579057] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[6.640974] (-) TimerEvent: {}
+[6.741735] (-) TimerEvent: {}
+[6.842486] (-) TimerEvent: {}
+[6.943256] (-) TimerEvent: {}
+[7.044015] (-) TimerEvent: {}
+[7.144820] (-) TimerEvent: {}
+[7.245807] (-) TimerEvent: {}
+[7.291944] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[7.335027] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[7.345940] (-) TimerEvent: {}
+[7.446871] (-) TimerEvent: {}
+[7.474615] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[7.489837] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[7.520733] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[7.547030] (-) TimerEvent: {}
+[7.574810] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[7.642695] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[7.647128] (-) TimerEvent: {}
+[7.747874] (-) TimerEvent: {}
+[7.816357] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.823031] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.848005] (-) TimerEvent: {}
+[7.948811] (-) TimerEvent: {}
+[8.049701] (-) TimerEvent: {}
+[8.150566] (-) TimerEvent: {}
+[8.251470] (-) TimerEvent: {}
+[8.295740] (hand_gesture_detection_develop) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.351682] (-) TimerEvent: {}
+[8.452592] (-) TimerEvent: {}
+[8.553519] (-) TimerEvent: {}
+[8.569786] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)\n'}
+[8.653734] (-) TimerEvent: {}
+[8.754645] (-) TimerEvent: {}
+[8.843722] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)\n'}
+[8.851565] (hand_gesture_detection_develop) StderrLine: {'line': b'\x1b[0minvalid platform, build platform X3 default\x1b[0m\n'}
+[8.852256] (hand_gesture_detection_develop) StderrLine: {'line': b'\x1b[0mCMAKE_SYSROOT is \x1b[0m\n'}
+[8.854713] (-) TimerEvent: {}
+[8.955359] (-) TimerEvent: {}
+[9.056216] (-) TimerEvent: {}
+[9.157072] (-) TimerEvent: {}
+[9.250993] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Configuring done\n'}
+[9.257196] (-) TimerEvent: {}
+[9.311364] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Generating done\n'}
+[9.333184] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop\n'}
+[9.357443] (-) TimerEvent: {}
+[9.458377] (-) TimerEvent: {}
+[9.494279] (hand_gesture_detection_develop) StderrLine: {'line': b'gmake[2]: \xe8\xad\xa6\xe5\x91\x8a\xef\xbc\x9a\xe6\x96\x87\xe4\xbb\xb6\xe2\x80\x9c/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/main.cpp\xe2\x80\x9d\xe7\x9a\x84\xe4\xbf\xae\xe6\x94\xb9\xe6\x97\xb6\xe9\x97\xb4\xe5\x9c\xa8\xe6\x9c\xaa\xe6\x9d\xa5 785303100 \xe7\xa7\x92\xe5\x90\x8e\n'}
+[9.529707] (hand_gesture_detection_develop) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/hand_gesture_det_node.cpp.o\x1b[0m\n'}
+[9.530981] (hand_gesture_detection_develop) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_postprocess.cpp.o\x1b[0m\n'}
+[9.531685] (hand_gesture_detection_develop) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/lmks_process.cpp.o\x1b[0m\n'}
+[9.532295] (hand_gesture_detection_develop) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/main.cpp.o\x1b[0m\n'}
+[9.532890] (hand_gesture_detection_develop) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_postprocess_util.cc.o\x1b[0m\n'}
+[9.534071] (hand_gesture_detection_develop) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_preprocess.cpp.o\x1b[0m\n'}
+[9.534793] (hand_gesture_detection_develop) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/threads/threadpool.cpp.o\x1b[0m\n'}
+[9.558627] (-) TimerEvent: {}
+[9.660906] (-) TimerEvent: {}
+[9.762726] (-) TimerEvent: {}
+[9.864514] (-) TimerEvent: {}
+[9.969337] (-) TimerEvent: {}
+[10.071626] (-) TimerEvent: {}
+[10.174156] (-) TimerEvent: {}
+[10.275228] (-) TimerEvent: {}
+[10.377618] (-) TimerEvent: {}
+[10.479535] (-) TimerEvent: {}
+[10.581676] (-) TimerEvent: {}
+[10.684090] (-) TimerEvent: {}
+[10.786494] (-) TimerEvent: {}
+[10.889194] (-) TimerEvent: {}
+[10.991871] (-) TimerEvent: {}
+[11.094628] (-) TimerEvent: {}
+[11.197372] (-) TimerEvent: {}
+[11.300201] (-) TimerEvent: {}
+[11.404137] (-) TimerEvent: {}
+[11.506851] (-) TimerEvent: {}
+[11.609744] (-) TimerEvent: {}
+[11.712607] (-) TimerEvent: {}
+[11.815351] (-) TimerEvent: {}
+[11.918253] (-) TimerEvent: {}
+[12.021076] (-) TimerEvent: {}
+[12.122272] (-) TimerEvent: {}
+[12.228172] (-) TimerEvent: {}
+[12.331995] (-) TimerEvent: {}
+[12.433198] (-) TimerEvent: {}
+[12.534441] (-) TimerEvent: {}
+[12.636696] (-) TimerEvent: {}
+[12.739013] (-) TimerEvent: {}
+[12.841868] (-) TimerEvent: {}
+[12.944611] (-) TimerEvent: {}
+[13.047479] (-) TimerEvent: {}
+[13.150987] (-) TimerEvent: {}
+[13.253721] (-) TimerEvent: {}
+[13.357708] (-) TimerEvent: {}
+[13.466266] (-) TimerEvent: {}
+[13.567368] (-) TimerEvent: {}
+[13.669390] (-) TimerEvent: {}
+[13.772385] (-) TimerEvent: {}
+[13.875345] (-) TimerEvent: {}
+[13.978327] (-) TimerEvent: {}
+[14.079526] (-) TimerEvent: {}
+[14.181344] (-) TimerEvent: {}
+[14.284102] (-) TimerEvent: {}
+[14.387002] (-) TimerEvent: {}
+[14.489818] (-) TimerEvent: {}
+[14.593178] (-) TimerEvent: {}
+[14.695775] (-) TimerEvent: {}
+[14.798745] (-) TimerEvent: {}
+[14.910054] (-) TimerEvent: {}
+[15.012733] (-) TimerEvent: {}
+[15.115445] (-) TimerEvent: {}
+[15.218157] (-) TimerEvent: {}
+[15.323319] (-) TimerEvent: {}
+[15.426793] (-) TimerEvent: {}
+[15.529493] (-) TimerEvent: {}
+[15.632074] (-) TimerEvent: {}
+[15.734671] (-) TimerEvent: {}
+[15.837230] (-) TimerEvent: {}
+[15.939854] (-) TimerEvent: {}
+[16.042527] (-) TimerEvent: {}
+[16.145235] (-) TimerEvent: {}
+[16.247979] (-) TimerEvent: {}
+[16.350598] (-) TimerEvent: {}
+[16.453225] (-) TimerEvent: {}
+[16.555840] (-) TimerEvent: {}
+[16.658466] (-) TimerEvent: {}
+[16.761100] (-) TimerEvent: {}
+[16.863705] (-) TimerEvent: {}
+[16.966323] (-) TimerEvent: {}
+[17.069023] (-) TimerEvent: {}
+[17.171674] (-) TimerEvent: {}
+[17.272830] (-) TimerEvent: {}
+[17.374004] (-) TimerEvent: {}
+[17.475141] (-) TimerEvent: {}
+[17.576297] (-) TimerEvent: {}
+[17.680218] (-) TimerEvent: {}
+[17.781327] (-) TimerEvent: {}
+[17.883486] (-) TimerEvent: {}
+[17.986043] (-) TimerEvent: {}
+[18.088680] (-) TimerEvent: {}
+[18.191269] (-) TimerEvent: {}
+[18.293852] (-) TimerEvent: {}
+[18.398531] (-) TimerEvent: {}
+[18.499693] (-) TimerEvent: {}
+[18.600778] (-) TimerEvent: {}
+[18.701929] (-) TimerEvent: {}
+[18.803109] (-) TimerEvent: {}
+[18.904249] (-) TimerEvent: {}
+[19.005393] (-) TimerEvent: {}
+[19.106523] (-) TimerEvent: {}
+[19.207721] (-) TimerEvent: {}
+[19.309298] (-) TimerEvent: {}
+[19.410419] (-) TimerEvent: {}
+[19.511562] (-) TimerEvent: {}
+[19.612724] (-) TimerEvent: {}
+[19.713883] (-) TimerEvent: {}
+[19.815027] (-) TimerEvent: {}
+[19.916149] (-) TimerEvent: {}
+[20.017276] (-) TimerEvent: {}
+[20.118426] (-) TimerEvent: {}
+[20.220108] (-) TimerEvent: {}
+[20.321836] (-) TimerEvent: {}
+[20.423559] (-) TimerEvent: {}
+[20.525216] (-) TimerEvent: {}
+[20.626909] (-) TimerEvent: {}
+[20.728638] (-) TimerEvent: {}
+[20.830306] (-) TimerEvent: {}
+[20.931953] (-) TimerEvent: {}
+[21.033602] (-) TimerEvent: {}
+[21.135232] (-) TimerEvent: {}
+[21.236859] (-) TimerEvent: {}
+[21.338531] (-) TimerEvent: {}
+[21.440149] (-) TimerEvent: {}
+[21.541793] (-) TimerEvent: {}
+[21.643435] (-) TimerEvent: {}
+[21.745089] (-) TimerEvent: {}
+[21.846756] (-) TimerEvent: {}
+[21.948456] (-) TimerEvent: {}
+[22.050086] (-) TimerEvent: {}
+[22.151734] (-) TimerEvent: {}
+[22.253543] (-) TimerEvent: {}
+[22.354731] (-) TimerEvent: {}
+[22.455851] (-) TimerEvent: {}
+[22.557002] (-) TimerEvent: {}
+[22.658790] (-) TimerEvent: {}
+[22.760656] (-) TimerEvent: {}
+[22.861940] (-) TimerEvent: {}
+[22.964098] (-) TimerEvent: {}
+[23.066648] (-) TimerEvent: {}
+[23.169203] (-) TimerEvent: {}
+[23.271712] (-) TimerEvent: {}
+[23.374318] (-) TimerEvent: {}
+[23.475440] (-) TimerEvent: {}
+[23.576631] (-) TimerEvent: {}
+[23.677772] (-) TimerEvent: {}
+[23.778827] (-) TimerEvent: {}
+[23.879889] (-) TimerEvent: {}
+[23.980973] (-) TimerEvent: {}
+[24.082054] (-) TimerEvent: {}
+[24.183116] (-) TimerEvent: {}
+[24.284152] (-) TimerEvent: {}
+[24.385224] (-) TimerEvent: {}
+[24.486287] (-) TimerEvent: {}
+[24.587360] (-) TimerEvent: {}
+[24.688484] (-) TimerEvent: {}
+[24.789590] (-) TimerEvent: {}
+[24.890705] (-) TimerEvent: {}
+[24.991822] (-) TimerEvent: {}
+[25.094197] (-) TimerEvent: {}
+[25.197537] (-) TimerEvent: {}
+[25.299918] (-) TimerEvent: {}
+[25.407665] (-) TimerEvent: {}
+[25.510081] (-) TimerEvent: {}
+[25.612501] (-) TimerEvent: {}
+[25.714404] (-) TimerEvent: {}
+[25.816302] (-) TimerEvent: {}
+[25.918244] (-) TimerEvent: {}
+[26.020151] (-) TimerEvent: {}
+[26.122015] (-) TimerEvent: {}
+[26.223829] (-) TimerEvent: {}
+[26.326175] (-) TimerEvent: {}
+[26.428159] (-) TimerEvent: {}
+[26.530077] (-) TimerEvent: {}
+[26.632337] (-) TimerEvent: {}
+[26.734267] (-) TimerEvent: {}
+[26.836124] (-) TimerEvent: {}
+[26.938142] (-) TimerEvent: {}
+[27.040408] (-) TimerEvent: {}
+[27.142350] (-) TimerEvent: {}
+[27.244142] (-) TimerEvent: {}
+[27.346754] (-) TimerEvent: {}
+[27.448775] (-) TimerEvent: {}
+[27.549903] (-) TimerEvent: {}
+[27.652294] (-) TimerEvent: {}
+[27.754736] (-) TimerEvent: {}
+[27.857182] (-) TimerEvent: {}
+[27.959292] (-) TimerEvent: {}
+[28.061604] (-) TimerEvent: {}
+[28.164024] (-) TimerEvent: {}
+[28.266733] (-) TimerEvent: {}
+[28.369445] (-) TimerEvent: {}
+[28.470588] (-) TimerEvent: {}
+[28.571721] (-) TimerEvent: {}
+[28.672854] (-) TimerEvent: {}
+[28.774003] (-) TimerEvent: {}
+[28.875150] (-) TimerEvent: {}
+[28.976293] (-) TimerEvent: {}
+[29.077474] (-) TimerEvent: {}
+[29.178585] (-) TimerEvent: {}
+[29.279744] (-) TimerEvent: {}
+[29.380903] (-) TimerEvent: {}
+[29.482032] (-) TimerEvent: {}
+[29.583170] (-) TimerEvent: {}
+[29.684342] (-) TimerEvent: {}
+[29.785488] (-) TimerEvent: {}
+[29.886650] (-) TimerEvent: {}
+[29.987818] (-) TimerEvent: {}
+[30.088954] (-) TimerEvent: {}
+[30.190030] (-) TimerEvent: {}
+[30.291190] (-) TimerEvent: {}
+[30.392318] (-) TimerEvent: {}
+[30.493458] (-) TimerEvent: {}
+[30.594611] (-) TimerEvent: {}
+[30.697071] (-) TimerEvent: {}
+[30.799549] (-) TimerEvent: {}
+[30.901949] (-) TimerEvent: {}
+[31.004623] (-) TimerEvent: {}
+[31.107310] (-) TimerEvent: {}
+[31.209884] (-) TimerEvent: {}
+[31.312476] (-) TimerEvent: {}
+[31.414967] (-) TimerEvent: {}
+[31.517567] (-) TimerEvent: {}
+[31.618723] (-) TimerEvent: {}
+[31.719864] (-) TimerEvent: {}
+[31.821027] (-) TimerEvent: {}
+[31.922174] (-) TimerEvent: {}
+[32.024093] (-) TimerEvent: {}
+[32.125129] (-) TimerEvent: {}
+[32.226257] (-) TimerEvent: {}
+[32.327551] (-) TimerEvent: {}
+[32.428730] (-) TimerEvent: {}
+[32.529882] (-) TimerEvent: {}
+[32.631018] (-) TimerEvent: {}
+[32.732122] (-) TimerEvent: {}
+[32.833217] (-) TimerEvent: {}
+[32.934326] (-) TimerEvent: {}
+[33.035435] (-) TimerEvent: {}
+[33.136530] (-) TimerEvent: {}
+[33.237622] (-) TimerEvent: {}
+[33.338725] (-) TimerEvent: {}
+[33.439883] (-) TimerEvent: {}
+[33.540929] (-) TimerEvent: {}
+[33.641994] (-) TimerEvent: {}
+[33.743009] (-) TimerEvent: {}
+[33.844050] (-) TimerEvent: {}
+[33.945091] (-) TimerEvent: {}
+[34.046131] (-) TimerEvent: {}
+[34.147166] (-) TimerEvent: {}
+[34.248239] (-) TimerEvent: {}
+[34.349267] (-) TimerEvent: {}
+[34.450326] (-) TimerEvent: {}
+[34.551338] (-) TimerEvent: {}
+[34.652358] (-) TimerEvent: {}
+[34.753281] (-) TimerEvent: {}
+[34.854195] (-) TimerEvent: {}
+[34.955112] (-) TimerEvent: {}
+[35.056043] (-) TimerEvent: {}
+[35.156975] (-) TimerEvent: {}
+[35.257930] (-) TimerEvent: {}
+[35.358860] (-) TimerEvent: {}
+[35.459772] (-) TimerEvent: {}
+[35.560662] (-) TimerEvent: {}
+[35.661541] (-) TimerEvent: {}
+[35.762428] (-) TimerEvent: {}
+[35.863315] (-) TimerEvent: {}
+[35.964175] (-) TimerEvent: {}
+[36.065025] (-) TimerEvent: {}
+[36.165848] (-) TimerEvent: {}
+[36.266679] (-) TimerEvent: {}
+[36.367569] (-) TimerEvent: {}
+[36.468388] (-) TimerEvent: {}
+[36.569232] (-) TimerEvent: {}
+[36.670071] (-) TimerEvent: {}
+[36.770885] (-) TimerEvent: {}
+[36.871713] (-) TimerEvent: {}
+[36.972525] (-) TimerEvent: {}
+[37.073384] (-) TimerEvent: {}
+[37.174277] (-) TimerEvent: {}
+[37.275202] (-) TimerEvent: {}
+[37.376104] (-) TimerEvent: {}
+[37.476973] (-) TimerEvent: {}
+[37.577894] (-) TimerEvent: {}
+[37.678769] (-) TimerEvent: {}
+[37.779621] (-) TimerEvent: {}
+[37.880492] (-) TimerEvent: {}
+[37.981383] (-) TimerEvent: {}
+[38.082240] (-) TimerEvent: {}
+[38.183125] (-) TimerEvent: {}
+[38.284066] (-) TimerEvent: {}
+[38.385022] (-) TimerEvent: {}
+[38.485924] (-) TimerEvent: {}
+[38.586818] (-) TimerEvent: {}
+[38.687736] (-) TimerEvent: {}
+[38.788621] (-) TimerEvent: {}
+[38.889508] (-) TimerEvent: {}
+[38.990396] (-) TimerEvent: {}
+[39.091271] (-) TimerEvent: {}
+[39.192152] (-) TimerEvent: {}
+[39.293028] (-) TimerEvent: {}
+[39.393915] (-) TimerEvent: {}
+[39.494819] (-) TimerEvent: {}
+[39.595734] (-) TimerEvent: {}
+[39.696624] (-) TimerEvent: {}
+[39.797573] (-) TimerEvent: {}
+[39.898456] (-) TimerEvent: {}
+[39.999320] (-) TimerEvent: {}
+[40.100212] (-) TimerEvent: {}
+[40.201116] (-) TimerEvent: {}
+[40.302007] (-) TimerEvent: {}
+[40.402938] (-) TimerEvent: {}
+[40.503857] (-) TimerEvent: {}
+[40.604755] (-) TimerEvent: {}
+[40.705650] (-) TimerEvent: {}
+[40.806542] (-) TimerEvent: {}
+[40.907467] (-) TimerEvent: {}
+[41.008362] (-) TimerEvent: {}
+[41.109255] (-) TimerEvent: {}
+[41.210170] (-) TimerEvent: {}
+[41.311071] (-) TimerEvent: {}
+[41.411974] (-) TimerEvent: {}
+[41.512897] (-) TimerEvent: {}
+[41.613787] (-) TimerEvent: {}
+[41.714683] (-) TimerEvent: {}
+[41.815597] (-) TimerEvent: {}
+[41.916493] (-) TimerEvent: {}
+[42.017387] (-) TimerEvent: {}
+[42.118322] (-) TimerEvent: {}
+[42.219254] (-) TimerEvent: {}
+[42.320321] (-) TimerEvent: {}
+[42.421337] (-) TimerEvent: {}
+[42.522341] (-) TimerEvent: {}
+[42.623352] (-) TimerEvent: {}
+[42.724354] (-) TimerEvent: {}
+[42.825349] (-) TimerEvent: {}
+[42.926338] (-) TimerEvent: {}
+[43.027334] (-) TimerEvent: {}
+[43.128376] (-) TimerEvent: {}
+[43.229295] (-) TimerEvent: {}
+[43.330222] (-) TimerEvent: {}
+[43.431211] (-) TimerEvent: {}
+[43.532121] (-) TimerEvent: {}
+[43.633071] (-) TimerEvent: {}
+[43.734005] (-) TimerEvent: {}
+[43.834925] (-) TimerEvent: {}
+[43.935818] (-) TimerEvent: {}
+[44.036690] (-) TimerEvent: {}
+[44.137562] (-) TimerEvent: {}
+[44.238421] (-) TimerEvent: {}
+[44.339319] (-) TimerEvent: {}
+[44.440218] (-) TimerEvent: {}
+[44.541149] (-) TimerEvent: {}
+[44.642072] (-) TimerEvent: {}
+[44.742977] (-) TimerEvent: {}
+[44.843875] (-) TimerEvent: {}
+[44.944792] (-) TimerEvent: {}
+[45.045701] (-) TimerEvent: {}
+[45.146607] (-) TimerEvent: {}
+[45.247549] (-) TimerEvent: {}
+[45.348458] (-) TimerEvent: {}
+[45.449383] (-) TimerEvent: {}
+[45.550312] (-) TimerEvent: {}
+[45.651224] (-) TimerEvent: {}
+[45.752127] (-) TimerEvent: {}
+[45.853041] (-) TimerEvent: {}
+[45.953943] (-) TimerEvent: {}
+[46.054826] (-) TimerEvent: {}
+[46.155699] (-) TimerEvent: {}
+[46.256595] (-) TimerEvent: {}
+[46.357501] (-) TimerEvent: {}
+[46.458373] (-) TimerEvent: {}
+[46.559261] (-) TimerEvent: {}
+[46.660122] (-) TimerEvent: {}
+[46.760990] (-) TimerEvent: {}
+[46.861890] (-) TimerEvent: {}
+[46.962775] (-) TimerEvent: {}
+[47.063682] (-) TimerEvent: {}
+[47.164605] (-) TimerEvent: {}
+[47.265531] (-) TimerEvent: {}
+[47.366476] (-) TimerEvent: {}
+[47.467479] (-) TimerEvent: {}
+[47.568399] (-) TimerEvent: {}
+[47.669306] (-) TimerEvent: {}
+[47.770228] (-) TimerEvent: {}
+[47.871145] (-) TimerEvent: {}
+[47.972074] (-) TimerEvent: {}
+[48.072993] (-) TimerEvent: {}
+[48.173979] (-) TimerEvent: {}
+[48.274919] (-) TimerEvent: {}
+[48.375862] (-) TimerEvent: {}
+[48.476800] (-) TimerEvent: {}
+[48.577759] (-) TimerEvent: {}
+[48.678661] (-) TimerEvent: {}
+[48.779575] (-) TimerEvent: {}
+[48.880480] (-) TimerEvent: {}
+[48.981399] (-) TimerEvent: {}
+[49.082302] (-) TimerEvent: {}
+[49.183213] (-) TimerEvent: {}
+[49.284133] (-) TimerEvent: {}
+[49.385040] (-) TimerEvent: {}
+[49.485967] (-) TimerEvent: {}
+[49.586909] (-) TimerEvent: {}
+[49.687852] (-) TimerEvent: {}
+[49.788773] (-) TimerEvent: {}
+[49.889671] (-) TimerEvent: {}
+[49.990563] (-) TimerEvent: {}
+[50.091462] (-) TimerEvent: {}
+[50.192309] (-) TimerEvent: {}
+[50.293133] (-) TimerEvent: {}
+[50.394000] (-) TimerEvent: {}
+[50.494883] (-) TimerEvent: {}
+[50.595784] (-) TimerEvent: {}
+[50.696645] (-) TimerEvent: {}
+[50.797484] (-) TimerEvent: {}
+[50.898297] (-) TimerEvent: {}
+[50.999121] (-) TimerEvent: {}
+[51.099945] (-) TimerEvent: {}
+[51.200795] (-) TimerEvent: {}
+[51.301619] (-) TimerEvent: {}
+[51.402449] (-) TimerEvent: {}
+[51.503277] (-) TimerEvent: {}
+[51.604163] (-) TimerEvent: {}
+[51.705050] (-) TimerEvent: {}
+[51.805907] (-) TimerEvent: {}
+[51.906797] (-) TimerEvent: {}
+[52.007735] (-) TimerEvent: {}
+[52.108596] (-) TimerEvent: {}
+[52.209501] (-) TimerEvent: {}
+[52.310442] (-) TimerEvent: {}
+[52.411362] (-) TimerEvent: {}
+[52.512246] (-) TimerEvent: {}
+[52.613180] (-) TimerEvent: {}
+[52.714102] (-) TimerEvent: {}
+[52.815032] (-) TimerEvent: {}
+[52.915941] (-) TimerEvent: {}
+[53.016851] (-) TimerEvent: {}
+[53.117825] (-) TimerEvent: {}
+[53.218731] (-) TimerEvent: {}
+[53.319634] (-) TimerEvent: {}
+[53.420565] (-) TimerEvent: {}
+[53.521502] (-) TimerEvent: {}
+[53.622441] (-) TimerEvent: {}
+[53.723369] (-) TimerEvent: {}
+[53.824314] (-) TimerEvent: {}
+[53.925256] (-) TimerEvent: {}
+[54.026204] (-) TimerEvent: {}
+[54.127120] (-) TimerEvent: {}
+[54.228061] (-) TimerEvent: {}
+[54.328919] (-) TimerEvent: {}
+[54.429771] (-) TimerEvent: {}
+[54.530632] (-) TimerEvent: {}
+[54.631533] (-) TimerEvent: {}
+[54.732409] (-) TimerEvent: {}
+[54.833238] (-) TimerEvent: {}
+[54.934099] (-) TimerEvent: {}
+[55.034955] (-) TimerEvent: {}
+[55.135820] (-) TimerEvent: {}
+[55.236705] (-) TimerEvent: {}
+[55.337598] (-) TimerEvent: {}
+[55.438499] (-) TimerEvent: {}
+[55.539403] (-) TimerEvent: {}
+[55.640340] (-) TimerEvent: {}
+[55.741226] (-) TimerEvent: {}
+[55.842125] (-) TimerEvent: {}
+[55.943022] (-) TimerEvent: {}
+[56.043875] (-) TimerEvent: {}
+[56.144739] (-) TimerEvent: {}
+[56.245621] (-) TimerEvent: {}
+[56.346474] (-) TimerEvent: {}
+[56.447333] (-) TimerEvent: {}
+[56.548238] (-) TimerEvent: {}
+[56.649113] (-) TimerEvent: {}
+[56.749929] (-) TimerEvent: {}
+[56.850757] (-) TimerEvent: {}
+[56.951589] (-) TimerEvent: {}
+[57.052417] (-) TimerEvent: {}
+[57.153314] (-) TimerEvent: {}
+[57.254253] (-) TimerEvent: {}
+[57.355172] (-) TimerEvent: {}
+[57.456066] (-) TimerEvent: {}
+[57.556985] (-) TimerEvent: {}
+[57.657949] (-) TimerEvent: {}
+[57.758906] (-) TimerEvent: {}
+[57.859823] (-) TimerEvent: {}
+[57.960725] (-) TimerEvent: {}
+[58.061605] (-) TimerEvent: {}
+[58.162475] (-) TimerEvent: {}
+[58.263406] (-) TimerEvent: {}
+[58.364371] (-) TimerEvent: {}
+[58.465255] (-) TimerEvent: {}
+[58.566133] (-) TimerEvent: {}
+[58.667018] (-) TimerEvent: {}
+[58.767945] (-) TimerEvent: {}
+[58.868807] (-) TimerEvent: {}
+[58.969660] (-) TimerEvent: {}
+[59.070558] (-) TimerEvent: {}
+[59.171451] (-) TimerEvent: {}
+[59.272354] (-) TimerEvent: {}
+[59.373246] (-) TimerEvent: {}
+[59.474161] (-) TimerEvent: {}
+[59.575079] (-) TimerEvent: {}
+[59.675991] (-) TimerEvent: {}
+[59.776912] (-) TimerEvent: {}
+[59.877865] (-) TimerEvent: {}
+[59.978762] (-) TimerEvent: {}
+[60.079646] (-) TimerEvent: {}
+[60.180505] (-) TimerEvent: {}
+[60.281417] (-) TimerEvent: {}
+[60.382326] (-) TimerEvent: {}
+[60.483252] (-) TimerEvent: {}
+[60.584174] (-) TimerEvent: {}
+[60.685094] (-) TimerEvent: {}
+[60.786006] (-) TimerEvent: {}
+[60.886882] (-) TimerEvent: {}
+[60.987831] (-) TimerEvent: {}
+[61.088745] (-) TimerEvent: {}
+[61.189646] (-) TimerEvent: {}
+[61.290568] (-) TimerEvent: {}
+[61.391492] (-) TimerEvent: {}
+[61.492419] (-) TimerEvent: {}
+[61.593358] (-) TimerEvent: {}
+[61.694258] (-) TimerEvent: {}
+[61.795157] (-) TimerEvent: {}
+[61.896092] (-) TimerEvent: {}
+[61.997018] (-) TimerEvent: {}
+[62.097986] (-) TimerEvent: {}
+[62.198898] (-) TimerEvent: {}
+[62.299803] (-) TimerEvent: {}
+[62.400738] (-) TimerEvent: {}
+[62.501685] (-) TimerEvent: {}
+[62.602614] (-) TimerEvent: {}
+[62.703560] (-) TimerEvent: {}
+[62.804464] (-) TimerEvent: {}
+[62.905387] (-) TimerEvent: {}
+[63.006289] (-) TimerEvent: {}
+[63.107179] (-) TimerEvent: {}
+[63.526285] (-) TimerEvent: {}
+[63.627144] (-) TimerEvent: {}
+[63.728070] (-) TimerEvent: {}
+[63.828959] (-) TimerEvent: {}
+[63.929840] (-) TimerEvent: {}
+[64.030721] (-) TimerEvent: {}
+[64.131609] (-) TimerEvent: {}
+[64.232512] (-) TimerEvent: {}
+[64.333412] (-) TimerEvent: {}
+[64.434320] (-) TimerEvent: {}
+[64.535227] (-) TimerEvent: {}
+[64.636144] (-) TimerEvent: {}
+[64.737027] (-) TimerEvent: {}
+[64.837968] (-) TimerEvent: {}
+[64.938870] (-) TimerEvent: {}
+[65.039799] (-) TimerEvent: {}
+[65.140715] (-) TimerEvent: {}
+[65.241641] (-) TimerEvent: {}
+[65.342546] (-) TimerEvent: {}
+[65.443487] (-) TimerEvent: {}
+[65.544398] (-) TimerEvent: {}
+[65.645326] (-) TimerEvent: {}
+[65.746238] (-) TimerEvent: {}
+[65.847134] (-) TimerEvent: {}
+[65.948036] (-) TimerEvent: {}
+[66.048877] (-) TimerEvent: {}
+[66.149725] (-) TimerEvent: {}
+[66.250618] (-) TimerEvent: {}
+[66.351540] (-) TimerEvent: {}
+[66.452438] (-) TimerEvent: {}
+[66.553383] (-) TimerEvent: {}
+[66.654304] (-) TimerEvent: {}
+[66.755224] (-) TimerEvent: {}
+[66.856131] (-) TimerEvent: {}
+[66.957044] (-) TimerEvent: {}
+[67.058005] (-) TimerEvent: {}
+[67.158931] (-) TimerEvent: {}
+[67.259969] (-) TimerEvent: {}
+[67.360975] (-) TimerEvent: {}
+[67.461959] (-) TimerEvent: {}
+[67.562973] (-) TimerEvent: {}
+[67.663967] (-) TimerEvent: {}
+[67.764961] (-) TimerEvent: {}
+[67.865982] (-) TimerEvent: {}
+[67.967010] (-) TimerEvent: {}
+[68.068080] (-) TimerEvent: {}
+[68.170715] (-) TimerEvent: {}
+[68.271729] (-) TimerEvent: {}
+[68.372788] (-) TimerEvent: {}
+[68.473803] (-) TimerEvent: {}
+[68.574845] (-) TimerEvent: {}
+[68.675855] (-) TimerEvent: {}
+[68.776871] (-) TimerEvent: {}
+[68.877937] (-) TimerEvent: {}
+[68.978959] (-) TimerEvent: {}
+[69.079950] (-) TimerEvent: {}
+[69.180942] (-) TimerEvent: {}
+[69.281928] (-) TimerEvent: {}
+[69.382920] (-) TimerEvent: {}
+[69.483930] (-) TimerEvent: {}
+[69.584931] (-) TimerEvent: {}
+[69.685929] (-) TimerEvent: {}
+[69.786929] (-) TimerEvent: {}
+[69.887982] (-) TimerEvent: {}
+[69.988975] (-) TimerEvent: {}
+[70.089970] (-) TimerEvent: {}
+[70.190974] (-) TimerEvent: {}
+[70.291951] (-) TimerEvent: {}
+[70.392951] (-) TimerEvent: {}
+[70.493963] (-) TimerEvent: {}
+[70.594960] (-) TimerEvent: {}
+[70.695961] (-) TimerEvent: {}
+[70.796985] (-) TimerEvent: {}
+[70.898084] (-) TimerEvent: {}
+[70.999117] (-) TimerEvent: {}
+[71.100135] (-) TimerEvent: {}
+[71.201179] (-) TimerEvent: {}
+[71.302177] (-) TimerEvent: {}
+[71.403278] (-) TimerEvent: {}
+[71.504271] (-) TimerEvent: {}
+[71.605281] (-) TimerEvent: {}
+[71.706310] (-) TimerEvent: {}
+[71.807334] (-) TimerEvent: {}
+[71.908371] (-) TimerEvent: {}
+[72.009370] (-) TimerEvent: {}
+[72.110358] (-) TimerEvent: {}
+[72.211378] (-) TimerEvent: {}
+[72.312482] (-) TimerEvent: {}
+[72.413485] (-) TimerEvent: {}
+[72.514478] (-) TimerEvent: {}
+[72.615486] (-) TimerEvent: {}
+[72.716482] (-) TimerEvent: {}
+[72.817540] (-) TimerEvent: {}
+[72.918520] (-) TimerEvent: {}
+[73.019524] (-) TimerEvent: {}
+[73.120525] (-) TimerEvent: {}
+[73.221539] (-) TimerEvent: {}
+[73.322546] (-) TimerEvent: {}
+[73.423550] (-) TimerEvent: {}
+[73.524552] (-) TimerEvent: {}
+[73.625511] (-) TimerEvent: {}
+[73.726511] (-) TimerEvent: {}
+[73.827627] (-) TimerEvent: {}
+[73.928593] (-) TimerEvent: {}
+[74.029573] (-) TimerEvent: {}
+[74.130582] (-) TimerEvent: {}
+[74.231534] (-) TimerEvent: {}
+[74.332475] (-) TimerEvent: {}
+[74.433420] (-) TimerEvent: {}
+[74.534379] (-) TimerEvent: {}
+[74.635328] (-) TimerEvent: {}
+[74.736274] (-) TimerEvent: {}
+[74.837223] (-) TimerEvent: {}
+[74.938219] (-) TimerEvent: {}
+[75.039189] (-) TimerEvent: {}
+[75.140161] (-) TimerEvent: {}
+[75.241126] (-) TimerEvent: {}
+[75.342088] (-) TimerEvent: {}
+[75.443055] (-) TimerEvent: {}
+[75.544037] (-) TimerEvent: {}
+[75.645023] (-) TimerEvent: {}
+[75.745996] (-) TimerEvent: {}
+[75.846978] (-) TimerEvent: {}
+[75.948043] (-) TimerEvent: {}
+[76.049007] (-) TimerEvent: {}
+[76.150000] (-) TimerEvent: {}
+[76.250976] (-) TimerEvent: {}
+[76.351959] (-) TimerEvent: {}
+[76.452934] (-) TimerEvent: {}
+[76.553917] (-) TimerEvent: {}
+[76.654892] (-) TimerEvent: {}
+[76.755856] (-) TimerEvent: {}
+[76.856818] (-) TimerEvent: {}
+[76.957895] (-) TimerEvent: {}
+[77.058887] (-) TimerEvent: {}
+[77.159893] (-) TimerEvent: {}
+[77.260919] (-) TimerEvent: {}
+[77.361931] (-) TimerEvent: {}
+[77.462924] (-) TimerEvent: {}
+[77.563909] (-) TimerEvent: {}
+[77.664910] (-) TimerEvent: {}
+[77.765909] (-) TimerEvent: {}
+[77.866905] (-) TimerEvent: {}
+[77.968017] (-) TimerEvent: {}
+[78.069022] (-) TimerEvent: {}
+[78.170060] (-) TimerEvent: {}
+[78.271081] (-) TimerEvent: {}
+[78.372112] (-) TimerEvent: {}
+[78.473087] (-) TimerEvent: {}
+[78.574059] (-) TimerEvent: {}
+[78.675029] (-) TimerEvent: {}
+[78.776025] (-) TimerEvent: {}
+[78.877055] (-) TimerEvent: {}
+[78.978202] (-) TimerEvent: {}
+[79.079277] (-) TimerEvent: {}
+[79.180260] (-) TimerEvent: {}
+[79.281241] (-) TimerEvent: {}
+[79.382240] (-) TimerEvent: {}
+[79.483209] (-) TimerEvent: {}
+[79.584194] (-) TimerEvent: {}
+[79.685147] (-) TimerEvent: {}
+[79.786141] (-) TimerEvent: {}
+[79.887222] (-) TimerEvent: {}
+[79.988289] (-) TimerEvent: {}
+[80.089284] (-) TimerEvent: {}
+[80.190302] (-) TimerEvent: {}
+[80.291293] (-) TimerEvent: {}
+[80.392254] (-) TimerEvent: {}
+[80.493222] (-) TimerEvent: {}
+[80.594244] (-) TimerEvent: {}
+[80.653071] (hand_gesture_detection_develop) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable hand_gesture_detection_develop\x1b[0m\n'}
+[80.694408] (-) TimerEvent: {}
+[80.795368] (-) TimerEvent: {}
+[80.896323] (-) TimerEvent: {}
+[80.997196] (-) TimerEvent: {}
+[81.098155] (-) TimerEvent: {}
+[81.198999] (-) TimerEvent: {}
+[81.299891] (-) TimerEvent: {}
+[81.400928] (-) TimerEvent: {}
+[81.501986] (-) TimerEvent: {}
+[81.603042] (-) TimerEvent: {}
+[81.704113] (-) TimerEvent: {}
+[81.805166] (-) TimerEvent: {}
+[81.906132] (-) TimerEvent: {}
+[82.007072] (-) TimerEvent: {}
+[82.108119] (-) TimerEvent: {}
+[82.209083] (-) TimerEvent: {}
+[82.310052] (-) TimerEvent: {}
+[82.411034] (-) TimerEvent: {}
+[82.512075] (-) TimerEvent: {}
+[82.613018] (-) TimerEvent: {}
+[82.713994] (-) TimerEvent: {}
+[82.814966] (-) TimerEvent: {}
+[82.915943] (-) TimerEvent: {}
+[83.017038] (-) TimerEvent: {}
+[83.118165] (-) TimerEvent: {}
+[83.219268] (-) TimerEvent: {}
+[83.320434] (-) TimerEvent: {}
+[83.421490] (-) TimerEvent: {}
+[83.522601] (-) TimerEvent: {}
+[83.623772] (-) TimerEvent: {}
+[83.724846] (-) TimerEvent: {}
+[83.825964] (-) TimerEvent: {}
+[83.927067] (-) TimerEvent: {}
+[84.028202] (-) TimerEvent: {}
+[84.129318] (-) TimerEvent: {}
+[84.230489] (-) TimerEvent: {}
+[84.331559] (-) TimerEvent: {}
+[84.432589] (-) TimerEvent: {}
+[84.533652] (-) TimerEvent: {}
+[84.634715] (-) TimerEvent: {}
+[84.735749] (-) TimerEvent: {}
+[84.836834] (-) TimerEvent: {}
+[84.937888] (-) TimerEvent: {}
+[85.038898] (-) TimerEvent: {}
+[85.139943] (-) TimerEvent: {}
+[85.240946] (-) TimerEvent: {}
+[85.341944] (-) TimerEvent: {}
+[85.443005] (-) TimerEvent: {}
+[85.544015] (-) TimerEvent: {}
+[85.645121] (-) TimerEvent: {}
+[85.746131] (-) TimerEvent: {}
+[85.847155] (-) TimerEvent: {}
+[85.948182] (-) TimerEvent: {}
+[86.049185] (-) TimerEvent: {}
+[86.150252] (-) TimerEvent: {}
+[86.251269] (-) TimerEvent: {}
+[86.352267] (-) TimerEvent: {}
+[86.453249] (-) TimerEvent: {}
+[86.554240] (-) TimerEvent: {}
+[86.655236] (-) TimerEvent: {}
+[86.756246] (-) TimerEvent: {}
+[86.857268] (-) TimerEvent: {}
+[86.958315] (-) TimerEvent: {}
+[87.059311] (-) TimerEvent: {}
+[87.160317] (-) TimerEvent: {}
+[87.261347] (-) TimerEvent: {}
+[87.362340] (-) TimerEvent: {}
+[87.463341] (-) TimerEvent: {}
+[87.564350] (-) TimerEvent: {}
+[87.665347] (-) TimerEvent: {}
+[87.766271] (-) TimerEvent: {}
+[87.867192] (-) TimerEvent: {}
+[87.968177] (-) TimerEvent: {}
+[88.069100] (-) TimerEvent: {}
+[88.170097] (-) TimerEvent: {}
+[88.271125] (-) TimerEvent: {}
+[88.340239] (hand_gesture_detection_develop) StderrLine: {'line': b'gmake[2]: \xe8\xad\xa6\xe5\x91\x8a\xef\xbc\x9a\xe6\xa3\x80\xe6\xb5\x8b\xe5\x88\xb0\xe6\x97\xb6\xe9\x92\x9f\xe9\x94\x99\xe8\xaf\xaf\xe3\x80\x82\xe6\x82\xa8\xe7\x9a\x84\xe6\x9e\x84\xe5\xbb\xba\xe7\x89\x88\xe6\x9c\xac\xe5\x8f\xaf\xe8\x83\xbd\xe6\x98\xaf\xe4\xb8\x8d\xe5\xae\x8c\xe6\x95\xb4\xe7\x9a\x84\xe3\x80\x82\n'}
+[88.371304] (-) TimerEvent: {}
+[88.375997] (hand_gesture_detection_develop) StdoutLine: {'line': b'[100%] Built target hand_gesture_detection_develop\n'}
+[88.438567] (hand_gesture_detection_develop) CommandEnded: {'returncode': 0}
+[88.441899] (hand_gesture_detection_develop) JobProgress: {'identifier': 'hand_gesture_detection_develop', 'progress': 'install'}
+[88.471513] (-) TimerEvent: {}
+[88.487058] (hand_gesture_detection_develop) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop'], 'cwd': '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '172.30.22.219 65149 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.0.0'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-2b879548-eefb-4117-9f21-04a0afac85f2.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/home/sunrise/.cursor-server/cli/servers/Stable-53b99ce608cba35127ae3a050c1738a959750860/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop'), ('SSH_CONNECTION', '172.30.22.219 65149 172.30.161.177 22'), ('PYTHONPATH', '/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[88.524570] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[88.526472] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[88.528340] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/hand_gesture_detection_develop/hand_gesture_detection_develop\n'}
+[88.569945] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/hand_gesture_detection_develop/config//gestureDet_32x21.hbm\n'}
+[88.571625] (-) TimerEvent: {}
+[88.612879] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/hand_gesture_detection_develop/config//gestureDet_8x21.hbm\n'}
+[88.664034] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/hand_gesture_detection_develop/config//person_face_hand.jpg\n'}
+[88.671844] (-) TimerEvent: {}
+[88.712042] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/launch/hand_gesture_detection.launch.py\n'}
+[88.754843] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/launch/hand_gesture_fusion.launch.py\n'}
+[88.772119] (-) TimerEvent: {}
+[88.805376] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/launch/hand_gesture_fusion_img_fb.launch.py\n'}
+[88.855992] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/ament_index/resource_index/package_run_dependencies/hand_gesture_detection_develop\n'}
+[88.872371] (-) TimerEvent: {}
+[88.903152] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/ament_index/resource_index/parent_prefix_path/hand_gesture_detection_develop\n'}
+[88.951212] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/environment/ament_prefix_path.sh\n'}
+[88.972627] (-) TimerEvent: {}
+[88.998145] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/environment/ament_prefix_path.dsv\n'}
+[89.047972] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/environment/path.sh\n'}
+[89.072872] (-) TimerEvent: {}
+[89.097279] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/environment/path.dsv\n'}
+[89.148212] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/local_setup.bash\n'}
+[89.173121] (-) TimerEvent: {}
+[89.197385] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/local_setup.sh\n'}
+[89.246436] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/local_setup.zsh\n'}
+[89.273397] (-) TimerEvent: {}
+[89.293291] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/local_setup.dsv\n'}
+[89.336466] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.dsv\n'}
+[89.373675] (-) TimerEvent: {}
+[89.384810] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/ament_index/resource_index/packages/hand_gesture_detection_develop\n'}
+[89.433003] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/cmake/hand_gesture_detection_developConfig.cmake\n'}
+[89.474055] (-) TimerEvent: {}
+[89.477186] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/cmake/hand_gesture_detection_developConfig-version.cmake\n'}
+[89.527696] (hand_gesture_detection_develop) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.xml\n'}
+[89.574397] (-) TimerEvent: {}
+[89.590016] (hand_gesture_detection_develop) CommandEnded: {'returncode': 0}
+[89.674773] (-) TimerEvent: {}
+[89.701749] (hand_gesture_detection_develop) JobEnded: {'identifier': 'hand_gesture_detection_develop', 'rc': 0}
+[89.704591] (-) EventReactorShutdown: {}

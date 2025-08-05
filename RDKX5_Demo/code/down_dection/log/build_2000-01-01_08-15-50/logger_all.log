@@ -1,0 +1,154 @@
+[0.692s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'fall_detector_py']
+[0.693s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['fall_detector_py'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff97e310f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff97fe6ef0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff97fe6ef0>>)
+[1.974s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.975s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.976s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.976s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/down_dection'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.057s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.058s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.059s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.060s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[2.061s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[2.062s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[2.063s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[2.064s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.065s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.066s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.067s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.068s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.069s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.070s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.071s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extensions ['ignore', 'ignore_ament_install']
+[2.072s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'ignore'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'ignore_ament_install'
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extensions ['colcon_pkg']
+[2.073s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'colcon_pkg'
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extensions ['colcon_meta']
+[2.074s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'colcon_meta'
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extensions ['ros']
+[2.075s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'ros'
+[2.092s] DEBUG:colcon.colcon_core.package_identification:Package 'src/body_tracking_custom' with type 'ros.ament_cmake' and name 'body_tracking_custom'
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extensions ['ignore', 'ignore_ament_install']
+[2.093s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extension 'ignore'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extension 'ignore_ament_install'
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extensions ['colcon_pkg']
+[2.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extension 'colcon_pkg'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extensions ['colcon_meta']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extension 'colcon_meta'
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extensions ['ros']
+[2.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/fall_detector_py) by extension 'ros'
+[2.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fall_detector_py' with type 'ros.ament_python' and name 'fall_detector_py'
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.102s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.319s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'body_tracking_custom' in 'src/body_tracking_custom'
+[2.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.322s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.333s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sunrise/down_dection/install
+[2.336s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 54 installed packages in /opt/tros/humble
+[2.350s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/humble
+[2.362s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.683s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'cmake_args' from command line to 'None'
+[2.683s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'cmake_target' from command line to 'None'
+[2.683s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.683s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'cmake_clean_cache' from command line to 'False'
+[2.684s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'cmake_clean_first' from command line to 'False'
+[2.684s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'cmake_force_configure' from command line to 'False'
+[2.684s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'ament_cmake_args' from command line to 'None'
+[2.684s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'catkin_cmake_args' from command line to 'None'
+[2.684s] Level 5:colcon.colcon_core.verb:set package 'fall_detector_py' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.685s] DEBUG:colcon.colcon_core.verb:Building package 'fall_detector_py' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/down_dection/build/fall_detector_py', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/down_dection/install/fall_detector_py', 'merge_install': False, 'path': '/home/sunrise/down_dection/src/fall_detector_py', 'symlink_install': False, 'test_result_base': None}
+[2.686s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.690s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.692s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunrise/down_dection/src/fall_detector_py' with build type 'ament_python'
+[2.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('fall_detector_py', 'ament_prefix_path')
+[2.706s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.708s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/hook/ament_prefix_path.ps1'
+[2.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/hook/ament_prefix_path.dsv'
+[2.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/hook/ament_prefix_path.sh'
+[2.721s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.721s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.544s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunrise/down_dection/src/fall_detector_py'
+[4.546s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.546s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/down_dection/src/fall_detector_py': PYTHONPATH=/home/sunrise/down_dection/build/fall_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fall_detector_py build --build-base /home/sunrise/down_dection/build/fall_detector_py/build install --record /home/sunrise/down_dection/build/fall_detector_py/install.log --single-version-externally-managed install_data
+[9.073s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/down_dection/src/fall_detector_py' returned '0': PYTHONPATH=/home/sunrise/down_dection/build/fall_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fall_detector_py build --build-base /home/sunrise/down_dection/build/fall_detector_py/build install --record /home/sunrise/down_dection/build/fall_detector_py/install.log --single-version-externally-managed install_data
+[9.100s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/fall_detector_py' for CMake module files
+[9.106s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/fall_detector_py' for CMake config files
+[9.113s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/fall_detector_py/lib'
+[9.115s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/fall_detector_py/bin'
+[9.116s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/fall_detector_py/lib/pkgconfig/fall_detector_py.pc'
+[9.119s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages'
+[9.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('fall_detector_py', 'pythonpath')
+[9.121s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/hook/pythonpath.ps1'
+[9.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/hook/pythonpath.dsv'
+[9.127s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/hook/pythonpath.sh'
+[9.131s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/fall_detector_py/bin'
+[9.131s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(fall_detector_py)
+[9.133s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/package.ps1'
+[9.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/package.dsv'
+[9.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/package.sh'
+[9.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/package.bash'
+[9.162s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py/package.zsh'
+[9.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/down_dection/install/fall_detector_py/share/colcon-core/packages/fall_detector_py)
+[9.170s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.172s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.173s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.173s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.208s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[9.209s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.210s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.210s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.237s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/down_dection/install/local_setup.ps1'
+[9.252s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/down_dection/install/_local_setup_util_ps1.py'
+[9.265s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/down_dection/install/setup.ps1'
+[9.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/down_dection/install/local_setup.sh'
+[9.280s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/down_dection/install/_local_setup_util_sh.py'
+[9.285s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/down_dection/install/setup.sh'
+[9.293s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/down_dection/install/local_setup.bash'
+[9.296s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/down_dection/install/setup.bash'
+[9.302s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/down_dection/install/local_setup.zsh'
+[9.306s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/down_dection/install/setup.zsh'

@@ -1,0 +1,31 @@
+[4.097s] Invoking command in '/home/sunrise/AI/talk/build/rdk_ai_gateway': PYTHONPATH=/home/sunrise/AI/talk/build/rdk_ai_gateway/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sunrise/AI/talk/build/rdk_ai_gateway/build --no-deps symlink_data
+[5.769s] running develop
+[6.795s] running egg_info
+[6.796s] creating rdk_ai_gateway.egg-info
+[6.796s] writing rdk_ai_gateway.egg-info/PKG-INFO
+[6.798s] writing dependency_links to rdk_ai_gateway.egg-info/dependency_links.txt
+[6.798s] writing entry points to rdk_ai_gateway.egg-info/entry_points.txt
+[6.799s] writing requirements to rdk_ai_gateway.egg-info/requires.txt
+[6.800s] writing top-level names to rdk_ai_gateway.egg-info/top_level.txt
+[6.800s] writing manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'
+[6.810s] reading manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'
+[6.814s] writing manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'
+[6.822s] running build_ext
+[6.823s] Creating /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages/rdk-ai-gateway.egg-link (link to .)
+[6.828s] Installing apply script to /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway
+[6.829s] Installing client script to /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway
+[6.829s] Installing service script to /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway
+[6.830s] 
+[6.831s] Installed /home/sunrise/AI/talk/build/rdk_ai_gateway
+[6.832s] running symlink_data
+[6.833s] creating /home/sunrise/AI/talk/install/rdk_ai_gateway/share/ament_index
+[6.833s] creating /home/sunrise/AI/talk/install/rdk_ai_gateway/share/ament_index/resource_index
+[6.834s] creating /home/sunrise/AI/talk/install/rdk_ai_gateway/share/ament_index/resource_index/packages
+[6.834s] symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/resource/rdk_ai_gateway -> /home/sunrise/AI/talk/install/rdk_ai_gateway/share/ament_index/resource_index/packages
+[6.835s] symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/package.xml -> /home/sunrise/AI/talk/install/rdk_ai_gateway/share/rdk_ai_gateway
+[6.835s] symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/lib/vocano_apply.cpython-310-aarch64-linux-gnu.so -> /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway
+[6.836s] symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/lib/decode.cpython-310-aarch64-linux-gnu.so -> /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway
+[6.836s] symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/config/param.yaml -> /home/sunrise/AI/talk/install/rdk_ai_gateway/share/rdk_ai_gateway
+[6.837s] creating /home/sunrise/AI/talk/install/rdk_ai_gateway/share/rdk_ai_gateway/launch
+[6.837s] symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/launch/ai.launch.py -> /home/sunrise/AI/talk/install/rdk_ai_gateway/share/rdk_ai_gateway/launch
+[7.077s] Invoked command in '/home/sunrise/AI/talk/build/rdk_ai_gateway' returned '0': PYTHONPATH=/home/sunrise/AI/talk/build/rdk_ai_gateway/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sunrise/AI/talk/build/rdk_ai_gateway/build --no-deps symlink_data

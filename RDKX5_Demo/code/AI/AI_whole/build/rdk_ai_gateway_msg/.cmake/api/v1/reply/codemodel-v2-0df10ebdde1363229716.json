@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-68a75122be20ae396695.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "rdk_ai_gateway_msg__py",
+					"jsonFile" : "directory-rdk_ai_gateway_msg__py-72d8c8ec4604f501d30b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg/rdk_ai_gateway_msg__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "rdk_ai_gateway_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_rdk_ai_gateway_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_rdk_ai_gateway_msg_egg-b2c397fcf5b98e125b39.json",
+					"name" : "ament_cmake_python_build_rdk_ai_gateway_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_rdk_ai_gateway_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_rdk_ai_gateway_msg-7c3acc64d5d4b8bb6c98.json",
+					"name" : "ament_cmake_python_symlink_rdk_ai_gateway_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg-657a5c8e541f6344268d.json",
+					"name" : "rdk_ai_gateway_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__cpp-34ca9b921b6d8eb71994.json",
+					"name" : "rdk_ai_gateway_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "rdk_ai_gateway_msg__py::@25c4a7acfb4de7fa4673",
+					"jsonFile" : "target-rdk_ai_gateway_msg__py-5a3ad9ebc9aea9d4fd22.json",
+					"name" : "rdk_ai_gateway_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_generator_c-3eca4a19099f449ea650.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_generator_py-2c688ece6bc311a583d8.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_c-65e1d6a0398661e0fd1e.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_c__pyext-06cce4b2770c0f919c1a.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_cpp-02eca7128a69414f2c7c.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c-69344aa385f2566fca88.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c__pyext-fb4b1adfdbb017a32b19.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp-bf10d198e40f4fb587b3.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_introspection_c-18f543ff83475bfd0cf0.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_introspection_c__pyext-1fe25d5414a3952abd4b.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp-82dcd4d2e4d2fe2abbb1.json",
+					"name" : "rdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rdk_ai_gateway_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rdk_ai_gateway_msg_uninstall-8398264a128a1cab8eb6.json",
+					"name" : "rdk_ai_gateway_msg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-b1c8331d79996bbf4e0c.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg",
+		"source" : "/home/sunrise/AI/AI_whole/src/rdk_ai_gateway_ros/rdk_ai_gateway_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

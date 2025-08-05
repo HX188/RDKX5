@@ -1,0 +1,318 @@
+[0.000000] (-) TimerEvent: {}
+[0.000750] (ros2_end) JobQueued: {'identifier': 'ros2_end', 'dependencies': OrderedDict()}
+[0.002251] (ros2_end) JobStarted: {'identifier': 'ros2_end'}
+[0.039475] (ros2_end) JobProgress: {'identifier': 'ros2_end', 'progress': 'cmake'}
+[0.042582] (ros2_end) JobProgress: {'identifier': 'ros2_end', 'progress': 'build'}
+[0.046251] (ros2_end) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/yaokong/mqtt_connect/build/ros2_end', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/yaokong/mqtt_connect/build/ros2_end', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '172.30.41.143 62869 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/yaokong/mqtt_connect/src/wechat_to_ros2'), ('TERM_PROGRAM_VERSION', '1.2.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-86d1f3da-f132-4e9c-a12b-8d34c241773d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/yaokong/mqtt_connect/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/yaokong/mqtt_connect/install/ros2_end:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/yaokong/mqtt_connect/build/ros2_end'), ('SSH_CONNECTION', '172.30.41.143 62869 172.30.161.177 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/yaokong/mqtt_connect/install/ros2_end:/opt/ros/humble')]), 'shell': False}
+[0.099065] (-) TimerEvent: {}
+[0.200083] (-) TimerEvent: {}
+[0.231187] (ros2_end) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target main\x1b[0m\n'}
+[0.286389] (ros2_end) StdoutLine: {'line': b'[ 40%] Built target serial_sender_node\n'}
+[0.300253] (-) TimerEvent: {}
+[0.323764] (ros2_end) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o\x1b[0m\n'}
+[0.400439] (-) TimerEvent: {}
+[0.501371] (-) TimerEvent: {}
+[0.602314] (-) TimerEvent: {}
+[0.703319] (-) TimerEvent: {}
+[0.804318] (-) TimerEvent: {}
+[0.905447] (-) TimerEvent: {}
+[1.006361] (-) TimerEvent: {}
+[1.107273] (-) TimerEvent: {}
+[1.208178] (-) TimerEvent: {}
+[1.309088] (-) TimerEvent: {}
+[1.409988] (-) TimerEvent: {}
+[1.510944] (-) TimerEvent: {}
+[1.611890] (-) TimerEvent: {}
+[1.712959] (-) TimerEvent: {}
+[1.813925] (-) TimerEvent: {}
+[1.914864] (-) TimerEvent: {}
+[2.015805] (-) TimerEvent: {}
+[2.116739] (-) TimerEvent: {}
+[2.217672] (-) TimerEvent: {}
+[2.318613] (-) TimerEvent: {}
+[2.419557] (-) TimerEvent: {}
+[2.520501] (-) TimerEvent: {}
+[2.621445] (-) TimerEvent: {}
+[2.722378] (-) TimerEvent: {}
+[2.823352] (-) TimerEvent: {}
+[2.924278] (-) TimerEvent: {}
+[3.025232] (-) TimerEvent: {}
+[3.126219] (-) TimerEvent: {}
+[3.227175] (-) TimerEvent: {}
+[3.328117] (-) TimerEvent: {}
+[3.429080] (-) TimerEvent: {}
+[3.530041] (-) TimerEvent: {}
+[3.630983] (-) TimerEvent: {}
+[3.731942] (-) TimerEvent: {}
+[3.832945] (-) TimerEvent: {}
+[3.933899] (-) TimerEvent: {}
+[4.034827] (-) TimerEvent: {}
+[4.135764] (-) TimerEvent: {}
+[4.236698] (-) TimerEvent: {}
+[4.337620] (-) TimerEvent: {}
+[4.438563] (-) TimerEvent: {}
+[4.539514] (-) TimerEvent: {}
+[4.640503] (-) TimerEvent: {}
+[4.741462] (-) TimerEvent: {}
+[4.842400] (-) TimerEvent: {}
+[4.943403] (-) TimerEvent: {}
+[5.044326] (-) TimerEvent: {}
+[5.145280] (-) TimerEvent: {}
+[5.246212] (-) TimerEvent: {}
+[5.347136] (-) TimerEvent: {}
+[5.448065] (-) TimerEvent: {}
+[5.549016] (-) TimerEvent: {}
+[5.649964] (-) TimerEvent: {}
+[5.750905] (-) TimerEvent: {}
+[5.851828] (-) TimerEvent: {}
+[5.952806] (-) TimerEvent: {}
+[6.053734] (-) TimerEvent: {}
+[6.154662] (-) TimerEvent: {}
+[6.255594] (-) TimerEvent: {}
+[6.356528] (-) TimerEvent: {}
+[6.457474] (-) TimerEvent: {}
+[6.558411] (-) TimerEvent: {}
+[6.659359] (-) TimerEvent: {}
+[6.760297] (-) TimerEvent: {}
+[6.861234] (-) TimerEvent: {}
+[6.962202] (-) TimerEvent: {}
+[7.063178] (-) TimerEvent: {}
+[7.164110] (-) TimerEvent: {}
+[7.265037] (-) TimerEvent: {}
+[7.365966] (-) TimerEvent: {}
+[7.466907] (-) TimerEvent: {}
+[7.567845] (-) TimerEvent: {}
+[7.668809] (-) TimerEvent: {}
+[7.769757] (-) TimerEvent: {}
+[7.870698] (-) TimerEvent: {}
+[7.971628] (-) TimerEvent: {}
+[8.072577] (-) TimerEvent: {}
+[8.173552] (-) TimerEvent: {}
+[8.274484] (-) TimerEvent: {}
+[8.375424] (-) TimerEvent: {}
+[8.476375] (-) TimerEvent: {}
+[8.577311] (-) TimerEvent: {}
+[8.678251] (-) TimerEvent: {}
+[8.779196] (-) TimerEvent: {}
+[8.880140] (-) TimerEvent: {}
+[8.981083] (-) TimerEvent: {}
+[9.082033] (-) TimerEvent: {}
+[9.183094] (-) TimerEvent: {}
+[9.284019] (-) TimerEvent: {}
+[9.384956] (-) TimerEvent: {}
+[9.485885] (-) TimerEvent: {}
+[9.586811] (-) TimerEvent: {}
+[9.687756] (-) TimerEvent: {}
+[9.788699] (-) TimerEvent: {}
+[9.889634] (-) TimerEvent: {}
+[9.990581] (-) TimerEvent: {}
+[10.091523] (-) TimerEvent: {}
+[10.192465] (-) TimerEvent: {}
+[10.293448] (-) TimerEvent: {}
+[10.394403] (-) TimerEvent: {}
+[10.495337] (-) TimerEvent: {}
+[10.596280] (-) TimerEvent: {}
+[10.697242] (-) TimerEvent: {}
+[10.798198] (-) TimerEvent: {}
+[10.899198] (-) TimerEvent: {}
+[11.000155] (-) TimerEvent: {}
+[11.101107] (-) TimerEvent: {}
+[11.202048] (-) TimerEvent: {}
+[11.302970] (-) TimerEvent: {}
+[11.403874] (-) TimerEvent: {}
+[11.504775] (-) TimerEvent: {}
+[11.605703] (-) TimerEvent: {}
+[11.706565] (-) TimerEvent: {}
+[11.807432] (-) TimerEvent: {}
+[11.908357] (-) TimerEvent: {}
+[12.009238] (-) TimerEvent: {}
+[12.110094] (-) TimerEvent: {}
+[12.210951] (-) TimerEvent: {}
+[12.311765] (-) TimerEvent: {}
+[12.412579] (-) TimerEvent: {}
+[12.513457] (-) TimerEvent: {}
+[12.614326] (-) TimerEvent: {}
+[12.715228] (-) TimerEvent: {}
+[12.816098] (-) TimerEvent: {}
+[12.916995] (-) TimerEvent: {}
+[13.018035] (-) TimerEvent: {}
+[13.119026] (-) TimerEvent: {}
+[13.220024] (-) TimerEvent: {}
+[13.321025] (-) TimerEvent: {}
+[13.422014] (-) TimerEvent: {}
+[13.523061] (-) TimerEvent: {}
+[13.624068] (-) TimerEvent: {}
+[13.725050] (-) TimerEvent: {}
+[13.729818] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.731029] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.731571] (ros2_end) StderrLine: {'line': b'   52 |         mqtt_ = new Mqtt_C(\x1b[01;35m\x1b[K"tcp://broker.emqx.io:1883"\x1b[m\x1b[K, "c-client", "test", "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,\n'}
+[13.732048] (ros2_end) StderrLine: {'line': b'      |                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.732495] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:57:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.733067] (ros2_end) StderrLine: {'line': b'   52 |         mqtt_ = new Mqtt_C("tcp://broker.emqx.io:1883", \x1b[01;35m\x1b[K"c-client"\x1b[m\x1b[K, "test", "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,\n'}
+[13.733533] (ros2_end) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.733979] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:69:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.734429] (ros2_end) StderrLine: {'line': b'   52 |         mqtt_ = new Mqtt_C("tcp://broker.emqx.io:1883", "c-client", \x1b[01;35m\x1b[K"test"\x1b[m\x1b[K, "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,\n'}
+[13.734864] (ros2_end) StderrLine: {'line': b'      |                                                                     \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.735297] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:77:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.735755] (ros2_end) StderrLine: {'line': b'   52 |         mqtt_ = new Mqtt_C("tcp://broker.emqx.io:1883", "c-client", "test", \x1b[01;35m\x1b[K"test"\x1b[m\x1b[K, "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,\n'}
+[13.736230] (ros2_end) StderrLine: {'line': b'      |                                                                             \x1b[01;35m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[13.736664] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:85:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[KISO C++ forbids converting a string constant to \xe2\x80\x98\x1b[01m\x1b[Kchar*\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings\x07-Wwrite-strings\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.737109] (ros2_end) StderrLine: {'line': b'   52 |         mqtt_ = new Mqtt_C("tcp://broker.emqx.io:1883", "c-client", "test", "test", \x1b[01;35m\x1b[K"/wechat_ros/mqtt"\x1b[m\x1b[K, 0, std::bind(&MinimalPublisher::getMqttMessage,\n'}
+[13.737542] (ros2_end) StderrLine: {'line': b'      |                                                                                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[13.753376] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::getMqttMessage(void*, char*, int, MQTTClient_message*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[13.754416] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:67:31:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kcontext\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.755106] (ros2_end) StderrLine: {'line': b'   67 |     void getMqttMessage(\x1b[01;35m\x1b[Kvoid *context\x1b[m\x1b[K, char *topicName, int topicLen, MQTTClient_message *message) {\n'}
+[13.755664] (ros2_end) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[13.756177] (ros2_end) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:67:61:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[KtopicLen\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[13.756731] (ros2_end) StderrLine: {'line': b'   67 |     void getMqttMessage(void *context, char *topicName, \x1b[01;35m\x1b[Kint topicLen\x1b[m\x1b[K, MQTTClient_message *message) {\n'}
+[13.757262] (ros2_end) StderrLine: {'line': b'      |                                                         \x1b[01;35m\x1b[K~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[13.825214] (-) TimerEvent: {}
+[13.926187] (-) TimerEvent: {}
+[14.027144] (-) TimerEvent: {}
+[14.128081] (-) TimerEvent: {}
+[14.228998] (-) TimerEvent: {}
+[14.329902] (-) TimerEvent: {}
+[14.430827] (-) TimerEvent: {}
+[14.531778] (-) TimerEvent: {}
+[14.632807] (-) TimerEvent: {}
+[14.733741] (-) TimerEvent: {}
+[14.834674] (-) TimerEvent: {}
+[14.935603] (-) TimerEvent: {}
+[15.036500] (-) TimerEvent: {}
+[15.137424] (-) TimerEvent: {}
+[15.238339] (-) TimerEvent: {}
+[15.339266] (-) TimerEvent: {}
+[15.440164] (-) TimerEvent: {}
+[15.541125] (-) TimerEvent: {}
+[15.642094] (-) TimerEvent: {}
+[15.743100] (-) TimerEvent: {}
+[15.844031] (-) TimerEvent: {}
+[15.944981] (-) TimerEvent: {}
+[16.045957] (-) TimerEvent: {}
+[16.146944] (-) TimerEvent: {}
+[16.247930] (-) TimerEvent: {}
+[16.348896] (-) TimerEvent: {}
+[16.449881] (-) TimerEvent: {}
+[16.550867] (-) TimerEvent: {}
+[16.651877] (-) TimerEvent: {}
+[16.752907] (-) TimerEvent: {}
+[16.853894] (-) TimerEvent: {}
+[16.954924] (-) TimerEvent: {}
+[17.055932] (-) TimerEvent: {}
+[17.156935] (-) TimerEvent: {}
+[17.257922] (-) TimerEvent: {}
+[17.358915] (-) TimerEvent: {}
+[17.459951] (-) TimerEvent: {}
+[17.560966] (-) TimerEvent: {}
+[17.661982] (-) TimerEvent: {}
+[17.762989] (-) TimerEvent: {}
+[17.863958] (-) TimerEvent: {}
+[17.964942] (-) TimerEvent: {}
+[18.065944] (-) TimerEvent: {}
+[18.166958] (-) TimerEvent: {}
+[18.267929] (-) TimerEvent: {}
+[18.368897] (-) TimerEvent: {}
+[18.469856] (-) TimerEvent: {}
+[18.570849] (-) TimerEvent: {}
+[18.671845] (-) TimerEvent: {}
+[18.772806] (-) TimerEvent: {}
+[18.873722] (-) TimerEvent: {}
+[18.974633] (-) TimerEvent: {}
+[19.075584] (-) TimerEvent: {}
+[19.176477] (-) TimerEvent: {}
+[19.277373] (-) TimerEvent: {}
+[19.378239] (-) TimerEvent: {}
+[19.479122] (-) TimerEvent: {}
+[19.580032] (-) TimerEvent: {}
+[19.681013] (-) TimerEvent: {}
+[19.781964] (-) TimerEvent: {}
+[19.883001] (-) TimerEvent: {}
+[19.983972] (-) TimerEvent: {}
+[20.084958] (-) TimerEvent: {}
+[20.185949] (-) TimerEvent: {}
+[20.286922] (-) TimerEvent: {}
+[20.387904] (-) TimerEvent: {}
+[20.488886] (-) TimerEvent: {}
+[20.589878] (-) TimerEvent: {}
+[20.690884] (-) TimerEvent: {}
+[20.791865] (-) TimerEvent: {}
+[20.892853] (-) TimerEvent: {}
+[20.993818] (-) TimerEvent: {}
+[21.094794] (-) TimerEvent: {}
+[21.195753] (-) TimerEvent: {}
+[21.296726] (-) TimerEvent: {}
+[21.397702] (-) TimerEvent: {}
+[21.498660] (-) TimerEvent: {}
+[21.599640] (-) TimerEvent: {}
+[21.700640] (-) TimerEvent: {}
+[21.801614] (-) TimerEvent: {}
+[21.902674] (-) TimerEvent: {}
+[22.003652] (-) TimerEvent: {}
+[22.104606] (-) TimerEvent: {}
+[22.205534] (-) TimerEvent: {}
+[22.306460] (-) TimerEvent: {}
+[22.407405] (-) TimerEvent: {}
+[22.508371] (-) TimerEvent: {}
+[22.609341] (-) TimerEvent: {}
+[22.710325] (-) TimerEvent: {}
+[22.811303] (-) TimerEvent: {}
+[22.912291] (-) TimerEvent: {}
+[23.013375] (-) TimerEvent: {}
+[23.114328] (-) TimerEvent: {}
+[23.215250] (-) TimerEvent: {}
+[23.316123] (-) TimerEvent: {}
+[23.416990] (-) TimerEvent: {}
+[23.517891] (-) TimerEvent: {}
+[23.618791] (-) TimerEvent: {}
+[23.719668] (-) TimerEvent: {}
+[23.820557] (-) TimerEvent: {}
+[23.921381] (-) TimerEvent: {}
+[24.022230] (-) TimerEvent: {}
+[24.123115] (-) TimerEvent: {}
+[24.223947] (-) TimerEvent: {}
+[24.324796] (-) TimerEvent: {}
+[24.422320] (ros2_end) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable main\x1b[0m\n'}
+[24.424889] (-) TimerEvent: {}
+[24.525640] (-) TimerEvent: {}
+[24.626651] (-) TimerEvent: {}
+[24.727652] (-) TimerEvent: {}
+[24.828683] (-) TimerEvent: {}
+[24.929678] (-) TimerEvent: {}
+[25.030662] (-) TimerEvent: {}
+[25.131672] (-) TimerEvent: {}
+[25.232661] (-) TimerEvent: {}
+[25.333599] (-) TimerEvent: {}
+[25.434628] (-) TimerEvent: {}
+[25.535615] (-) TimerEvent: {}
+[25.636605] (-) TimerEvent: {}
+[25.737599] (-) TimerEvent: {}
+[25.740462] (ros2_end) StdoutLine: {'line': b'[100%] Built target main\n'}
+[25.799922] (ros2_end) CommandEnded: {'returncode': 0}
+[25.805047] (ros2_end) JobProgress: {'identifier': 'ros2_end', 'progress': 'install'}
+[25.837830] (-) TimerEvent: {}
+[25.846765] (ros2_end) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/yaokong/mqtt_connect/build/ros2_end'], 'cwd': '/home/sunrise/yaokong/mqtt_connect/build/ros2_end', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '172.30.41.143 62869 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/local/lib'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/yaokong/mqtt_connect/src/wechat_to_ros2'), ('TERM_PROGRAM_VERSION', '1.2.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-86d1f3da-f132-4e9c-a12b-8d34c241773d.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/yaokong/mqtt_connect/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '4'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.cursor-server/cli/servers/Stable-faa03b17cce93e8a80b7d62d57f5eda6bb6ab9f0/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/yaokong/mqtt_connect/install/ros2_end:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/yaokong/mqtt_connect/build/ros2_end'), ('SSH_CONNECTION', '172.30.41.143 62869 172.30.161.177 22'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/yaokong/mqtt_connect/install/ros2_end:/opt/ros/humble')]), 'shell': False}
+[25.882063] (ros2_end) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.883195] (ros2_end) StdoutLine: {'line': b'-- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/main\n'}
+[25.890921] (ros2_end) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/main" to ""\n'}
+[25.891927] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/serial_sender_node\n'}
+[25.892832] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end//launch\n'}
+[25.893721] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end//launch/yao_kong.launch.py\n'}
+[25.894513] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/package_run_dependencies/ros2_end\n'}
+[25.895266] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/parent_prefix_path/ros2_end\n'}
+[25.895825] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/ament_prefix_path.sh\n'}
+[25.896546] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/ament_prefix_path.dsv\n'}
+[25.897064] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/path.sh\n'}
+[25.897563] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/path.dsv\n'}
+[25.898051] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.bash\n'}
+[25.898530] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.sh\n'}
+[25.898996] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.zsh\n'}
+[25.899457] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.dsv\n'}
+[25.899914] (ros2_end) StdoutLine: {'line': b'-- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/package.dsv\n'}
+[25.900365] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/packages/ros2_end\n'}
+[25.900816] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/cmake/ros2_endConfig.cmake\n'}
+[25.901268] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/cmake/ros2_endConfig-version.cmake\n'}
+[25.902196] (ros2_end) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/package.xml\n'}
+[25.907168] (ros2_end) CommandEnded: {'returncode': 0}
+[25.938386] (-) TimerEvent: {}
+[26.023636] (ros2_end) JobEnded: {'identifier': 'ros2_end', 'rc': 0}
+[26.027136] (-) EventReactorShutdown: {}

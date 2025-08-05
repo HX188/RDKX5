@@ -1,0 +1,136 @@
+[0.607s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'hand_gesture_detection_develop', '--symlink-install']
+[0.608s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['hand_gesture_detection_develop'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa3270940>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa342a590>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa342a590>>)
+[1.697s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.698s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.699s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.699s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/hand_gesture_recognize'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.701s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.770s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.771s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.772s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[1.773s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[1.774s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[1.775s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[1.776s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[1.777s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.778s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.779s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.780s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.781s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.782s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.783s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extensions ['ignore', 'ignore_ament_install']
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extension 'ignore'
+[1.784s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extension 'ignore_ament_install'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extensions ['colcon_pkg']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extension 'colcon_pkg'
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extensions ['colcon_meta']
+[1.785s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extension 'colcon_meta'
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extensions ['ros']
+[1.786s] Level 1:colcon.colcon_core.package_identification:_identify(src/hand_gesture_detection_develop) by extension 'ros'
+[1.800s] DEBUG:colcon.colcon_core.package_identification:Package 'src/hand_gesture_detection_develop' with type 'ros.ament_cmake' and name 'hand_gesture_detection_develop'
+[1.800s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.801s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.997s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.998s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.002s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sunrise/hand_gesture_recognize/install
+[2.004s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 54 installed packages in /opt/tros/humble
+[2.018s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/humble
+[2.030s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'cmake_args' from command line to 'None'
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'cmake_target' from command line to 'None'
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'cmake_clean_cache' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'cmake_clean_first' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'cmake_force_configure' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'ament_cmake_args' from command line to 'None'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'catkin_cmake_args' from command line to 'None'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'hand_gesture_detection_develop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.332s] DEBUG:colcon.colcon_core.verb:Building package 'hand_gesture_detection_develop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop', 'merge_install': False, 'path': '/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop', 'symlink_install': True, 'test_result_base': None}
+[2.333s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.338s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.339s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop' with build type 'ament_cmake'
+[2.340s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop'
+[2.351s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.352s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.353s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop
+[8.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop
+[8.762s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop -- -j8 -l8
+[47.961s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop -- -j8 -l8
+[47.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hand_gesture_detection_develop)
+[47.980s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop' for CMake module files
+[47.984s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop' for CMake config files
+[47.987s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/bin'
+[47.988s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/pkgconfig/hand_gesture_detection_develop.pc'
+[47.991s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/python3.10/site-packages'
+[47.993s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/bin'
+[47.996s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.ps1'
+[48.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.dsv'
+[48.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.sh'
+[48.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.bash'
+[48.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.zsh'
+[48.021s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/colcon-core/packages/hand_gesture_detection_develop)
+[48.034s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[48.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[48.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[48.037s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[48.081s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[48.082s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[48.083s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[48.083s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[48.108s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[48.111s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/hand_gesture_recognize/install/local_setup.ps1'
+[48.119s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/hand_gesture_recognize/install/_local_setup_util_ps1.py'
+[48.131s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/hand_gesture_recognize/install/setup.ps1'
+[48.139s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/hand_gesture_recognize/install/local_setup.sh'
+[48.143s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/hand_gesture_recognize/install/_local_setup_util_sh.py'
+[48.147s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/hand_gesture_recognize/install/setup.sh'
+[48.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/hand_gesture_recognize/install/local_setup.bash'
+[48.157s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/hand_gesture_recognize/install/setup.bash'
+[48.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/hand_gesture_recognize/install/local_setup.zsh'
+[48.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/hand_gesture_recognize/install/setup.zsh'

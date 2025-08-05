@@ -1,0 +1,7 @@
+/infer_service:
+  ros__parameters:
+    bin_file: "/home/sunrise/.ros/rdk_ai_gateway/auth.bin"
+/infer_client:
+  ros__parameters:
+    input_str: "重复一下下面这段话：其实陈力恺就是这种有男人味的男人，不需要长的如何倾国倾城，而是隔着屏幕就能感受到的，男人的香味。懂的自然懂，不多说了。"
+    model: "doubao-lite-4k"

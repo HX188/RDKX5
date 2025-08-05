@@ -1,0 +1,5 @@
+[console_scripts]
+apply = rdk_ai_gateway.apply:main
+client = rdk_ai_gateway.client:main
+service = rdk_ai_gateway.infer:main
+

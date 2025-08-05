@@ -1,0 +1,545 @@
+[0.000000] (-) TimerEvent: {}
+[0.001125] (rdk_ai_gateway) JobQueued: {'identifier': 'rdk_ai_gateway', 'dependencies': OrderedDict()}
+[0.002207] (rdk_ai_gateway_msg) JobQueued: {'identifier': 'rdk_ai_gateway_msg', 'dependencies': OrderedDict()}
+[0.002929] (rdk_ai_gateway) JobStarted: {'identifier': 'rdk_ai_gateway'}
+[0.044491] (rdk_ai_gateway_msg) JobStarted: {'identifier': 'rdk_ai_gateway_msg'}
+[0.098946] (-) TimerEvent: {}
+[0.199734] (-) TimerEvent: {}
+[0.300540] (-) TimerEvent: {}
+[0.401343] (-) TimerEvent: {}
+[0.502157] (-) TimerEvent: {}
+[0.602975] (-) TimerEvent: {}
+[0.703774] (-) TimerEvent: {}
+[0.804580] (-) TimerEvent: {}
+[0.905368] (-) TimerEvent: {}
+[1.006181] (-) TimerEvent: {}
+[1.106976] (-) TimerEvent: {}
+[1.207784] (-) TimerEvent: {}
+[1.308590] (-) TimerEvent: {}
+[1.409395] (-) TimerEvent: {}
+[1.510197] (-) TimerEvent: {}
+[1.611055] (-) TimerEvent: {}
+[1.712441] (-) TimerEvent: {}
+[1.745476] (rdk_ai_gateway_msg) JobProgress: {'identifier': 'rdk_ai_gateway_msg', 'progress': 'cmake'}
+[1.748013] (rdk_ai_gateway_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/AI/talk/src/rdk_ai_gateway_ros/rdk_ai_gateway_msg', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/talk/install/rdk_ai_gateway_msg'], 'cwd': '/home/sunrise/AI/talk/build/rdk_ai_gateway_msg', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.127.15 54557 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '0.50.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e7cf467a-20df-4163-a1bb-6f71d044b480.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/AI/talk/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg:/home/sunrise/AI/talk/install/rdk_ai_gateway:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/AI/talk/build/rdk_ai_gateway_msg'), ('SSH_CONNECTION', '192.168.127.15 54557 192.168.127.10 22'), ('PYTHONPATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages:/home/sunrise/AI/talk/build/rdk_ai_gateway:/home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg:/home/sunrise/AI/talk/install/rdk_ai_gateway:/opt/ros/humble')]), 'shell': False}
+[1.812661] (-) TimerEvent: {}
+[1.913555] (-) TimerEvent: {}
+[2.014394] (-) TimerEvent: {}
+[2.058901] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[2.114609] (-) TimerEvent: {}
+[2.215542] (-) TimerEvent: {}
+[2.316393] (-) TimerEvent: {}
+[2.364817] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[2.397400] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[2.416537] (-) TimerEvent: {}
+[2.517370] (-) TimerEvent: {}
+[2.618276] (-) TimerEvent: {}
+[2.719137] (-) TimerEvent: {}
+[2.747737] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.795612] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.796725] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.798755] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.814309] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.819251] (-) TimerEvent: {}
+[2.920017] (-) TimerEvent: {}
+[3.020875] (-) TimerEvent: {}
+[3.121728] (-) TimerEvent: {}
+[3.215516] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[3.221890] (-) TimerEvent: {}
+[3.264381] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[3.265680] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[3.268133] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[3.278198] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.322029] (-) TimerEvent: {}
+[3.422874] (-) TimerEvent: {}
+[3.523728] (-) TimerEvent: {}
+[3.624609] (-) TimerEvent: {}
+[3.725540] (-) TimerEvent: {}
+[3.826415] (-) TimerEvent: {}
+[3.927289] (-) TimerEvent: {}
+[4.028202] (-) TimerEvent: {}
+[4.093036] (rdk_ai_gateway) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sunrise/AI/talk/build/rdk_ai_gateway/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sunrise/AI/talk/build/rdk_ai_gateway', 'env': {'USER': 'sunrise', 'SSH_CLIENT': '192.168.127.15 54557 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'TERM_PROGRAM_VERSION': '0.50.5', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-e7cf467a-20df-4163-a1bb-6f71d044b480.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/sunrise/AI/talk/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3a00e182b6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg:/home/sunrise/AI/talk/install/rdk_ai_gateway:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/AI/talk/build/rdk_ai_gateway', 'SSH_CONNECTION': '192.168.127.15 54557 192.168.127.10 22', 'PYTHONPATH': '/home/sunrise/AI/talk/build/rdk_ai_gateway/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages:/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages:/home/sunrise/AI/talk/build/rdk_ai_gateway:/home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg'}, 'shell': False}
+[4.128341] (-) TimerEvent: {}
+[4.219353] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[4.228511] (-) TimerEvent: {}
+[4.329323] (-) TimerEvent: {}
+[4.430106] (-) TimerEvent: {}
+[4.530914] (-) TimerEvent: {}
+[4.628579] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.631025] (-) TimerEvent: {}
+[4.729695] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.731153] (-) TimerEvent: {}
+[4.831871] (-) TimerEvent: {}
+[4.918663] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.932012] (-) TimerEvent: {}
+[4.943117] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.985164] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[5.032161] (-) TimerEvent: {}
+[5.052283] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.132336] (-) TimerEvent: {}
+[5.140212] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.232481] (-) TimerEvent: {}
+[5.333307] (-) TimerEvent: {}
+[5.370501] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.381991] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.433451] (-) TimerEvent: {}
+[5.534287] (-) TimerEvent: {}
+[5.635122] (-) TimerEvent: {}
+[5.736028] (-) TimerEvent: {}
+[5.767873] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.772094] (rdk_ai_gateway) StdoutLine: {'line': b'running develop\n'}
+[5.836186] (-) TimerEvent: {}
+[5.891413] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.936359] (-) TimerEvent: {}
+[6.037201] (-) TimerEvent: {}
+[6.075742] (rdk_ai_gateway_msg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.114860] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.137352] (-) TimerEvent: {}
+[6.238160] (-) TimerEvent: {}
+[6.339034] (-) TimerEvent: {}
+[6.439908] (-) TimerEvent: {}
+[6.485660] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.487175] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.540119] (-) TimerEvent: {}
+[6.640985] (-) TimerEvent: {}
+[6.741830] (-) TimerEvent: {}
+[6.798138] (rdk_ai_gateway) StdoutLine: {'line': b'running egg_info\n'}
+[6.798930] (rdk_ai_gateway) StdoutLine: {'line': b'creating rdk_ai_gateway.egg-info\n'}
+[6.799592] (rdk_ai_gateway) StdoutLine: {'line': b'writing rdk_ai_gateway.egg-info/PKG-INFO\n'}
+[6.800740] (rdk_ai_gateway) StdoutLine: {'line': b'writing dependency_links to rdk_ai_gateway.egg-info/dependency_links.txt\n'}
+[6.801509] (rdk_ai_gateway) StdoutLine: {'line': b'writing entry points to rdk_ai_gateway.egg-info/entry_points.txt\n'}
+[6.802131] (rdk_ai_gateway) StdoutLine: {'line': b'writing requirements to rdk_ai_gateway.egg-info/requires.txt\n'}
+[6.802711] (rdk_ai_gateway) StdoutLine: {'line': b'writing top-level names to rdk_ai_gateway.egg-info/top_level.txt\n'}
+[6.803472] (rdk_ai_gateway) StdoutLine: {'line': b"writing manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'\n"}
+[6.813078] (rdk_ai_gateway) StdoutLine: {'line': b"reading manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'\n"}
+[6.816836] (rdk_ai_gateway) StdoutLine: {'line': b"writing manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'\n"}
+[6.825015] (rdk_ai_gateway) StdoutLine: {'line': b'running build_ext\n'}
+[6.826408] (rdk_ai_gateway) StdoutLine: {'line': b'Creating /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages/rdk-ai-gateway.egg-link (link to .)\n'}
+[6.830882] (rdk_ai_gateway) StdoutLine: {'line': b'Installing apply script to /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway\n'}
+[6.831719] (rdk_ai_gateway) StdoutLine: {'line': b'Installing client script to /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway\n'}
+[6.832423] (rdk_ai_gateway) StdoutLine: {'line': b'Installing service script to /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway\n'}
+[6.833473] (rdk_ai_gateway) StdoutLine: {'line': b'\n'}
+[6.834135] (rdk_ai_gateway) StdoutLine: {'line': b'Installed /home/sunrise/AI/talk/build/rdk_ai_gateway\n'}
+[6.834837] (rdk_ai_gateway) StdoutLine: {'line': b'running symlink_data\n'}
+[6.835611] (rdk_ai_gateway) StdoutLine: {'line': b'creating /home/sunrise/AI/talk/install/rdk_ai_gateway/share/ament_index\n'}
+[6.836273] (rdk_ai_gateway) StdoutLine: {'line': b'creating /home/sunrise/AI/talk/install/rdk_ai_gateway/share/ament_index/resource_index\n'}
+[6.836860] (rdk_ai_gateway) StdoutLine: {'line': b'creating /home/sunrise/AI/talk/install/rdk_ai_gateway/share/ament_index/resource_index/packages\n'}
+[6.837492] (rdk_ai_gateway) StdoutLine: {'line': b'symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/resource/rdk_ai_gateway -> /home/sunrise/AI/talk/install/rdk_ai_gateway/share/ament_index/resource_index/packages\n'}
+[6.838049] (rdk_ai_gateway) StdoutLine: {'line': b'symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/package.xml -> /home/sunrise/AI/talk/install/rdk_ai_gateway/share/rdk_ai_gateway\n'}
+[6.838589] (rdk_ai_gateway) StdoutLine: {'line': b'symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/lib/vocano_apply.cpython-310-aarch64-linux-gnu.so -> /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway\n'}
+[6.839053] (rdk_ai_gateway) StdoutLine: {'line': b'symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/lib/decode.cpython-310-aarch64-linux-gnu.so -> /home/sunrise/AI/talk/install/rdk_ai_gateway/lib/rdk_ai_gateway\n'}
+[6.839497] (rdk_ai_gateway) StdoutLine: {'line': b'symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/config/param.yaml -> /home/sunrise/AI/talk/install/rdk_ai_gateway/share/rdk_ai_gateway\n'}
+[6.839927] (rdk_ai_gateway) StdoutLine: {'line': b'creating /home/sunrise/AI/talk/install/rdk_ai_gateway/share/rdk_ai_gateway/launch\n'}
+[6.840350] (rdk_ai_gateway) StdoutLine: {'line': b'symbolically linking /home/sunrise/AI/talk/build/rdk_ai_gateway/launch/ai.launch.py -> /home/sunrise/AI/talk/install/rdk_ai_gateway/share/rdk_ai_gateway/launch\n'}
+[6.841967] (-) TimerEvent: {}
+[6.855521] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.860516] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.942208] (-) TimerEvent: {}
+[7.043162] (-) TimerEvent: {}
+[7.078153] (rdk_ai_gateway) CommandEnded: {'returncode': 0}
+[7.143348] (-) TimerEvent: {}
+[7.149983] (rdk_ai_gateway) JobEnded: {'identifier': 'rdk_ai_gateway', 'rc': 0}
+[7.155839] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.243552] (-) TimerEvent: {}
+[7.344339] (-) TimerEvent: {}
+[7.445126] (-) TimerEvent: {}
+[7.546013] (-) TimerEvent: {}
+[7.646946] (-) TimerEvent: {}
+[7.747917] (-) TimerEvent: {}
+[7.848858] (-) TimerEvent: {}
+[7.949738] (-) TimerEvent: {}
+[8.050645] (-) TimerEvent: {}
+[8.151591] (-) TimerEvent: {}
+[8.252468] (-) TimerEvent: {}
+[8.353318] (-) TimerEvent: {}
+[8.454155] (-) TimerEvent: {}
+[8.555053] (-) TimerEvent: {}
+[8.655916] (-) TimerEvent: {}
+[8.756767] (-) TimerEvent: {}
+[8.857641] (-) TimerEvent: {}
+[8.937109] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[8.957831] (-) TimerEvent: {}
+[9.058729] (-) TimerEvent: {}
+[9.159518] (-) TimerEvent: {}
+[9.260374] (-) TimerEvent: {}
+[9.361246] (-) TimerEvent: {}
+[9.462089] (-) TimerEvent: {}
+[9.563016] (-) TimerEvent: {}
+[9.663980] (-) TimerEvent: {}
+[9.764864] (-) TimerEvent: {}
+[9.865854] (-) TimerEvent: {}
+[9.966759] (-) TimerEvent: {}
+[10.067601] (-) TimerEvent: {}
+[10.168424] (-) TimerEvent: {}
+[10.269250] (-) TimerEvent: {}
+[10.370081] (-) TimerEvent: {}
+[10.470919] (-) TimerEvent: {}
+[10.571728] (-) TimerEvent: {}
+[10.672571] (-) TimerEvent: {}
+[10.773502] (-) TimerEvent: {}
+[10.874409] (-) TimerEvent: {}
+[10.975327] (-) TimerEvent: {}
+[11.076114] (-) TimerEvent: {}
+[11.176906] (-) TimerEvent: {}
+[11.277843] (-) TimerEvent: {}
+[11.279086] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[11.378047] (-) TimerEvent: {}
+[11.478878] (-) TimerEvent: {}
+[11.579705] (-) TimerEvent: {}
+[11.680556] (-) TimerEvent: {}
+[11.781472] (-) TimerEvent: {}
+[11.882667] (-) TimerEvent: {}
+[11.983474] (-) TimerEvent: {}
+[12.084296] (-) TimerEvent: {}
+[12.185291] (-) TimerEvent: {}
+[12.218648] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[12.285384] (-) TimerEvent: {}
+[12.373180] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[12.385596] (-) TimerEvent: {}
+[12.386638] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[12.485801] (-) TimerEvent: {}
+[12.551212] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[12.552165] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[12.552676] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[12.553109] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[12.585946] (-) TimerEvent: {}
+[12.682414] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[12.686077] (-) TimerEvent: {}
+[12.786866] (-) TimerEvent: {}
+[12.887658] (-) TimerEvent: {}
+[12.988146] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[12.988899] (-) TimerEvent: {}
+[13.071291] (rdk_ai_gateway_msg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.075497] (rdk_ai_gateway_msg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.089072] (-) TimerEvent: {}
+[13.094226] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.189306] (-) TimerEvent: {}
+[13.256438] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[13.289497] (-) TimerEvent: {}
+[13.317016] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/AI/talk/build/rdk_ai_gateway_msg\n'}
+[13.389710] (-) TimerEvent: {}
+[13.395940] (rdk_ai_gateway_msg) CommandEnded: {'returncode': 0}
+[13.401202] (rdk_ai_gateway_msg) JobProgress: {'identifier': 'rdk_ai_gateway_msg', 'progress': 'build'}
+[13.411102] (rdk_ai_gateway_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/AI/talk/build/rdk_ai_gateway_msg', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/AI/talk/build/rdk_ai_gateway_msg', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.127.15 54557 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '0.50.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e7cf467a-20df-4163-a1bb-6f71d044b480.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/AI/talk/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg:/home/sunrise/AI/talk/install/rdk_ai_gateway:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/AI/talk/build/rdk_ai_gateway_msg'), ('SSH_CONNECTION', '192.168.127.15 54557 192.168.127.10 22'), ('PYTHONPATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages:/home/sunrise/AI/talk/build/rdk_ai_gateway:/home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg:/home/sunrise/AI/talk/install/rdk_ai_gateway:/opt/ros/humble')]), 'shell': False}
+[13.489943] (-) TimerEvent: {}
+[13.590868] (-) TimerEvent: {}
+[13.609330] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[13.656653] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[13.691059] (-) TimerEvent: {}
+[13.693049] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_symlink_rdk_ai_gateway_msg\n'}
+[13.791246] (-) TimerEvent: {}
+[13.892100] (-) TimerEvent: {}
+[13.992913] (-) TimerEvent: {}
+[14.093717] (-) TimerEvent: {}
+[14.194536] (-) TimerEvent: {}
+[14.295311] (-) TimerEvent: {}
+[14.396066] (-) TimerEvent: {}
+[14.496827] (-) TimerEvent: {}
+[14.597611] (-) TimerEvent: {}
+[14.698429] (-) TimerEvent: {}
+[14.799233] (-) TimerEvent: {}
+[14.900051] (-) TimerEvent: {}
+[15.000862] (-) TimerEvent: {}
+[15.101668] (-) TimerEvent: {}
+[15.202479] (-) TimerEvent: {}
+[15.243194] (rdk_ai_gateway_msg) StdoutLine: {'line': b'running egg_info\n'}
+[15.247090] (rdk_ai_gateway_msg) StdoutLine: {'line': b'creating rdk_ai_gateway_msg.egg-info\n'}
+[15.248322] (rdk_ai_gateway_msg) StdoutLine: {'line': b'writing rdk_ai_gateway_msg.egg-info/PKG-INFO\n'}
+[15.249275] (rdk_ai_gateway_msg) StdoutLine: {'line': b'writing dependency_links to rdk_ai_gateway_msg.egg-info/dependency_links.txt\n'}
+[15.250185] (rdk_ai_gateway_msg) StdoutLine: {'line': b'writing top-level names to rdk_ai_gateway_msg.egg-info/top_level.txt\n'}
+[15.251383] (rdk_ai_gateway_msg) StdoutLine: {'line': b"writing manifest file 'rdk_ai_gateway_msg.egg-info/SOURCES.txt'\n"}
+[15.263284] (rdk_ai_gateway_msg) StdoutLine: {'line': b"reading manifest file 'rdk_ai_gateway_msg.egg-info/SOURCES.txt'\n"}
+[15.266297] (rdk_ai_gateway_msg) StdoutLine: {'line': b"writing manifest file 'rdk_ai_gateway_msg.egg-info/SOURCES.txt'\n"}
+[15.302696] (-) TimerEvent: {}
+[15.403661] (-) TimerEvent: {}
+[15.498125] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_rdk_ai_gateway_msg_egg\n'}
+[15.503838] (-) TimerEvent: {}
+[15.526415] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[  6%] Built target rdk_ai_gateway_msg__cpp\n'}
+[15.533760] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_generator_c.dir/rosidl_generator_c/rdk_ai_gateway_msg/srv/detail/text_to_text__functions.c.o\x1b[0m\n'}
+[15.572800] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.573654] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.574355] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 19%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.604016] (-) TimerEvent: {}
+[15.704907] (-) TimerEvent: {}
+[15.805828] (-) TimerEvent: {}
+[15.883934] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library librdk_ai_gateway_msg__rosidl_generator_c.so\x1b[0m\n'}
+[15.906007] (-) TimerEvent: {}
+[16.006835] (-) TimerEvent: {}
+[16.086296] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 22%] Built target rdk_ai_gateway_msg__rosidl_generator_c\n'}
+[16.107054] (-) TimerEvent: {}
+[16.131384] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[16.132230] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[16.132838] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.207290] (-) TimerEvent: {}
+[16.308322] (-) TimerEvent: {}
+[16.410014] (-) TimerEvent: {}
+[16.511709] (-) TimerEvent: {}
+[16.613361] (-) TimerEvent: {}
+[16.714986] (-) TimerEvent: {}
+[16.816552] (-) TimerEvent: {}
+[16.918268] (-) TimerEvent: {}
+[17.019735] (-) TimerEvent: {}
+[17.121302] (-) TimerEvent: {}
+[17.196949] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rdk_ai_gateway_msg/srv/text_to_text__type_support.cpp.o\x1b[0m\n'}
+[17.222417] (-) TimerEvent: {}
+[17.325146] (-) TimerEvent: {}
+[17.348419] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support.cpp.o\x1b[0m\n'}
+[17.425557] (-) TimerEvent: {}
+[17.471795] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rdk_ai_gateway_msg/srv/detail/dds_fastrtps/text_to_text__type_support.cpp.o\x1b[0m\n'}
+[17.525777] (-) TimerEvent: {}
+[17.627623] (-) TimerEvent: {}
+[17.728652] (-) TimerEvent: {}
+[17.755807] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rdk_ai_gateway_msg/srv/text_to_text__type_support.cpp.o\x1b[0m\n'}
+[17.828902] (-) TimerEvent: {}
+[17.927850] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[17.929026] (-) TimerEvent: {}
+[17.969057] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support.c.o\x1b[0m\n'}
+[18.004342] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support_c.cpp.o\x1b[0m\n'}
+[18.029338] (-) TimerEvent: {}
+[18.130591] (-) TimerEvent: {}
+[18.141717] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 54%] Built target rdk_ai_gateway_msg__rosidl_typesupport_c\n'}
+[18.167661] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library librdk_ai_gateway_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[18.230843] (-) TimerEvent: {}
+[18.309994] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 58%] Built target rdk_ai_gateway_msg__rosidl_typesupport_introspection_c\n'}
+[18.331059] (-) TimerEvent: {}
+[18.432015] (-) TimerEvent: {}
+[18.533007] (-) TimerEvent: {}
+[18.633989] (-) TimerEvent: {}
+[18.735011] (-) TimerEvent: {}
+[18.836255] (-) TimerEvent: {}
+[18.898066] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[18.936486] (-) TimerEvent: {}
+[19.037468] (-) TimerEvent: {}
+[19.084693] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 61%] Built target rdk_ai_gateway_msg__rosidl_typesupport_cpp\n'}
+[19.137686] (-) TimerEvent: {}
+[19.238637] (-) TimerEvent: {}
+[19.339598] (-) TimerEvent: {}
+[19.440547] (-) TimerEvent: {}
+[19.541488] (-) TimerEvent: {}
+[19.642419] (-) TimerEvent: {}
+[19.743372] (-) TimerEvent: {}
+[19.829773] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.843590] (-) TimerEvent: {}
+[19.944544] (-) TimerEvent: {}
+[19.954315] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[20.044826] (-) TimerEvent: {}
+[20.094560] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[20.145036] (-) TimerEvent: {}
+[20.226471] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 70%] Built target rdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp\n'}
+[20.245416] (-) TimerEvent: {}
+[20.346356] (-) TimerEvent: {}
+[20.402710] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 70%] Built target rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[20.446566] (-) TimerEvent: {}
+[20.547471] (-) TimerEvent: {}
+[20.553735] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 70%] Built target rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c\n'}
+[20.647689] (-) TimerEvent: {}
+[20.655138] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 70%] Built target rdk_ai_gateway_msg\n'}
+[20.747935] (-) TimerEvent: {}
+[20.763642] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 74%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[20.848155] (-) TimerEvent: {}
+[20.949049] (-) TimerEvent: {}
+[21.049866] (-) TimerEvent: {}
+[21.150710] (-) TimerEvent: {}
+[21.251555] (-) TimerEvent: {}
+[21.352422] (-) TimerEvent: {}
+[21.453249] (-) TimerEvent: {}
+[21.554066] (-) TimerEvent: {}
+[21.654867] (-) TimerEvent: {}
+[21.755701] (-) TimerEvent: {}
+[21.856534] (-) TimerEvent: {}
+[21.957365] (-) TimerEvent: {}
+[22.058194] (-) TimerEvent: {}
+[22.159019] (-) TimerEvent: {}
+[22.259846] (-) TimerEvent: {}
+[22.360660] (-) TimerEvent: {}
+[22.461489] (-) TimerEvent: {}
+[22.562305] (-) TimerEvent: {}
+[22.663121] (-) TimerEvent: {}
+[22.763921] (-) TimerEvent: {}
+[22.864713] (-) TimerEvent: {}
+[22.965536] (-) TimerEvent: {}
+[23.066365] (-) TimerEvent: {}
+[23.167301] (-) TimerEvent: {}
+[23.185938] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 74%] Built target rdk_ai_gateway_msg__py\n'}
+[23.267521] (-) TimerEvent: {}
+[23.292127] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_generator_py.dir/rosidl_generator_py/rdk_ai_gateway_msg/srv/_text_to_text_s.c.o\x1b[0m\n'}
+[23.367719] (-) TimerEvent: {}
+[23.468595] (-) TimerEvent: {}
+[23.569470] (-) TimerEvent: {}
+[23.670338] (-) TimerEvent: {}
+[23.771200] (-) TimerEvent: {}
+[23.872239] (-) TimerEvent: {}
+[23.967127] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rdk_ai_gateway_msg/librdk_ai_gateway_msg__rosidl_generator_py.so\x1b[0m\n'}
+[23.972374] (-) TimerEvent: {}
+[24.073514] (-) TimerEvent: {}
+[24.174420] (-) TimerEvent: {}
+[24.204405] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 80%] Built target rdk_ai_gateway_msg__rosidl_generator_py\n'}
+[24.274663] (-) TimerEvent: {}
+[24.299813] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[24.300652] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[24.301235] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[24.374874] (-) TimerEvent: {}
+[24.475839] (-) TimerEvent: {}
+[24.576747] (-) TimerEvent: {}
+[24.677687] (-) TimerEvent: {}
+[24.778628] (-) TimerEvent: {}
+[24.879561] (-) TimerEvent: {}
+[24.882814] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[24.883629] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[24.884218] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[24.979816] (-) TimerEvent: {}
+[25.081044] (-) TimerEvent: {}
+[25.108474] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[100%] Built target rdk_ai_gateway_msg__rosidl_typesupport_c__pyext\n'}
+[25.111235] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[100%] Built target rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.112056] (rdk_ai_gateway_msg) StdoutLine: {'line': b'[100%] Built target rdk_ai_gateway_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[25.170830] (rdk_ai_gateway_msg) CommandEnded: {'returncode': 0}
+[25.173744] (rdk_ai_gateway_msg) JobProgress: {'identifier': 'rdk_ai_gateway_msg', 'progress': 'install'}
+[25.181312] (-) TimerEvent: {}
+[25.218007] (rdk_ai_gateway_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/AI/talk/build/rdk_ai_gateway_msg'], 'cwd': '/home/sunrise/AI/talk/build/rdk_ai_gateway_msg', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.127.15 54557 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '0.50.5'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-e7cf467a-20df-4163-a1bb-6f71d044b480.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/AI/talk/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.cursor-server/cli/servers/Stable-96e5b01ca25f8fbd4c4c10bc69b15f6228c80770/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg:/home/sunrise/AI/talk/install/rdk_ai_gateway:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/AI/talk/build/rdk_ai_gateway_msg'), ('SSH_CONNECTION', '192.168.127.15 54557 192.168.127.10 22'), ('PYTHONPATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages:/home/sunrise/AI/talk/build/rdk_ai_gateway:/home/sunrise/AI/talk/install/rdk_ai_gateway/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg:/home/sunrise/AI/talk/install/rdk_ai_gateway:/opt/ros/humble')]), 'shell': False}
+[25.259579] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[25.261873] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[25.263298] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/ament_index/resource_index/rosidl_interfaces/rdk_ai_gateway_msg\n'}
+[25.281486] (-) TimerEvent: {}
+[25.303440] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[25.344973] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__functions.h\n'}
+[25.381709] (-) TimerEvent: {}
+[25.392465] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__struct.h\n'}
+[25.444345] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support.h\n'}
+[25.481965] (-) TimerEvent: {}
+[25.493465] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/text_to_text.h\n'}
+[25.548221] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/library_path.sh\n'}
+[25.582224] (-) TimerEvent: {}
+[25.597805] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/library_path.dsv\n'}
+[25.652818] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[25.682495] (-) TimerEvent: {}
+[25.701232] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__rosidl_typesupport_fastrtps_c.h\n'}
+[25.758764] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[25.782723] (-) TimerEvent: {}
+[25.806287] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__builder.hpp\n'}
+[25.855432] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__struct.hpp\n'}
+[25.882997] (-) TimerEvent: {}
+[25.906460] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__traits.hpp\n'}
+[25.958675] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support.hpp\n'}
+[25.983217] (-) TimerEvent: {}
+[26.004574] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/text_to_text.hpp\n'}
+[26.061050] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[26.083467] (-) TimerEvent: {}
+[26.109353] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.164222] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[26.183700] (-) TimerEvent: {}
+[26.212599] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__rosidl_typesupport_introspection_c.h\n'}
+[26.265941] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.283967] (-) TimerEvent: {}
+[26.314747] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/pythonpath.sh\n'}
+[26.360850] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/pythonpath.dsv\n'}
+[26.384231] (-) TimerEvent: {}
+[26.416763] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[26.465022] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[26.484461] (-) TimerEvent: {}
+[26.515829] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[26.566033] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[26.584684] (-) TimerEvent: {}
+[26.627664] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/__init__.py\n'}
+[26.674689] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_c.c\n'}
+[26.684956] (-) TimerEvent: {}
+[26.725181] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.776189] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[26.785314] (-) TimerEvent: {}
+[26.827270] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/librdk_ai_gateway_msg__rosidl_generator_py.so\n'}
+[26.876553] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.885504] (-) TimerEvent: {}
+[26.926493] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.976136] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[26.985691] (-) TimerEvent: {}
+[27.027115] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/__init__.py\n'}
+[27.077478] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/_text_to_text.py\n'}
+[27.085879] (-) TimerEvent: {}
+[27.126494] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/_text_to_text_s.c\n'}
+[27.181128] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.186221] (-) TimerEvent: {}
+[27.187933] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.191847] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Up-to-date symlink: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[27.195586] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/srv/TextToText.idl\n'}
+[27.245043] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/srv/TextToText.srv\n'}
+[27.286407] (-) TimerEvent: {}
+[27.295502] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/srv/TextToText_Request.msg\n'}
+[27.346722] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/srv/TextToText_Response.msg\n'}
+[27.386625] (-) TimerEvent: {}
+[27.397010] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/ament_index/resource_index/package_run_dependencies/rdk_ai_gateway_msg\n'}
+[27.443770] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/ament_index/resource_index/parent_prefix_path/rdk_ai_gateway_msg\n'}
+[27.483686] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/ament_prefix_path.sh\n'}
+[27.486800] (-) TimerEvent: {}
+[27.524362] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/ament_prefix_path.dsv\n'}
+[27.567540] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/path.sh\n'}
+[27.587002] (-) TimerEvent: {}
+[27.617544] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/path.dsv\n'}
+[27.668777] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/local_setup.bash\n'}
+[27.687239] (-) TimerEvent: {}
+[27.718754] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/local_setup.sh\n'}
+[27.769387] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/local_setup.zsh\n'}
+[27.787487] (-) TimerEvent: {}
+[27.818700] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/local_setup.dsv\n'}
+[27.867835] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/package.dsv\n'}
+[27.887714] (-) TimerEvent: {}
+[27.919749] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/ament_index/resource_index/packages/rdk_ai_gateway_msg\n'}
+[27.968429] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[27.987941] (-) TimerEvent: {}
+[28.017896] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[28.067551] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[28.088171] (-) TimerEvent: {}
+[28.117818] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[28.168913] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[28.188403] (-) TimerEvent: {}
+[28.217250] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[28.273632] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[28.288635] (-) TimerEvent: {}
+[28.322882] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msgConfig.cmake\n'}
+[28.371946] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msgConfig-version.cmake\n'}
+[28.388862] (-) TimerEvent: {}
+[28.424742] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/package.xml\n'}
+[28.475749] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_generator_c.so\n'}
+[28.482226] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_generator_c.so" to ""\n'}
+[28.484504] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[28.489181] (-) TimerEvent: {}
+[28.490897] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[28.493168] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[28.499674] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[28.502255] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_introspection_c.so\n'}
+[28.507199] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[28.509625] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_c.so\n'}
+[28.514104] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_c.so" to ""\n'}
+[28.514789] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[28.516581] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[28.517409] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_cpp.so\n'}
+[28.518685] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[28.589371] (-) TimerEvent: {}
+[28.690235] (-) TimerEvent: {}
+[28.729612] (rdk_ai_gateway_msg) StdoutLine: {'line': b"Listing '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg'...\n"}
+[28.730448] (rdk_ai_gateway_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/__init__.py'...\n"}
+[28.731071] (rdk_ai_gateway_msg) StdoutLine: {'line': b"Listing '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv'...\n"}
+[28.731643] (rdk_ai_gateway_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/__init__.py'...\n"}
+[28.732268] (rdk_ai_gateway_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/_text_to_text.py'...\n"}
+[28.770520] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_generator_py.so\n'}
+[28.773771] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/AI/talk/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_generator_py.so" to ""\n'}
+[28.775092] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_cExport.cmake\n'}
+[28.776479] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[28.777704] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[28.778928] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[28.780049] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_cppExport.cmake\n'}
+[28.780654] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[28.781252] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[28.781840] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[28.782441] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[28.783030] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_cExport.cmake\n'}
+[28.783603] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[28.784259] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[28.784850] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[28.785506] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_cppExport.cmake\n'}
+[28.786097] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[28.786724] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_pyExport.cmake\n'}
+[28.787314] (rdk_ai_gateway_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/AI/talk/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[28.790412] (-) TimerEvent: {}
+[28.801450] (rdk_ai_gateway_msg) CommandEnded: {'returncode': 0}
+[28.890624] (-) TimerEvent: {}
+[28.941488] (rdk_ai_gateway_msg) JobEnded: {'identifier': 'rdk_ai_gateway_msg', 'rc': 0}
+[28.944478] (-) EventReactorShutdown: {}

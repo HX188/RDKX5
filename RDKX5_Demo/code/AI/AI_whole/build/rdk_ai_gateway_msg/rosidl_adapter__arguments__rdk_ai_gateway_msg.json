@@ -1,0 +1,6 @@
+{
+  "package_name": "rdk_ai_gateway_msg",
+  "non_idl_tuples": [
+    "/home/sunrise/AI/AI_whole/src/rdk_ai_gateway_ros/rdk_ai_gateway_msg:srv/TextToText.srv"
+  ]
+}

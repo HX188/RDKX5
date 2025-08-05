@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rdk_ai_gateway_msg__py",
+		"source" : "/home/sunrise/AI/talk/build/rdk_ai_gateway_msg/rdk_ai_gateway_msg__py"
+	}
+}

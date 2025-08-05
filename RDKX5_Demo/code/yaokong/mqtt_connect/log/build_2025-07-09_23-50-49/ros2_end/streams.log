@@ -1,0 +1,105 @@
+[0.042s] Invoking command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/yaokong/mqtt_connect/src/ros2_end -DCMAKE_INSTALL_PREFIX=/home/sunrise/yaokong/mqtt_connect/install/ros2_end
+[0.332s] -- The C compiler identification is GNU 11.2.0
+[0.656s] -- The CXX compiler identification is GNU 11.2.0
+[0.689s] -- Detecting C compiler ABI info
+[1.044s] -- Detecting C compiler ABI info - done
+[1.108s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.109s] -- Detecting C compile features
+[1.111s] -- Detecting C compile features - done
+[1.125s] -- Detecting CXX compiler ABI info
+[1.521s] -- Detecting CXX compiler ABI info - done
+[1.584s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.585s] -- Detecting CXX compile features
+[1.587s] -- Detecting CXX compile features - done
+[1.597s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.468s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.958s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.133s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.155s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.193s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.254s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.541s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.551s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.920s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.052s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.234s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.269s] -- Looking for pthread.h
+[4.633s] -- Looking for pthread.h - found
+[4.635s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.011s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.016s] -- Found Threads: TRUE  
+[5.309s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[5.323s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.762s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.768s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.769s] -- Configured cppcheck include dirs: /home/sunrise/yaokong/mqtt_connect/src/ros2_end/include
+[5.769s] -- Configured cppcheck exclude dirs and/or files: 
+[5.774s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.774s] -- Configured cpplint exclude dirs and/or files: 
+[5.776s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.779s] -- Added test 'lint_cmake' to check CMake code style
+[5.781s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.786s] -- Added test 'uncrustify' to check C / C++ code style
+[5.786s] -- Configured uncrustify additional arguments: 
+[5.788s] -- Added test 'xmllint' to check XML markup files
+[5.794s] -- Configuring done
+[5.848s] -- Generating done
+[5.872s] -- Build files have been written to: /home/sunrise/yaokong/mqtt_connect/build/ros2_end
+[5.936s] Invoked command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/yaokong/mqtt_connect/src/ros2_end -DCMAKE_INSTALL_PREFIX=/home/sunrise/yaokong/mqtt_connect/install/ros2_end
+[5.957s] Invoking command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/yaokong/mqtt_connect/build/ros2_end -- -j8 -l8
+[6.158s] [ 60%] [32mBuilding CXX object CMakeFiles/main.dir/src/mqtt_c.cpp.o[0m
+[6.159s] [ 60%] [32mBuilding CXX object CMakeFiles/serial_sender_node.dir/src/serial_sender_node.cpp.o[0m
+[6.159s] [ 60%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[20.041s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[20.041s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:28:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[20.042s]    52 |         mqtt_ = new Mqtt_C([01;35m[K"tcp://broker.emqx.io:1883"[m[K, "c-client", "test", "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,
+[20.042s]       |                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[20.043s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:57:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[20.043s]    52 |         mqtt_ = new Mqtt_C("tcp://broker.emqx.io:1883", [01;35m[K"c-client"[m[K, "test", "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,
+[20.044s]       |                                                         [01;35m[K^~~~~~~~~~[m[K
+[20.044s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:69:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[20.045s]    52 |         mqtt_ = new Mqtt_C("tcp://broker.emqx.io:1883", "c-client", [01;35m[K"test"[m[K, "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,
+[20.045s]       |                                                                     [01;35m[K^~~~~~[m[K
+[20.046s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:77:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[20.046s]    52 |         mqtt_ = new Mqtt_C("tcp://broker.emqx.io:1883", "c-client", "test", [01;35m[K"test"[m[K, "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,
+[20.047s]       |                                                                             [01;35m[K^~~~~~[m[K
+[20.047s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:85:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[20.048s]    52 |         mqtt_ = new Mqtt_C("tcp://broker.emqx.io:1883", "c-client", "test", "test", [01;35m[K"/wechat_ros/mqtt"[m[K, 0, std::bind(&MinimalPublisher::getMqttMessage,
+[20.048s]       |                                                                                     [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+[20.063s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::getMqttMessage(void*, char*, int, MQTTClient_message*)[m[K’:
+[20.064s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:67:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontext[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.065s]    67 |     void getMqttMessage([01;35m[Kvoid *context[m[K, char *topicName, int topicLen, MQTTClient_message *message) {
+[20.065s]       |                         [01;35m[K~~~~~~^~~~~~~[m[K
+[20.065s] [01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:67:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtopicLen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[20.066s]    67 |     void getMqttMessage(void *context, char *topicName, [01;35m[Kint topicLen[m[K, MQTTClient_message *message) {
+[20.067s]       |                                                         [01;35m[K~~~~^~~~~~~~[m[K
+[31.444s] [ 80%] [32m[1mLinking CXX executable main[0m
+[32.833s] [ 80%] Built target main
+[55.219s] [100%] [32m[1mLinking CXX executable serial_sender_node[0m
+[58.161s] [100%] Built target serial_sender_node
+[58.211s] Invoked command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/yaokong/mqtt_connect/build/ros2_end -- -j8 -l8
+[58.259s] Invoking command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/yaokong/mqtt_connect/build/ros2_end
+[58.290s] -- Install configuration: ""
+[58.291s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/main
+[58.299s] -- Set runtime path of "/home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/main" to ""
+[58.299s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/serial_sender_node
+[58.322s] -- Set runtime path of "/home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/serial_sender_node" to ""
+[58.323s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end//launch
+[58.323s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end//launch/yao_kong.launch.py
+[58.324s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/package_run_dependencies/ros2_end
+[58.325s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/parent_prefix_path/ros2_end
+[58.325s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/ament_prefix_path.sh
+[58.326s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/ament_prefix_path.dsv
+[58.326s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/path.sh
+[58.327s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/path.dsv
+[58.328s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.bash
+[58.328s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.sh
+[58.329s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.zsh
+[58.329s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.dsv
+[58.330s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/package.dsv
+[58.330s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/packages/ros2_end
+[58.331s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/cmake/ros2_endConfig.cmake
+[58.331s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/cmake/ros2_endConfig-version.cmake
+[58.332s] -- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/package.xml
+[58.344s] Invoked command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/yaokong/mqtt_connect/build/ros2_end

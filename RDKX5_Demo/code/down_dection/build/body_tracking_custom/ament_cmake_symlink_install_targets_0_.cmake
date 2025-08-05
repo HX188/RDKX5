@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sunrise/down_dection/build/body_tracking_custom/body_tracking_custom" "TARGETS" "body_tracking_custom" "DESTINATION" "lib/body_tracking_custom")

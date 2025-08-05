@@ -1,0 +1,3 @@
+[console_scripts]
+fall_detector_node = fall_detector_py.fall_detector_node:main
+

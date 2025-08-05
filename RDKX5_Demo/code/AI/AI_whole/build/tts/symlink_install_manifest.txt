@@ -1,0 +1,16 @@
+/home/sunrise/AI/AI_whole/install/tts/lib/tts/tts_node
+/home/sunrise/AI/AI_whole/install/tts/share/ament_index/resource_index/package_run_dependencies/tts
+/home/sunrise/AI/AI_whole/install/tts/share/ament_index/resource_index/parent_prefix_path/tts
+/home/sunrise/AI/AI_whole/install/tts/share/tts/environment/ament_prefix_path.sh
+/home/sunrise/AI/AI_whole/install/tts/share/tts/environment/ament_prefix_path.dsv
+/home/sunrise/AI/AI_whole/install/tts/share/tts/environment/path.sh
+/home/sunrise/AI/AI_whole/install/tts/share/tts/environment/path.dsv
+/home/sunrise/AI/AI_whole/install/tts/share/tts/local_setup.bash
+/home/sunrise/AI/AI_whole/install/tts/share/tts/local_setup.sh
+/home/sunrise/AI/AI_whole/install/tts/share/tts/local_setup.zsh
+/home/sunrise/AI/AI_whole/install/tts/share/tts/local_setup.dsv
+/home/sunrise/AI/AI_whole/install/tts/share/tts/package.dsv
+/home/sunrise/AI/AI_whole/install/tts/share/ament_index/resource_index/packages/tts
+/home/sunrise/AI/AI_whole/install/tts/share/tts/cmake/ttsConfig.cmake
+/home/sunrise/AI/AI_whole/install/tts/share/tts/cmake/ttsConfig-version.cmake
+/home/sunrise/AI/AI_whole/install/tts/share/tts/package.xml

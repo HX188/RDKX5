@@ -1,0 +1,10 @@
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/uninstall.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/wheeltec_aiui_uninstall.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/wheeltec_aiui.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/test.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/edit_cache.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/rebuild_cache.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/list_install_components.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/install.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/install/local.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_aiui/CMakeFiles/install/strip.dir

@@ -1,0 +1,6 @@
+[0minvalid platform, build platform X3 default[0m
+[0mCMAKE_SYSROOT is [0m
+[0minvalid platform, build platform X3 default[0m
+[0mCMAKE_SYSROOT is [0m
+gmake[2]: 警告：文件“/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/main.cpp”的修改时间在未来 785303100 秒后
+gmake[2]: 警告：检测到时钟错误。您的构建版本可能是不完整的。

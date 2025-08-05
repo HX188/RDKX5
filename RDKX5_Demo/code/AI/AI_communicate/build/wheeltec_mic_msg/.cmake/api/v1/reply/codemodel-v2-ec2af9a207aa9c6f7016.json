@@ -1,0 +1,233 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-48eccf12537cf48a6406.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				},
+				{
+					"build" : "wheeltec_mic_msg__py",
+					"jsonFile" : "directory-wheeltec_mic_msg__py-ba3841340e7a83784c8c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg/wheeltec_mic_msg__py",
+					"targetIndexes" : 
+					[
+						5
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "wheeltec_mic_msg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_wheeltec_mic_msg_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_wheeltec_mic_msg_egg-9232a75a5c359b94b4f2.json",
+					"name" : "ament_cmake_python_build_wheeltec_mic_msg_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_symlink_wheeltec_mic_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_symlink_wheeltec_mic_msg-0431b23cf9714db6970a.json",
+					"name" : "ament_cmake_python_symlink_wheeltec_mic_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-758f91084b24ebd97510.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg-3578860c5f7a1c1ea131.json",
+					"name" : "wheeltec_mic_msg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__cpp-e10189c8f7ab1fa79328.json",
+					"name" : "wheeltec_mic_msg__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "wheeltec_mic_msg__py::@dafa715bc47340b7b65f",
+					"jsonFile" : "target-wheeltec_mic_msg__py-885087ebd35ead7f277d.json",
+					"name" : "wheeltec_mic_msg__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_generator_c-f3e515903dd15b04cbc2.json",
+					"name" : "wheeltec_mic_msg__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_generator_py-c2f79e4b3b16dbc4d7cc.json",
+					"name" : "wheeltec_mic_msg__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_c-0aae966f1c56d4096646.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_c__pyext-9bc6fe40e27bfa2338e8.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_cpp-a94a05217b190f11ae4c.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_fastrtps_c-c8e68558491a7f86406f.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext-5f78403adc9ea7f1bef5.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp-22d8790fc05f3d69c14b.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_introspection_c-e721d5ab226972b34304.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext-b82bf4c12111e56d2af4.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg__rosidl_typesupport_introspection_cpp-0168dfc5c442b7d850aa.json",
+					"name" : "wheeltec_mic_msg__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeltec_mic_msg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeltec_mic_msg_uninstall-401dc65591ccf162a552.json",
+					"name" : "wheeltec_mic_msg_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg",
+		"source" : "/home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_msg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

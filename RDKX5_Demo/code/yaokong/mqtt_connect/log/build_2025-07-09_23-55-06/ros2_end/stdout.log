@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target main[0m
+[ 40%] Built target serial_sender_node
+[ 60%] [32mBuilding CXX object CMakeFiles/main.dir/src/main.cpp.o[0m
+[ 80%] [32m[1mLinking CXX executable main[0m
+[100%] Built target main
+-- Install configuration: ""
+-- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/main
+-- Set runtime path of "/home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/main" to ""
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/lib/ros2_end/serial_sender_node
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end//launch
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end//launch/yao_kong.launch.py
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/package_run_dependencies/ros2_end
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/parent_prefix_path/ros2_end
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/ament_prefix_path.sh
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/path.sh
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/environment/path.dsv
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.bash
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.sh
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.zsh
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/local_setup.dsv
+-- Installing: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/package.dsv
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ament_index/resource_index/packages/ros2_end
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/cmake/ros2_endConfig.cmake
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/cmake/ros2_endConfig-version.cmake
+-- Up-to-date: /home/sunrise/yaokong/mqtt_connect/install/ros2_end/share/ros2_end/package.xml

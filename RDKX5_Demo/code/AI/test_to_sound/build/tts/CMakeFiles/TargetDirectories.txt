@@ -1,0 +1,10 @@
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/uninstall.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/tts_uninstall.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/tts_node.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/test.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/edit_cache.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/rebuild_cache.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/list_install_components.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/install.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/install/local.dir
+/home/sunrise/AI/test_to_sound/build/tts/CMakeFiles/install/strip.dir

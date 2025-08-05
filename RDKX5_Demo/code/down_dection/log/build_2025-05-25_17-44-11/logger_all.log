@@ -1,0 +1,161 @@
+[0.647s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.647s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa86208e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa87da530>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa87da530>>)
+[1.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.823s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.824s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.825s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/down_dection'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.827s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[1.904s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[1.905s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.906s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.907s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.908s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.909s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.910s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.911s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extensions ['ignore', 'ignore_ament_install']
+[1.912s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'ignore'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'ignore_ament_install'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extensions ['colcon_pkg']
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'colcon_pkg'
+[1.913s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extensions ['colcon_meta']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'colcon_meta'
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extensions ['ros']
+[1.914s] Level 1:colcon.colcon_core.package_identification:_identify(src/body_tracking_custom) by extension 'ros'
+[1.929s] DEBUG:colcon.colcon_core.package_identification:Package 'src/body_tracking_custom' with type 'ros.ament_cmake' and name 'body_tracking_custom'
+[1.929s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.930s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.052s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.133s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/down_dection/install/body_tracking_custom' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.134s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/down_dection/install/body_tracking_custom' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.138s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sunrise/down_dection/install
+[2.140s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 54 installed packages in /opt/tros/humble
+[2.153s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 287 installed packages in /opt/ros/humble
+[2.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.467s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'cmake_args' from command line to 'None'
+[2.467s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'cmake_target' from command line to 'None'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'cmake_clean_cache' from command line to 'False'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'cmake_clean_first' from command line to 'False'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'cmake_force_configure' from command line to 'False'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'ament_cmake_args' from command line to 'None'
+[2.468s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'catkin_cmake_args' from command line to 'None'
+[2.469s] Level 5:colcon.colcon_core.verb:set package 'body_tracking_custom' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.469s] DEBUG:colcon.colcon_core.verb:Building package 'body_tracking_custom' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/down_dection/build/body_tracking_custom', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/down_dection/install/body_tracking_custom', 'merge_install': False, 'path': '/home/sunrise/down_dection/src/body_tracking_custom', 'symlink_install': True, 'test_result_base': None}
+[2.470s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.475s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.476s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/down_dection/src/body_tracking_custom' with build type 'ament_cmake'
+[2.477s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/down_dection/src/body_tracking_custom'
+[2.487s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.488s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.488s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/down_dection/build/body_tracking_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/down_dection/src/body_tracking_custom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/down_dection/install/body_tracking_custom
+[9.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/down_dection/build/body_tracking_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/down_dection/src/body_tracking_custom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/down_dection/install/body_tracking_custom
+[9.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/down_dection/build/body_tracking_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/down_dection/build/body_tracking_custom -- -j8 -l8
+[71.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/down_dection/build/body_tracking_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/down_dection/build/body_tracking_custom -- -j8 -l8
+[71.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/down_dection/build/body_tracking_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/down_dection/build/body_tracking_custom
+[73.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(body_tracking_custom)
+[73.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/down_dection/build/body_tracking_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/down_dection/build/body_tracking_custom
+[73.174s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom' for CMake module files
+[73.181s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom' for CMake config files
+[73.183s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracking_custom', 'cmake_prefix_path')
+[73.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/hook/cmake_prefix_path.ps1'
+[73.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/hook/cmake_prefix_path.dsv'
+[73.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/hook/cmake_prefix_path.sh'
+[73.201s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/lib'
+[73.202s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/bin'
+[73.202s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/lib/pkgconfig/body_tracking_custom.pc'
+[73.204s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/lib/python3.10/site-packages'
+[73.206s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/bin'
+[73.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.ps1'
+[73.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.dsv'
+[73.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.sh'
+[73.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.bash'
+[73.226s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.zsh'
+[73.231s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/down_dection/install/body_tracking_custom/share/colcon-core/packages/body_tracking_custom)
+[73.236s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(body_tracking_custom)
+[73.238s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom' for CMake module files
+[73.242s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom' for CMake config files
+[73.243s] Level 1:colcon.colcon_core.shell:create_environment_hook('body_tracking_custom', 'cmake_prefix_path')
+[73.245s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/hook/cmake_prefix_path.ps1'
+[73.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/hook/cmake_prefix_path.dsv'
+[73.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/hook/cmake_prefix_path.sh'
+[73.254s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/lib'
+[73.255s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/bin'
+[73.255s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/lib/pkgconfig/body_tracking_custom.pc'
+[73.257s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/lib/python3.10/site-packages'
+[73.259s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/down_dection/install/body_tracking_custom/bin'
+[73.261s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.ps1'
+[73.265s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.dsv'
+[73.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.sh'
+[73.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.bash'
+[73.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.zsh'
+[73.276s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/down_dection/install/body_tracking_custom/share/colcon-core/packages/body_tracking_custom)
+[73.278s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[73.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[73.280s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[73.281s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[73.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[73.348s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[73.349s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[73.349s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[73.373s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[73.375s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/down_dection/install/local_setup.ps1'
+[73.385s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/down_dection/install/_local_setup_util_ps1.py'
+[73.397s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/down_dection/install/setup.ps1'
+[73.406s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/down_dection/install/local_setup.sh'
+[73.409s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/down_dection/install/_local_setup_util_sh.py'
+[73.414s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/down_dection/install/setup.sh'
+[73.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/down_dection/install/local_setup.bash'
+[73.425s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/down_dection/install/setup.bash'
+[73.432s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/down_dection/install/local_setup.zsh'
+[73.435s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/down_dection/install/setup.zsh'

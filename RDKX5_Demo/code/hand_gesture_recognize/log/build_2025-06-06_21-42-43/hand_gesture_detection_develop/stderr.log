@@ -1,0 +1,77 @@
+[0minvalid platform, build platform X3 default[0m
+[0mCMAKE_SYSROOT is [0m
+In file included from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/main.cpp:18[m[K:
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:106:36:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  106 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr gesture_value_pub_= nullptr;
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:106:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  106 |   rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr gesture_value_pub_= nullptr;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:106:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  106 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K gesture_value_pub_= nullptr;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:106:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kgesture_value_pub_[m[K’ does not name a type
+  106 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kgesture_value_pub_[m[K= nullptr;
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:15[m[K:
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:106:36:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+  106 |   rclcpp::Publisher<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr gesture_value_pub_= nullptr;
+      |                                    [01;31m[K^~~~~~[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:106:42:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  106 |   rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr gesture_value_pub_= nullptr;
+      |                                          [01;31m[K^[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:106:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+  106 |   rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K gesture_value_pub_= nullptr;
+      |                                             [01;31m[K^~~~~~~~~[m[K
+      |                                                      [32m[K;[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:106:55:[m[K [01;31m[Kerror: [m[K‘[01m[Kgesture_value_pub_[m[K’ does not name a type
+  106 |   rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kgesture_value_pub_[m[K= nullptr;
+      |                                                       [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hand_gesture_detection_develop.dir/build.make:76：CMakeFiles/hand_gesture_detection_develop.dir/src/main.cpp.o] 错误 1
+gmake[2]: *** 正在等待未完成的任务....
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:[m[K In constructor ‘[01m[Kinference::HandGestureDetNode::HandGestureDetNode(const string&, const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:162:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgesture_value_pub_[m[K’ was not declared in this scope
+  162 |   [01;31m[Kgesture_value_pub_[m[K = this->create_publisher<std_msgs::msg::String>("/gesture_value", 10);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:162:62:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Kcv::String[m[K’?
+  162 |   gesture_value_pub_ = this->create_publisher<std_msgs::msg::[01;31m[KString[m[K>("/gesture_value", 10);
+      |                                                              [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/base.hpp:58[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/matx.hpp:52[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core/mat.hpp:51[m[K,
+                 from [01m[K/opt/tros/humble/include/dnn_node/util/image_proc.h:22[m[K,
+                 from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:28[m[K:
+[01m[K/usr/include/opencv4/opencv2/core/cvstd.hpp:152:21:[m[K [01;36m[Knote: [m[K‘[01m[Kcv::String[m[K’ declared here
+  152 | typedef std::string [01;36m[KString[m[K;
+      |                     [01;36m[K^~~~~~[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:162:69:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kinference::HandGestureDetNode::create_publisher<<expression error> >(const char [15], int)[m[K’
+  162 |   gesture_value_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("/gesture_value", 10)[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/opt/tros/humble/include/dnn_node/dnn_node_data.h:23[m[K,
+                 from [01m[K/opt/tros/humble/include/dnn_node/dnn_node.h:22[m[K,
+                 from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:22[m[K,
+                 from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:15[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+   73 | [01;36m[KNode[m[K::create_publisher(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:73:1:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:162:69:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  162 |   gesture_value_pub_ = [01;31m[Kthis->create_publisher<std_msgs::msg::String>("/gesture_value", 10)[m[K;
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:[m[K In member function ‘[01m[Kvoid inference::HandGestureDetNode::Publish(ai_msgs::msg::PerceptionTargets_<std::allocator<void> >::ConstSharedPtr, ai_msgs::msg::Perf, const std::unordered_map<long unsigned int, std::shared_ptr<inference::HandGestureRes> >&)[m[K’:
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:308:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kint[m[K’} in assignment
+  308 |                   gesture_msg.data = [01;31m[KgestureToString(res)[m[K;
+      |                                      [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:309:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kgesture_value_pub_[m[K’ was not declared in this scope
+  309 |                   [01;31m[Kgesture_value_pub_[m[K->publish(gesture_msg);
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/hand_gesture_detection_develop.dir/build.make:90：CMakeFiles/hand_gesture_detection_develop.dir/src/hand_gesture_det_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hand_gesture_detection_develop.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

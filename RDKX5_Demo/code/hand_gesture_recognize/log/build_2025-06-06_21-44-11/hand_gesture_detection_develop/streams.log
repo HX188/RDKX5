@@ -1,0 +1,169 @@
+[0.048s] Invoking command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop
+[0.354s] -- The C compiler identification is GNU 11.2.0
+[0.679s] -- The CXX compiler identification is GNU 11.2.0
+[0.713s] -- Detecting C compiler ABI info
+[1.096s] -- Detecting C compiler ABI info - done
+[1.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.169s] -- Detecting C compile features
+[1.171s] -- Detecting C compile features - done
+[1.186s] -- Detecting CXX compiler ABI info
+[1.596s] -- Detecting CXX compiler ABI info - done
+[1.676s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.677s] -- Detecting CXX compile features
+[1.680s] -- Detecting CXX compile features - done
+[1.690s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.598s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.987s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.112s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.300s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.325s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.366s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.430s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.736s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.748s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.138s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.270s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.458s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.496s] -- Looking for pthread.h
+[4.884s] -- Looking for pthread.h - found
+[4.886s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.264s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.271s] -- Found Threads: TRUE  
+[5.569s] -- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)
+[5.855s] -- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)
+[5.863s] [0minvalid platform, build platform X3 default[0m
+[5.864s] [0mCMAKE_SYSROOT is [0m
+[6.264s] -- Configuring done
+[6.322s] -- Generating done
+[6.343s] -- Build files have been written to: /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop
+[6.406s] Invoked command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop
+[6.421s] Invoking command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop -- -j8 -l8
+[6.675s] [ 62%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/hand_gesture_det_node.cpp.o[0m
+[6.675s] [ 62%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_postprocess.cpp.o[0m
+[6.676s] [ 62%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_preprocess.cpp.o[0m
+[6.677s] [ 62%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/lmks_process.cpp.o[0m
+[6.678s] [ 62%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/main.cpp.o[0m
+[6.679s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_postprocess_util.cc.o[0m
+[6.680s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/threads/threadpool.cpp.o[0m
+[28.939s] [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:[m[K In member function ‘[01m[Kvoid inference::HandGestureDetNode::Publish(ai_msgs::msg::PerceptionTargets_<std::allocator<void> >::ConstSharedPtr, ai_msgs::msg::Perf, const std::unordered_map<long unsigned int, std::shared_ptr<inference::HandGestureRes> >&)[m[K’:
+[28.943s] [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:308:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kint[m[K’} in assignment
+[28.948s]   308 |                   gesture_msg.data = [01;31m[KgestureToString(res)[m[K;
+[28.950s]       |                                      [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+[28.950s]       |                                                     [01;31m[K|[m[K
+[28.951s]       |                                                     [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[28.952s] [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:309:46:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::publish(std_msgs::msg::Int32&)[m[K’
+[28.953s]   309 |                   [01;31m[Kgesture_value_pub_->publish(gesture_msg)[m[K;
+[28.953s]       |                   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[28.954s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[28.955s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[28.956s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[28.958s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[28.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[28.961s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[28.962s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[28.963s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[28.965s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[28.967s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[28.968s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node_data.h:23[m[K,
+[28.969s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node.h:22[m[K,
+[28.969s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:22[m[K,
+[28.970s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:15[m[K:
+[28.971s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:254:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::ros_message_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::ros_message_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::ros_message_type>::allocator_type> >::type>) [with T = T; MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[28.972s]   254 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, ROSMessageTypeDeleter> msg)
+[28.972s]       |   [01;36m[K^~~~~~~[m[K
+[28.973s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:254:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[28.974s] [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:309:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<std_msgs::msg::String_<std::allocator<void> > > >[m[K’
+[28.974s]   309 |                   [01;36m[Kgesture_value_pub_->publish(gesture_msg)[m[K;
+[28.975s]       |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[28.976s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[28.977s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[28.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[28.978s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[28.979s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[28.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[28.980s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[28.981s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[28.982s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[28.983s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[28.983s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node_data.h:23[m[K,
+[28.984s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node.h:22[m[K,
+[28.985s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:22[m[K,
+[28.985s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:15[m[K:
+[28.986s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:295:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::ros_message_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[28.987s]   295 |   [01;36m[Kpublish[m[K(const T & msg)
+[28.988s]       |   [01;36m[K^~~~~~~[m[K
+[28.988s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:295:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[28.989s] In file included from [01m[K/usr/include/c++/11/bits/move.h:57[m[K,
+[28.990s]                  from [01m[K/usr/include/c++/11/bits/stl_pair.h:59[m[K,
+[28.990s]                  from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[28.991s]                  from [01m[K/usr/include/c++/11/memory:63[m[K,
+[28.992s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:15[m[K,
+[28.993s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:15[m[K:
+[28.994s] /usr/include/c++/11/type_traits: In substitution of ‘[01m[Ktemplate<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void][m[K’:
+[28.994s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:295:3:[m[K   required by substitution of ‘[01m[Ktemplate<class T> std::enable_if_t<(rosidl_generator_traits::is_message<T>::value && std::is_same<T, std_msgs::msg::String_<std::allocator<void> > >::value), void> rclcpp::Publisher<std_msgs::msg::String_<std::allocator<void> > >::publish<T>(const T&) [with T = std_msgs::msg::Int32_<std::allocator<void> >][m[K’
+[28.995s] [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:309:46:[m[K   required from here
+[28.996s] [01m[K/usr/include/c++/11/type_traits:2585:11:[m[K [01;31m[Kerror: [m[Kno type named ‘[01m[Ktype[m[K’ in ‘[01m[Kstruct std::enable_if<false, void>[m[K’
+[28.997s]  2585 |     using [01;31m[Kenable_if_t[m[K = typename enable_if<_Cond, _Tp>::type;
+[28.997s]       |           [01;31m[K^~~~~~~~~~~[m[K
+[28.998s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[28.999s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[29.000s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[29.001s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[29.002s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[29.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[29.003s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[29.004s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[29.005s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[29.006s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[29.006s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node_data.h:23[m[K,
+[29.008s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node.h:22[m[K,
+[29.010s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:22[m[K,
+[29.012s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:15[m[K:
+[29.013s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:325:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<T, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type>::rebind_alloc<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>, std::allocator<typename rclcpp::TypeAdapter<MessageT>::custom_type> >::value, std::default_delete<typename rclcpp::TypeAdapter<MessageT>::custom_type>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Allocator>::rebind_traits<typename rclcpp::TypeAdapter<MessageT, void, void>::custom_type>::allocator_type> >::type>) [with T = T; MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[29.014s]   325 |   [01;36m[Kpublish[m[K(std::unique_ptr<T, PublishedTypeDeleter> msg)
+[29.015s]       |   [01;36m[K^~~~~~~[m[K
+[29.016s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:325:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[29.016s] [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:309:46:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<T, std::default_delete<std_msgs::msg::String_<std::allocator<void> > > >[m[K’
+[29.017s]   309 |                   [01;36m[Kgesture_value_pub_->publish(gesture_msg)[m[K;
+[29.020s]       |                   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+[29.022s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[29.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+[29.023s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+[29.024s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[29.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[29.025s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[29.026s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[29.027s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[29.028s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[29.029s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[29.029s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node_data.h:23[m[K,
+[29.030s]                  from [01m[K/opt/tros/humble/include/dnn_node/dnn_node.h:22[m[K,
+[29.031s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:22[m[K,
+[29.031s]                  from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:15[m[K:
+[29.032s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:367:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> std::enable_if_t<(typename rclcpp::TypeAdapter<MessageT>::is_specialized::value && std::is_same<T, typename rclcpp::TypeAdapter<MessageT>::custom_type>::value)> rclcpp::Publisher<MessageT, AllocatorT>::publish(const T&) [with T = T; MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[29.033s]   367 |   [01;36m[Kpublish[m[K(const T & msg)
+[29.034s]       |   [01;36m[K^~~~~~~[m[K
+[29.035s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:367:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[29.035s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:386:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_s][m[K’
+[29.036s]   386 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[29.037s]       |   [01;36m[K^~~~~~~[m[K
+[29.038s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:386:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_s&[m[K’}
+[29.038s]   386 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[29.039s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[29.041s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:392:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[29.041s]   392 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[29.042s]       |   [01;36m[K^~~~~~~[m[K
+[29.043s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:392:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[29.044s]   392 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[29.044s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[29.045s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:406:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<typename rclcpp::TypeAdapter<MessageT>::ros_message_type, AllocatorT>&&) [with MessageT = std_msgs::msg::String_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename rclcpp::TypeAdapter<MessageT>::ros_message_type = std_msgs::msg::String_<std::allocator<void> >][m[K’
+[29.046s]   406 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg)
+[29.047s]       |   [01;36m[K^~~~~~~[m[K
+[29.048s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:406:64:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd_msgs::msg::Int32[m[K’ {aka ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >[m[K’} to ‘[01m[Krclcpp::LoanedMessage<std_msgs::msg::String_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[29.049s]   406 |   publish([01;36m[Krclcpp::LoanedMessage<ROSMessageType, AllocatorT> && loaned_msg[m[K)
+[29.050s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[45.592s] gmake[2]: *** [CMakeFiles/hand_gesture_detection_develop.dir/build.make:90：CMakeFiles/hand_gesture_detection_develop.dir/src/hand_gesture_det_node.cpp.o] 错误 1
+[45.594s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hand_gesture_detection_develop.dir/all] 错误 2
+[45.597s] gmake: *** [Makefile:146：all] 错误 2
+[45.619s] Invoked command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop -- -j8 -l8

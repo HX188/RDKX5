@@ -1,0 +1,1553 @@
+[0.000000] (-) TimerEvent: {}
+[0.000562] (-) JobUnselected: {'identifier': 'fall_detector_py'}
+[0.000952] (body_tracking_custom) JobQueued: {'identifier': 'body_tracking_custom', 'dependencies': OrderedDict()}
+[0.002446] (body_tracking_custom) JobStarted: {'identifier': 'body_tracking_custom'}
+[0.051421] (body_tracking_custom) JobProgress: {'identifier': 'body_tracking_custom', 'progress': 'cmake'}
+[0.053449] (body_tracking_custom) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/down_dection/src/body_tracking_custom', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/down_dection/install/body_tracking_custom'], 'cwd': '/home/sunrise/down_dection/build/body_tracking_custom', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.127.15 61038 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/down_dection/src'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-db7cebbf-c3d0-42f1-8e5f-725ebfd76d7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/down_dection/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('CAM_TYPE', 'usb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/down_dection/install/fall_detector_py:/home/sunrise/down_dection/install/body_tracking_custom:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/down_dection/build/body_tracking_custom'), ('SSH_CONNECTION', '192.168.127.15 61038 192.168.127.10 22'), ('PYTHONPATH', '/home/sunrise/down_dection/build/fall_detector_py:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/down_dection/install/body_tracking_custom:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[0.098916] (-) TimerEvent: {}
+[0.199855] (-) TimerEvent: {}
+[0.300881] (-) TimerEvent: {}
+[0.401834] (-) TimerEvent: {}
+[0.502756] (-) TimerEvent: {}
+[0.603717] (-) TimerEvent: {}
+[0.694138] (body_tracking_custom) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.703878] (-) TimerEvent: {}
+[0.804794] (-) TimerEvent: {}
+[0.905791] (-) TimerEvent: {}
+[1.007047] (-) TimerEvent: {}
+[1.108359] (-) TimerEvent: {}
+[1.209888] (-) TimerEvent: {}
+[1.311609] (-) TimerEvent: {}
+[1.383862] (body_tracking_custom) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.411843] (-) TimerEvent: {}
+[1.443663] (body_tracking_custom) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.512024] (-) TimerEvent: {}
+[1.612991] (-) TimerEvent: {}
+[1.713924] (-) TimerEvent: {}
+[1.814912] (-) TimerEvent: {}
+[1.845435] (body_tracking_custom) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.912900] (body_tracking_custom) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.915019] (-) TimerEvent: {}
+[1.915591] (body_tracking_custom) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.918352] (body_tracking_custom) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.936796] (body_tracking_custom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.015291] (-) TimerEvent: {}
+[2.116359] (-) TimerEvent: {}
+[2.217335] (-) TimerEvent: {}
+[2.318286] (-) TimerEvent: {}
+[2.376622] (body_tracking_custom) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.418553] (-) TimerEvent: {}
+[2.457133] (body_tracking_custom) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.458496] (body_tracking_custom) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.460982] (body_tracking_custom) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.482205] (body_tracking_custom) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.518763] (-) TimerEvent: {}
+[2.619868] (-) TimerEvent: {}
+[2.720817] (-) TimerEvent: {}
+[2.821897] (-) TimerEvent: {}
+[2.922886] (-) TimerEvent: {}
+[3.023840] (-) TimerEvent: {}
+[3.124916] (-) TimerEvent: {}
+[3.225922] (-) TimerEvent: {}
+[3.326791] (-) TimerEvent: {}
+[3.427638] (-) TimerEvent: {}
+[3.468589] (body_tracking_custom) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.527830] (-) TimerEvent: {}
+[3.628675] (-) TimerEvent: {}
+[3.729524] (-) TimerEvent: {}
+[3.830377] (-) TimerEvent: {}
+[3.914332] (body_tracking_custom) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.930562] (-) TimerEvent: {}
+[4.031425] (-) TimerEvent: {}
+[4.073279] (body_tracking_custom) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[4.131642] (-) TimerEvent: {}
+[4.232573] (-) TimerEvent: {}
+[4.328286] (body_tracking_custom) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.332720] (-) TimerEvent: {}
+[4.361458] (body_tracking_custom) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.416873] (body_tracking_custom) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.432949] (-) TimerEvent: {}
+[4.501965] (body_tracking_custom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.533184] (-) TimerEvent: {}
+[4.608820] (body_tracking_custom) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.633375] (-) TimerEvent: {}
+[4.734247] (-) TimerEvent: {}
+[4.835171] (-) TimerEvent: {}
+[4.911065] (body_tracking_custom) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.928251] (body_tracking_custom) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.935428] (-) TimerEvent: {}
+[5.036571] (-) TimerEvent: {}
+[5.137569] (-) TimerEvent: {}
+[5.238477] (-) TimerEvent: {}
+[5.339575] (-) TimerEvent: {}
+[5.408176] (body_tracking_custom) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[5.439795] (-) TimerEvent: {}
+[5.540699] (-) TimerEvent: {}
+[5.554824] (body_tracking_custom) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[5.640941] (-) TimerEvent: {}
+[5.741995] (-) TimerEvent: {}
+[5.765121] (body_tracking_custom) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[5.823175] (body_tracking_custom) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[5.842230] (-) TimerEvent: {}
+[5.943292] (-) TimerEvent: {}
+[6.044232] (-) TimerEvent: {}
+[6.145198] (-) TimerEvent: {}
+[6.246211] (-) TimerEvent: {}
+[6.248801] (body_tracking_custom) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[6.250748] (body_tracking_custom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[6.346436] (-) TimerEvent: {}
+[6.447421] (-) TimerEvent: {}
+[6.548394] (-) TimerEvent: {}
+[6.649615] (body_tracking_custom) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[6.650542] (-) TimerEvent: {}
+[6.654742] (body_tracking_custom) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[6.750806] (-) TimerEvent: {}
+[6.851840] (-) TimerEvent: {}
+[6.953102] (-) TimerEvent: {}
+[7.054169] (-) TimerEvent: {}
+[7.101297] (body_tracking_custom) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[7.154393] (-) TimerEvent: {}
+[7.255323] (-) TimerEvent: {}
+[7.353379] (body_tracking_custom) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[7.355446] (-) TimerEvent: {}
+[7.409505] (body_tracking_custom) StdoutLine: {'line': b'-- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)\n'}
+[7.455682] (-) TimerEvent: {}
+[7.556666] (-) TimerEvent: {}
+[7.657624] (-) TimerEvent: {}
+[7.758584] (-) TimerEvent: {}
+[7.859550] (-) TimerEvent: {}
+[7.885307] (body_tracking_custom) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") \n'}
+[7.959751] (-) TimerEvent: {}
+[8.060708] (-) TimerEvent: {}
+[8.161562] (-) TimerEvent: {}
+[8.262448] (-) TimerEvent: {}
+[8.335442] (body_tracking_custom) StdoutLine: {'line': b'-- Configuring done\n'}
+[8.362633] (-) TimerEvent: {}
+[8.414310] (body_tracking_custom) StdoutLine: {'line': b'-- Generating done\n'}
+[8.439507] (body_tracking_custom) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/down_dection/build/body_tracking_custom\n'}
+[8.462847] (-) TimerEvent: {}
+[8.510977] (body_tracking_custom) CommandEnded: {'returncode': 0}
+[8.513842] (body_tracking_custom) JobProgress: {'identifier': 'body_tracking_custom', 'progress': 'build'}
+[8.517671] (body_tracking_custom) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/down_dection/build/body_tracking_custom', '--', '-j8', '-l8'], 'cwd': '/home/sunrise/down_dection/build/body_tracking_custom', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.127.15 61038 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/down_dection/src'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-db7cebbf-c3d0-42f1-8e5f-725ebfd76d7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/down_dection/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('CAM_TYPE', 'usb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/down_dection/install/fall_detector_py:/home/sunrise/down_dection/install/body_tracking_custom:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/down_dection/build/body_tracking_custom'), ('SSH_CONNECTION', '192.168.127.15 61038 192.168.127.10 22'), ('PYTHONPATH', '/home/sunrise/down_dection/build/fall_detector_py:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/down_dection/install/body_tracking_custom:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[8.563050] (-) TimerEvent: {}
+[8.664002] (-) TimerEvent: {}
+[8.738480] (body_tracking_custom) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/body_tracking_custom.dir/src/main.cpp.o\x1b[0m\n'}
+[8.739537] (body_tracking_custom) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/body_tracking_custom.dir/src/smart_subscriber.cpp.o\x1b[0m\n'}
+[8.740223] (body_tracking_custom) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/body_tracking_custom.dir/src/util.cpp.o\x1b[0m\n'}
+[8.740832] (body_tracking_custom) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/body_tracking_custom.dir/src/body_tracking.cpp.o\x1b[0m\n'}
+[8.764268] (-) TimerEvent: {}
+[8.865374] (-) TimerEvent: {}
+[8.966392] (-) TimerEvent: {}
+[9.067452] (-) TimerEvent: {}
+[9.168419] (-) TimerEvent: {}
+[9.277667] (-) TimerEvent: {}
+[9.378731] (-) TimerEvent: {}
+[9.480059] (-) TimerEvent: {}
+[9.581067] (-) TimerEvent: {}
+[9.682126] (-) TimerEvent: {}
+[9.783036] (-) TimerEvent: {}
+[9.883968] (-) TimerEvent: {}
+[9.984904] (-) TimerEvent: {}
+[10.085851] (-) TimerEvent: {}
+[10.186805] (-) TimerEvent: {}
+[10.287740] (-) TimerEvent: {}
+[10.388711] (-) TimerEvent: {}
+[10.489752] (-) TimerEvent: {}
+[10.590824] (-) TimerEvent: {}
+[10.691922] (-) TimerEvent: {}
+[10.792967] (-) TimerEvent: {}
+[10.894026] (-) TimerEvent: {}
+[10.996081] (-) TimerEvent: {}
+[11.097142] (-) TimerEvent: {}
+[11.198276] (-) TimerEvent: {}
+[11.299327] (-) TimerEvent: {}
+[11.400420] (-) TimerEvent: {}
+[11.501505] (-) TimerEvent: {}
+[11.602582] (-) TimerEvent: {}
+[11.703719] (-) TimerEvent: {}
+[11.804885] (-) TimerEvent: {}
+[11.906023] (-) TimerEvent: {}
+[12.007150] (-) TimerEvent: {}
+[12.108232] (-) TimerEvent: {}
+[12.209343] (-) TimerEvent: {}
+[12.310441] (-) TimerEvent: {}
+[12.411508] (-) TimerEvent: {}
+[12.512588] (-) TimerEvent: {}
+[12.613676] (-) TimerEvent: {}
+[12.714735] (-) TimerEvent: {}
+[12.815780] (-) TimerEvent: {}
+[12.916824] (-) TimerEvent: {}
+[13.018145] (-) TimerEvent: {}
+[13.119256] (-) TimerEvent: {}
+[13.220285] (-) TimerEvent: {}
+[13.321371] (-) TimerEvent: {}
+[13.422452] (-) TimerEvent: {}
+[13.523554] (-) TimerEvent: {}
+[13.624557] (-) TimerEvent: {}
+[13.725561] (-) TimerEvent: {}
+[13.826642] (-) TimerEvent: {}
+[13.927721] (-) TimerEvent: {}
+[14.028791] (-) TimerEvent: {}
+[14.129902] (-) TimerEvent: {}
+[14.231032] (-) TimerEvent: {}
+[14.332176] (-) TimerEvent: {}
+[14.433294] (-) TimerEvent: {}
+[14.534450] (-) TimerEvent: {}
+[14.635543] (-) TimerEvent: {}
+[14.736628] (-) TimerEvent: {}
+[14.837687] (-) TimerEvent: {}
+[14.938751] (-) TimerEvent: {}
+[15.039880] (-) TimerEvent: {}
+[15.140917] (-) TimerEvent: {}
+[15.241971] (-) TimerEvent: {}
+[15.343015] (-) TimerEvent: {}
+[15.444100] (-) TimerEvent: {}
+[15.545851] (-) TimerEvent: {}
+[15.646987] (-) TimerEvent: {}
+[15.748140] (-) TimerEvent: {}
+[15.849367] (-) TimerEvent: {}
+[15.950509] (-) TimerEvent: {}
+[16.059347] (-) TimerEvent: {}
+[16.161778] (-) TimerEvent: {}
+[16.263202] (-) TimerEvent: {}
+[16.364428] (-) TimerEvent: {}
+[16.465409] (-) TimerEvent: {}
+[16.566462] (-) TimerEvent: {}
+[16.667463] (-) TimerEvent: {}
+[16.768485] (-) TimerEvent: {}
+[16.869528] (-) TimerEvent: {}
+[16.970510] (-) TimerEvent: {}
+[17.071472] (-) TimerEvent: {}
+[17.172444] (-) TimerEvent: {}
+[17.273716] (-) TimerEvent: {}
+[17.374749] (-) TimerEvent: {}
+[17.475761] (-) TimerEvent: {}
+[17.576863] (-) TimerEvent: {}
+[17.677992] (-) TimerEvent: {}
+[17.779179] (-) TimerEvent: {}
+[17.880300] (-) TimerEvent: {}
+[17.981417] (-) TimerEvent: {}
+[18.082511] (-) TimerEvent: {}
+[18.183586] (-) TimerEvent: {}
+[18.284677] (-) TimerEvent: {}
+[18.385788] (-) TimerEvent: {}
+[18.486919] (-) TimerEvent: {}
+[18.588022] (-) TimerEvent: {}
+[18.689158] (-) TimerEvent: {}
+[18.790244] (-) TimerEvent: {}
+[18.891366] (-) TimerEvent: {}
+[18.992472] (-) TimerEvent: {}
+[19.093573] (-) TimerEvent: {}
+[19.194655] (-) TimerEvent: {}
+[19.295762] (-) TimerEvent: {}
+[19.396911] (-) TimerEvent: {}
+[19.498026] (-) TimerEvent: {}
+[19.599190] (-) TimerEvent: {}
+[19.700283] (-) TimerEvent: {}
+[19.801387] (-) TimerEvent: {}
+[19.902510] (-) TimerEvent: {}
+[20.003593] (-) TimerEvent: {}
+[20.104685] (-) TimerEvent: {}
+[20.205772] (-) TimerEvent: {}
+[20.306856] (-) TimerEvent: {}
+[20.407956] (-) TimerEvent: {}
+[20.509071] (-) TimerEvent: {}
+[20.610193] (-) TimerEvent: {}
+[20.711281] (-) TimerEvent: {}
+[20.812347] (-) TimerEvent: {}
+[20.913427] (-) TimerEvent: {}
+[21.014526] (-) TimerEvent: {}
+[21.115618] (-) TimerEvent: {}
+[21.216710] (-) TimerEvent: {}
+[21.317794] (-) TimerEvent: {}
+[21.418890] (-) TimerEvent: {}
+[21.520023] (-) TimerEvent: {}
+[21.621117] (-) TimerEvent: {}
+[21.722189] (-) TimerEvent: {}
+[21.823291] (-) TimerEvent: {}
+[21.924392] (-) TimerEvent: {}
+[22.025503] (-) TimerEvent: {}
+[22.126614] (-) TimerEvent: {}
+[22.227712] (-) TimerEvent: {}
+[22.328812] (-) TimerEvent: {}
+[22.429957] (-) TimerEvent: {}
+[22.531038] (-) TimerEvent: {}
+[22.632112] (-) TimerEvent: {}
+[22.733180] (-) TimerEvent: {}
+[22.834266] (-) TimerEvent: {}
+[22.935346] (-) TimerEvent: {}
+[23.036441] (-) TimerEvent: {}
+[23.137487] (-) TimerEvent: {}
+[23.238559] (-) TimerEvent: {}
+[23.339674] (-) TimerEvent: {}
+[23.440763] (-) TimerEvent: {}
+[23.541826] (-) TimerEvent: {}
+[23.642923] (-) TimerEvent: {}
+[23.744011] (-) TimerEvent: {}
+[23.845112] (-) TimerEvent: {}
+[23.946213] (-) TimerEvent: {}
+[24.047300] (-) TimerEvent: {}
+[24.148380] (-) TimerEvent: {}
+[24.249525] (-) TimerEvent: {}
+[24.350586] (-) TimerEvent: {}
+[24.451701] (-) TimerEvent: {}
+[24.552794] (-) TimerEvent: {}
+[24.653875] (-) TimerEvent: {}
+[25.103973] (-) TimerEvent: {}
+[25.205049] (-) TimerEvent: {}
+[25.306166] (-) TimerEvent: {}
+[25.407318] (-) TimerEvent: {}
+[25.508484] (-) TimerEvent: {}
+[25.609698] (-) TimerEvent: {}
+[25.710810] (-) TimerEvent: {}
+[25.811923] (-) TimerEvent: {}
+[25.913048] (-) TimerEvent: {}
+[26.014167] (-) TimerEvent: {}
+[26.115263] (-) TimerEvent: {}
+[26.216348] (-) TimerEvent: {}
+[26.317447] (-) TimerEvent: {}
+[26.418562] (-) TimerEvent: {}
+[26.519712] (-) TimerEvent: {}
+[26.620836] (-) TimerEvent: {}
+[26.721931] (-) TimerEvent: {}
+[26.823068] (-) TimerEvent: {}
+[26.924180] (-) TimerEvent: {}
+[27.025270] (-) TimerEvent: {}
+[27.126435] (-) TimerEvent: {}
+[27.227513] (-) TimerEvent: {}
+[27.328596] (-) TimerEvent: {}
+[27.429787] (-) TimerEvent: {}
+[27.530895] (-) TimerEvent: {}
+[27.632009] (-) TimerEvent: {}
+[27.733095] (-) TimerEvent: {}
+[27.834196] (-) TimerEvent: {}
+[27.935294] (-) TimerEvent: {}
+[28.036400] (-) TimerEvent: {}
+[28.137504] (-) TimerEvent: {}
+[28.238615] (-) TimerEvent: {}
+[28.339793] (-) TimerEvent: {}
+[28.440858] (-) TimerEvent: {}
+[28.541876] (-) TimerEvent: {}
+[28.642859] (-) TimerEvent: {}
+[28.743835] (-) TimerEvent: {}
+[28.844809] (-) TimerEvent: {}
+[28.945795] (-) TimerEvent: {}
+[29.046776] (-) TimerEvent: {}
+[29.147746] (-) TimerEvent: {}
+[29.248730] (-) TimerEvent: {}
+[29.349810] (-) TimerEvent: {}
+[29.450996] (-) TimerEvent: {}
+[29.551983] (-) TimerEvent: {}
+[29.653093] (-) TimerEvent: {}
+[29.754106] (-) TimerEvent: {}
+[29.855118] (-) TimerEvent: {}
+[29.956194] (-) TimerEvent: {}
+[30.057284] (-) TimerEvent: {}
+[30.158347] (-) TimerEvent: {}
+[30.259478] (-) TimerEvent: {}
+[30.360558] (-) TimerEvent: {}
+[30.461662] (-) TimerEvent: {}
+[30.562792] (-) TimerEvent: {}
+[30.663909] (-) TimerEvent: {}
+[30.765022] (-) TimerEvent: {}
+[30.866067] (-) TimerEvent: {}
+[30.967075] (-) TimerEvent: {}
+[31.068055] (-) TimerEvent: {}
+[31.169060] (-) TimerEvent: {}
+[31.270087] (-) TimerEvent: {}
+[31.371075] (-) TimerEvent: {}
+[31.472059] (-) TimerEvent: {}
+[31.573065] (-) TimerEvent: {}
+[31.674045] (-) TimerEvent: {}
+[31.775020] (-) TimerEvent: {}
+[31.876014] (-) TimerEvent: {}
+[31.909220] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[31.910398] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[31.911043] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[31.911616] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[31.912164] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[31.912705] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[31.913227] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[31.913742] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[31.914246] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[31.914748] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[31.915250] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.915747] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[31.916248] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[31.916746] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[31.917233] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[31.917813] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kbool TrackingManager::RotateSwitch()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.918350] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:150:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[31.918933] (body_tracking_custom) StderrLine: {'line': b'  150 |                 \x1b[01;35m\x1b[K"track_id: %d, serial_lost_num: %d, thr: %d, stop rotate!"\x1b[m\x1b[K,\n'}
+[31.919538] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.920062] (body_tracking_custom) StderrLine: {'line': b'  151 |                 \x1b[32m\x1b[Ktrack_info_.track_id\x1b[m\x1b[K,\n'}
+[31.920580] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.921086] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[31.921572] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[31.922057] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:150:29:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[31.922557] (body_tracking_custom) StderrLine: {'line': b'  150 |                 "track_id: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, serial_lost_num: %d, thr: %d, stop rotate!",\n'}
+[31.923042] (body_tracking_custom) StderrLine: {'line': b'      |                            \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[31.923528] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[31.924006] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[31.924493] (body_tracking_custom) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[31.953251] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[31.955233] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[31.955932] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[31.956560] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[31.957152] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[31.957721] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[31.958269] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[31.958802] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[31.959439] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[31.959987] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[31.960507] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.961027] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[31.961595] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[31.962150] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[31.962676] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[31.963198] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrackingManager::DoRotateMove()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[31.963724] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:262:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[31.964274] (body_tracking_custom) StderrLine: {'line': b'  262 |                 \x1b[01;35m\x1b[K"Do rotate move, ts sec: %llu, nanosec: %llu"\x1b[m\x1b[K,\n'}
+[31.964782] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.965280] (body_tracking_custom) StderrLine: {'line': b'  263 |                 \x1b[32m\x1b[Ktrack_info_.frame_ts_sec\x1b[m\x1b[K,\n'}
+[31.965773] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.966262] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[31.966749] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[31.967279] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:262:45:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[31.967784] (body_tracking_custom) StderrLine: {'line': b'  262 |                 "Do rotate move, ts sec: \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K, nanosec: %llu",\n'}
+[31.968281] (body_tracking_custom) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[31.968798] (body_tracking_custom) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[31.969370] (body_tracking_custom) StderrLine: {'line': b'      |                                             \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[31.969921] (body_tracking_custom) StderrLine: {'line': b'      |                                          \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[31.970439] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[31.970956] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[31.971458] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[31.971941] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[31.972423] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[31.972963] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[31.973445] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[31.973934] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[31.974430] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[31.974922] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[31.975425] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[31.975927] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[31.976416] (-) TimerEvent: {}
+[31.976936] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[31.977625] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[31.978241] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[31.978804] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:262:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[31.979443] (body_tracking_custom) StderrLine: {'line': b'  262 |                 \x1b[01;35m\x1b[K"Do rotate move, ts sec: %llu, nanosec: %llu"\x1b[m\x1b[K,\n'}
+[31.980019] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.980625] (body_tracking_custom) StderrLine: {'line': b'  263 |                 track_info_.frame_ts_sec,\n'}
+[31.981181] (body_tracking_custom) StderrLine: {'line': b'  264 |                 \x1b[32m\x1b[Ktrack_info_.frame_ts_nanosec\x1b[m\x1b[K);\n'}
+[31.981776] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[31.982372] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[31.982947] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[31.983521] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:262:60:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[31.984146] (body_tracking_custom) StderrLine: {'line': b'  262 |                 "Do rotate move, ts sec: %llu, nanosec: \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K",\n'}
+[31.984748] (body_tracking_custom) StderrLine: {'line': b'      |                                                         \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[31.985373] (body_tracking_custom) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[31.985934] (body_tracking_custom) StderrLine: {'line': b'      |                                                            \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[31.986485] (body_tracking_custom) StderrLine: {'line': b'      |                                                         \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.014425] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.015502] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.016113] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.016704] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.017279] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.017832] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.018443] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.019019] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.019731] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.020338] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.020919] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.021469] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.022013] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.022562] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.023104] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.023642] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrackingManager::ProcessSmart(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.024176] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:420:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.024815] (body_tracking_custom) StderrLine: {'line': b'  420 |               \x1b[01;35m\x1b[K"process smart frame_ts %llu"\x1b[m\x1b[K,\n'}
+[32.025373] (body_tracking_custom) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.025912] (body_tracking_custom) StderrLine: {'line': b'  421 |               \x1b[32m\x1b[Kframe_ts\x1b[m\x1b[K);\n'}
+[32.026478] (body_tracking_custom) StderrLine: {'line': b'      |               \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[32.027090] (body_tracking_custom) StderrLine: {'line': b'      |               \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.027681] (body_tracking_custom) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.028264] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:420:42:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.028858] (body_tracking_custom) StderrLine: {'line': b'  420 |               "process smart frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K",\n'}
+[32.029509] (body_tracking_custom) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.030126] (body_tracking_custom) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.030736] (body_tracking_custom) StderrLine: {'line': b'      |                                          \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.032692] (body_tracking_custom) StderrLine: {'line': b'      |                                       \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.033549] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.034289] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.035031] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.035709] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.036382] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.037025] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.037674] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.038322] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.038980] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.039723] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.040373] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.041024] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.041687] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.042340] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.045175] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.046182] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:483:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.046973] (body_tracking_custom) StderrLine: {'line': b'  483 |                       \x1b[01;35m\x1b[K"track_id: %d, attr type: %s, val: %d"\x1b[m\x1b[K,\n'}
+[32.047651] (body_tracking_custom) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.048298] (body_tracking_custom) StderrLine: {'line': b'  484 |                       \x1b[32m\x1b[Ktarget.track_id\x1b[m\x1b[K,\n'}
+[32.048981] (body_tracking_custom) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.049757] (body_tracking_custom) StderrLine: {'line': b'      |                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.050434] (body_tracking_custom) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Klong unsigned int\x1b[m\x1b[K\n'}
+[32.052566] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:483:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.053355] (body_tracking_custom) StderrLine: {'line': b'  483 |                       "track_id: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, attr type: %s, val: %d",\n'}
+[32.054074] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.054753] (body_tracking_custom) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.056063] (body_tracking_custom) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.057530] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.058304] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.059010] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.059762] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.061107] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.061960] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.062719] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.063408] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.064068] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.066017] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.066882] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.067585] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.068256] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.069214] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.070490] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.071212] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.071935] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:483:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.072619] (body_tracking_custom) StderrLine: {'line': b'  483 |                       \x1b[01;35m\x1b[K"track_id: %d, attr type: %s, val: %d"\x1b[m\x1b[K,\n'}
+[32.073263] (body_tracking_custom) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.073908] (body_tracking_custom) StderrLine: {'line': b'......\n'}
+[32.074550] (body_tracking_custom) StderrLine: {'line': b'  486 |                       \x1b[32m\x1b[Kattr.value\x1b[m\x1b[K);\n'}
+[32.075182] (body_tracking_custom) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.075820] (body_tracking_custom) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.076435] (-) TimerEvent: {}
+[32.077040] (body_tracking_custom) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[32.077799] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:483:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.078477] (body_tracking_custom) StderrLine: {'line': b'  483 |                       "track_id: %d, attr type: %s, val: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[32.079184] (body_tracking_custom) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.080287] (body_tracking_custom) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.082250] (body_tracking_custom) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.083134] (body_tracking_custom) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[32.083951] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.084733] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.085432] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.086217] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.086932] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.087665] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.088382] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.089060] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.089868] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.090591] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.091266] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.091911] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.092548] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.093203] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.093844] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.094492] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:525:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.095154] (body_tracking_custom) StderrLine: {'line': b'  525 |                           \x1b[01;35m\x1b[K"track_id: %d, attr type: %s, val: %d"\x1b[m\x1b[K,\n'}
+[32.095801] (body_tracking_custom) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.096465] (body_tracking_custom) StderrLine: {'line': b'  526 |                           \x1b[32m\x1b[Ktarget.track_id\x1b[m\x1b[K,\n'}
+[32.097114] (body_tracking_custom) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.097753] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.098388] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[Klong unsigned int\x1b[m\x1b[K\n'}
+[32.099028] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:525:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.099751] (body_tracking_custom) StderrLine: {'line': b'  525 |                           "track_id: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, attr type: %s, val: %d",\n'}
+[32.100451] (body_tracking_custom) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.101089] (body_tracking_custom) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.102468] (body_tracking_custom) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.103358] (body_tracking_custom) StderrLine: {'line': b'      |                                      \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.104071] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.104747] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.105389] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.106019] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.106642] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.107262] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.107896] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.108521] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.109192] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.109863] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.110512] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.111149] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.111799] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.112452] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.113143] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.113771] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:525:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.114461] (body_tracking_custom) StderrLine: {'line': b'  525 |                           \x1b[01;35m\x1b[K"track_id: %d, attr type: %s, val: %d"\x1b[m\x1b[K,\n'}
+[32.115091] (body_tracking_custom) StderrLine: {'line': b'      |                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.115697] (body_tracking_custom) StderrLine: {'line': b'......\n'}
+[32.116349] (body_tracking_custom) StderrLine: {'line': b'  528 |                           \x1b[32m\x1b[Kattr.value\x1b[m\x1b[K);\n'}
+[32.116961] (body_tracking_custom) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.117563] (body_tracking_custom) StderrLine: {'line': b'      |                                \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.118181] (body_tracking_custom) StderrLine: {'line': b'      |                                \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[32.118780] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:525:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.119478] (body_tracking_custom) StderrLine: {'line': b'  525 |                           "track_id: %d, attr type: %s, val: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[32.120110] (body_tracking_custom) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.120725] (body_tracking_custom) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.121325] (body_tracking_custom) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.121937] (body_tracking_custom) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[32.122538] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.123149] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.123747] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.124354] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.124972] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.125581] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.126203] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.126818] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.127409] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.127998] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.128590] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.129228] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.129899] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.130666] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.131346] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.132043] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:563:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.132742] (body_tracking_custom) StderrLine: {'line': b'  563 |                     \x1b[01;35m\x1b[K"frame_ts %llu, track id: %d recved cancel gesture: %d"\x1b[m\x1b[K,\n'}
+[32.133395] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.134040] (body_tracking_custom) StderrLine: {'line': b'  564 |                     \x1b[32m\x1b[Kframe_ts\x1b[m\x1b[K,\n'}
+[32.134674] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[32.135302] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.135923] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.136532] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:563:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.137187] (body_tracking_custom) StderrLine: {'line': b'  563 |                     "frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K, track id: %d recved cancel gesture: %d",\n'}
+[32.137844] (body_tracking_custom) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.138462] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.139086] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.139808] (body_tracking_custom) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.140459] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.141105] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.141742] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.143089] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.143865] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.144549] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.145184] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.145800] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.146427] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.147101] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.147728] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.148355] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.148980] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.149697] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.150345] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.151018] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:563:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.151725] (body_tracking_custom) StderrLine: {'line': b'  563 |                     \x1b[01;35m\x1b[K"frame_ts %llu, track id: %d recved cancel gesture: %d"\x1b[m\x1b[K,\n'}
+[32.152396] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.153091] (body_tracking_custom) StderrLine: {'line': b'  564 |                     frame_ts,\n'}
+[32.153734] (body_tracking_custom) StderrLine: {'line': b'  565 |                     \x1b[32m\x1b[Ktrack_info_.track_id\x1b[m\x1b[K,\n'}
+[32.155148] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.155948] (body_tracking_custom) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.156612] (body_tracking_custom) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.157241] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:563:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.157877] (body_tracking_custom) StderrLine: {'line': b'  563 |                     "frame_ts %llu, track id: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K recved cancel gesture: %d",\n'}
+[32.158541] (body_tracking_custom) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.159242] (body_tracking_custom) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.159915] (body_tracking_custom) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.160557] (body_tracking_custom) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.161191] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.161818] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.162479] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.163107] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.163706] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.164340] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.164925] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.165530] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.166172] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.166773] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.167368] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.167989] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.168594] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.169249] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.169891] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.170504] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:578:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.171136] (body_tracking_custom) StderrLine: {'line': b'  578 |                         \x1b[01;35m\x1b[K"frame_ts %llu, track id: %d recved cancel gesture: %d"\x1b[m\x1b[K,\n'}
+[32.171732] (body_tracking_custom) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.172335] (body_tracking_custom) StderrLine: {'line': b'  579 |                         \x1b[32m\x1b[Kframe_ts\x1b[m\x1b[K,\n'}
+[32.172944] (body_tracking_custom) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[32.173524] (body_tracking_custom) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.174103] (body_tracking_custom) StderrLine: {'line': b'      |                         \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.174685] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:578:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.175330] (body_tracking_custom) StderrLine: {'line': b'  578 |                         "frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K, track id: %d recved cancel gesture: %d",\n'}
+[32.175936] (body_tracking_custom) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.176498] (-) TimerEvent: {}
+[32.177093] (body_tracking_custom) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.177837] (body_tracking_custom) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.178490] (body_tracking_custom) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.179139] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.179789] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.180425] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.181037] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.181642] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.182254] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.182928] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.183585] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.186212] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.187065] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.187761] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.188409] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.189052] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.189813] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.190458] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.191097] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:578:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.192155] (body_tracking_custom) StderrLine: {'line': b'  578 |                         \x1b[01;35m\x1b[K"frame_ts %llu, track id: %d recved cancel gesture: %d"\x1b[m\x1b[K,\n'}
+[32.192825] (body_tracking_custom) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.193448] (body_tracking_custom) StderrLine: {'line': b'  579 |                         frame_ts,\n'}
+[32.194067] (body_tracking_custom) StderrLine: {'line': b'  580 |                         \x1b[32m\x1b[Ktrack_info_.track_id\x1b[m\x1b[K,\n'}
+[32.194696] (body_tracking_custom) StderrLine: {'line': b'      |                         \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.196122] (body_tracking_custom) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.196845] (body_tracking_custom) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.197512] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:578:52:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.198161] (body_tracking_custom) StderrLine: {'line': b'  578 |                         "frame_ts %llu, track id: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K recved cancel gesture: %d",\n'}
+[32.198787] (body_tracking_custom) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.200168] (body_tracking_custom) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.200850] (body_tracking_custom) StderrLine: {'line': b'      |                                                    \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.201502] (body_tracking_custom) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.202145] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.202769] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.203389] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.203999] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.204624] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.206033] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.206698] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.207321] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.207934] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.208563] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.209222] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.209880] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.210555] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.211176] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.211784] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.212389] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:596:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.213073] (body_tracking_custom) StderrLine: {'line': b'  596 |                   \x1b[01;35m\x1b[K"find track fail! frame_ts %llu"\x1b[m\x1b[K,\n'}
+[32.213709] (body_tracking_custom) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.214322] (body_tracking_custom) StderrLine: {'line': b'  597 |                   \x1b[32m\x1b[Kframe_ts\x1b[m\x1b[K);\n'}
+[32.214920] (body_tracking_custom) StderrLine: {'line': b'      |                   \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[32.215518] (body_tracking_custom) StderrLine: {'line': b'      |                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.216124] (body_tracking_custom) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.216720] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:596:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.217314] (body_tracking_custom) StderrLine: {'line': b'  596 |                   "find track fail! frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K",\n'}
+[32.217891] (body_tracking_custom) StderrLine: {'line': b'      |                                              \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.218468] (body_tracking_custom) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.219072] (body_tracking_custom) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.219746] (body_tracking_custom) StderrLine: {'line': b'      |                                              \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.220355] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.220946] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.221572] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.222166] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.222773] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.223395] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.224052] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.224657] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.225283] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.225885] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.226481] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.227068] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.227662] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.228258] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.228849] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.229501] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:605:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.230159] (body_tracking_custom) StderrLine: {'line': b'  605 |                     \x1b[01;35m\x1b[K"frame_ts %llu, track id: %d serial lost num: %d"\x1b[m\x1b[K,\n'}
+[32.230775] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.231390] (body_tracking_custom) StderrLine: {'line': b'  606 |                     \x1b[32m\x1b[Kframe_ts\x1b[m\x1b[K,\n'}
+[32.232000] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[32.232609] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.233206] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.233810] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:605:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.234410] (body_tracking_custom) StderrLine: {'line': b'  605 |                     "frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K, track id: %d serial lost num: %d",\n'}
+[32.235014] (body_tracking_custom) StderrLine: {'line': b'      |                               \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.235614] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.236187] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.236799] (body_tracking_custom) StderrLine: {'line': b'      |                               \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.237481] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.238090] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.238676] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.239297] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.239901] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.240468] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.241034] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.241640] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.242255] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.242853] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.243451] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.244078] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.244704] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.245298] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.245926] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.246510] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:605:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.247122] (body_tracking_custom) StderrLine: {'line': b'  605 |                     \x1b[01;35m\x1b[K"frame_ts %llu, track id: %d serial lost num: %d"\x1b[m\x1b[K,\n'}
+[32.247710] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.248297] (body_tracking_custom) StderrLine: {'line': b'  606 |                     frame_ts,\n'}
+[32.248884] (body_tracking_custom) StderrLine: {'line': b'  607 |                     \x1b[32m\x1b[Ktrack_info_.track_id\x1b[m\x1b[K,\n'}
+[32.249578] (body_tracking_custom) StderrLine: {'line': b'      |                     \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.250192] (body_tracking_custom) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.250838] (body_tracking_custom) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.251447] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:605:48:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.252047] (body_tracking_custom) StderrLine: {'line': b'  605 |                     "frame_ts %llu, track id: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K serial lost num: %d",\n'}
+[32.252631] (body_tracking_custom) StderrLine: {'line': b'      |                                               \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.253205] (body_tracking_custom) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.253784] (body_tracking_custom) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.254374] (body_tracking_custom) StderrLine: {'line': b'      |                                               \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.254960] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.255560] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.256151] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.256749] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.257354] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.257953] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.258530] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.259165] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.259821] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.260413] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.261013] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.261651] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.262255] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.262860] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.263453] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.264064] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:614:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.264785] (body_tracking_custom) StderrLine: {'line': b'  614 |                      \x1b[01;35m\x1b[K"track id: %d serial lost num exceed limit: %d"\x1b[m\x1b[K,\n'}
+[32.265389] (body_tracking_custom) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.265991] (body_tracking_custom) StderrLine: {'line': b'  615 |                      \x1b[32m\x1b[Ktrack_info_.track_id\x1b[m\x1b[K,\n'}
+[32.266587] (body_tracking_custom) StderrLine: {'line': b'      |                      \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.267186] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.267786] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.268385] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:614:34:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.269052] (body_tracking_custom) StderrLine: {'line': b'  614 |                      "track id: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K serial lost num exceed limit: %d",\n'}
+[32.269750] (body_tracking_custom) StderrLine: {'line': b'      |                                 \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.270377] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.270995] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.271615] (body_tracking_custom) StderrLine: {'line': b'      |                                 \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.272241] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.272866] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.273481] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.274096] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.274699] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.275295] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.275903] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.276510] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.277071] (-) TimerEvent: {}
+[32.277660] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.278402] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.279060] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.279798] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.280431] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.281053] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.281669] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.282286] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:659:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.282963] (body_tracking_custom) StderrLine: {'line': b'  659 |                       \x1b[01;35m\x1b[K"track_id: %d, attr type: %s, val: %d"\x1b[m\x1b[K,\n'}
+[32.283618] (body_tracking_custom) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.284262] (body_tracking_custom) StderrLine: {'line': b'  660 |                       \x1b[32m\x1b[Ktarget.track_id\x1b[m\x1b[K,\n'}
+[32.284884] (body_tracking_custom) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.285545] (body_tracking_custom) StderrLine: {'line': b'      |                              \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.286242] (body_tracking_custom) StderrLine: {'line': b'      |                              \x1b[32m\x1b[Klong unsigned int\x1b[m\x1b[K\n'}
+[32.286928] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:659:35:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.287557] (body_tracking_custom) StderrLine: {'line': b'  659 |                       "track_id: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, attr type: %s, val: %d",\n'}
+[32.288172] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.288779] (body_tracking_custom) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.289436] (body_tracking_custom) StderrLine: {'line': b'      |                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.290046] (body_tracking_custom) StderrLine: {'line': b'      |                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.290641] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.291225] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.291820] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.292427] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.293039] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.293635] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.294278] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.294879] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.295474] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.296062] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.296694] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.297286] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.297866] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.298468] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.299056] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.299709] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:659:23:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.300360] (body_tracking_custom) StderrLine: {'line': b'  659 |                       \x1b[01;35m\x1b[K"track_id: %d, attr type: %s, val: %d"\x1b[m\x1b[K,\n'}
+[32.300972] (body_tracking_custom) StderrLine: {'line': b'      |                       \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.301572] (body_tracking_custom) StderrLine: {'line': b'......\n'}
+[32.302180] (body_tracking_custom) StderrLine: {'line': b'  662 |                       \x1b[32m\x1b[Kattr.value\x1b[m\x1b[K);\n'}
+[32.302774] (body_tracking_custom) StderrLine: {'line': b'      |                       \x1b[32m\x1b[K~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.303358] (body_tracking_custom) StderrLine: {'line': b'      |                            \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.303944] (body_tracking_custom) StderrLine: {'line': b'      |                            \x1b[32m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[32.304534] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:659:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.305139] (body_tracking_custom) StderrLine: {'line': b'  659 |                       "track_id: %d, attr type: %s, val: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[32.305743] (body_tracking_custom) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.306386] (body_tracking_custom) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.306991] (body_tracking_custom) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.307612] (body_tracking_custom) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[32.308261] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.308867] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.309547] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.310173] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.310779] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.311391] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.312011] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.312648] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.313303] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.313910] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.314521] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.315138] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.315751] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.316365] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.316980] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.317593] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:805:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.318234] (body_tracking_custom) StderrLine: {'line': b'  805 |                   \x1b[01;35m\x1b[K"update frame_ts %llu, %d"\x1b[m\x1b[K,\n'}
+[32.318843] (body_tracking_custom) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.319502] (body_tracking_custom) StderrLine: {'line': b'  806 |                   \x1b[32m\x1b[Kframe_ts\x1b[m\x1b[K,\n'}
+[32.320126] (body_tracking_custom) StderrLine: {'line': b'      |                   \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[32.320780] (body_tracking_custom) StderrLine: {'line': b'      |                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.321400] (body_tracking_custom) StderrLine: {'line': b'      |                   \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.322061] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:805:39:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.322675] (body_tracking_custom) StderrLine: {'line': b'  805 |                   "update frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K, %d",\n'}
+[32.323310] (body_tracking_custom) StderrLine: {'line': b'      |                                    \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.323923] (body_tracking_custom) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.324535] (body_tracking_custom) StderrLine: {'line': b'      |                                       \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.325148] (body_tracking_custom) StderrLine: {'line': b'      |                                    \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.325751] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.326353] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.326989] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.327601] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.328201] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.328801] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.329454] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.330108] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.330732] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.331359] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.331984] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.332600] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.333210] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.333823] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.334433] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.335046] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrackingManager::RunTrackLostProtectionStrategy()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.335660] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:894:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.336374] (body_tracking_custom) StderrLine: {'line': b'  894 |                 \x1b[01;35m\x1b[K"track lost warnning! serial_lost_face_head_num: %d"\x1b[m\x1b[K,\n'}
+[32.336985] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.337612] (body_tracking_custom) StderrLine: {'line': b'  895 |                 \x1b[32m\x1b[Ktrack_info_.serial_lost_face_head_num\x1b[m\x1b[K);\n'}
+[32.338219] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.338818] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.339477] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.340094] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:894:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.340710] (body_tracking_custom) StderrLine: {'line': b'  894 |                 "track lost warnning! serial_lost_face_head_num: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[32.341308] (body_tracking_custom) StderrLine: {'line': b'      |                                                                  \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.341909] (body_tracking_custom) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.342500] (body_tracking_custom) StderrLine: {'line': b'      |                                                                   \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.343096] (body_tracking_custom) StderrLine: {'line': b'      |                                                                  \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.343683] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.344266] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.344870] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.345521] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.346122] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.346718] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.347317] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.347930] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.348556] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.349208] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.349921] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.350575] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.351252] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.351896] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.352531] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.353148] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrackingManager::RunOverMovingProtectionStrategy()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.353769] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:928:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.354415] (body_tracking_custom) StderrLine: {'line': b'  928 |                 \x1b[01;35m\x1b[K"frame_ts %llu, robot over moving warnning! The angle between "\x1b[m\x1b[K\n'}
+[32.355017] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.355622] (body_tracking_custom) StderrLine: {'line': b'  929 | \x1b[01;35m\x1b[K                "robot and track is %d, less than limit %d, robot overmoving "\x1b[m\x1b[K\n'}
+[32.356223] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.356815] (body_tracking_custom) StderrLine: {'line': b'  930 | \x1b[01;35m\x1b[K                "strategy is activated!"\x1b[m\x1b[K,\n'}
+[32.357440] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.358092] (body_tracking_custom) StderrLine: {'line': b'  931 |                 \x1b[32m\x1b[Ktrack_info_.frame_ts\x1b[m\x1b[K,\n'}
+[32.358764] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.359448] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.360134] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.360844] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:928:30:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.361519] (body_tracking_custom) StderrLine: {'line': b'  928 |                 "frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K, robot over moving warnning! The angle between "\n'}
+[32.362152] (body_tracking_custom) StderrLine: {'line': b'      |                           \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.362778] (body_tracking_custom) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.363437] (body_tracking_custom) StderrLine: {'line': b'      |                              \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.364047] (body_tracking_custom) StderrLine: {'line': b'      |                           \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.364653] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.365264] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.365902] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.366511] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.367114] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.367728] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.368336] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.368947] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.369618] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.370230] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.370881] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.371485] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.372090] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.372723] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.373334] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.373996] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrackingManager::TrackingWithoutNavStrategy(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.374628] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:993:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.375258] (body_tracking_custom) StderrLine: {'line': b'  993 |                 \x1b[01;35m\x1b[K"update smart fail! msg frame_ts %llu, track frame_ts %llu"\x1b[m\x1b[K,\n'}
+[32.375903] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.376499] (body_tracking_custom) StderrLine: {'line': b'  994 |                 \x1b[32m\x1b[Kframe_ts\x1b[m\x1b[K,\n'}
+[32.377097] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~\x1b[m\x1b[K\n'}
+[32.377656] (-) TimerEvent: {}
+[32.378224] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.378898] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.379572] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:993:53:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.380198] (body_tracking_custom) StderrLine: {'line': b'  993 |                 "update smart fail! msg frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K, track frame_ts %llu",\n'}
+[32.380804] (body_tracking_custom) StderrLine: {'line': b'      |                                                  \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.381406] (body_tracking_custom) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.381998] (body_tracking_custom) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.382594] (body_tracking_custom) StderrLine: {'line': b'      |                                                  \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.383197] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.383796] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.384445] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.385071] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.385690] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.386364] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.386982] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.387590] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.388209] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.388820] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.389479] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.390091] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.390692] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.391299] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.391948] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.392563] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:993:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.393240] (body_tracking_custom) StderrLine: {'line': b'  993 |                 \x1b[01;35m\x1b[K"update smart fail! msg frame_ts %llu, track frame_ts %llu"\x1b[m\x1b[K,\n'}
+[32.393877] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.394546] (body_tracking_custom) StderrLine: {'line': b'  994 |                 frame_ts,\n'}
+[32.395157] (body_tracking_custom) StderrLine: {'line': b'  995 |                 \x1b[32m\x1b[Ktrack_info_.frame_ts\x1b[m\x1b[K);\n'}
+[32.395763] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.396365] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.396982] (body_tracking_custom) StderrLine: {'line': b'      |                             \x1b[32m\x1b[Kuint64_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.397607] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:993:74:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.398190] (body_tracking_custom) StderrLine: {'line': b'  993 |                 "update smart fail! msg frame_ts %llu, track frame_ts \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K",\n'}
+[32.398761] (body_tracking_custom) StderrLine: {'line': b'      |                                                                       \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.399391] (body_tracking_custom) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.399992] (body_tracking_custom) StderrLine: {'line': b'      |                                                                          \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.400583] (body_tracking_custom) StderrLine: {'line': b'      |                                                                       \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.401203] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.401788] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.402369] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.402955] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.403516] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.404072] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.404670] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.405231] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.405785] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.406343] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.406903] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.407493] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.408058] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.408615] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.409210] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.409867] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrackingManager::RunTrackingStrategy(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.410460] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1024:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.411058] (body_tracking_custom) StderrLine: {'line': b' 1024 |                 \x1b[01;35m\x1b[K"Run TrackingStrategy time ms diff: %llu"\x1b[m\x1b[K,\n'}
+[32.411634] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.412210] (body_tracking_custom) StderrLine: {'line': b' 1025 |                 \x1b[32m\x1b[Kpresent_tracking_ts - last_tracking_ts\x1b[m\x1b[K);\n'}
+[32.412784] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.413352] (body_tracking_custom) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.413915] (body_tracking_custom) StderrLine: {'line': b'      |                                     \x1b[32m\x1b[Klong unsigned int\x1b[m\x1b[K\n'}
+[32.414495] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1024:56:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.415111] (body_tracking_custom) StderrLine: {'line': b' 1024 |                 "Run TrackingStrategy time ms diff: \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K",\n'}
+[32.415703] (body_tracking_custom) StderrLine: {'line': b'      |                                                     \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.416322] (body_tracking_custom) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.416938] (body_tracking_custom) StderrLine: {'line': b'      |                                                        \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.417522] (body_tracking_custom) StderrLine: {'line': b'      |                                                     \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.418091] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.418667] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.419301] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.419906] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.420484] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.421057] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.421632] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.422208] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.422777] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.423340] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.423899] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.424456] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.425010] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.425572] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.426121] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.426676] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1036:15:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%llu\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.427261] (body_tracking_custom) StderrLine: {'line': b' 1036 |               \x1b[01;35m\x1b[K"Run TrackingStrategy time ms cost: %llu"\x1b[m\x1b[K,\n'}
+[32.427815] (body_tracking_custom) StderrLine: {'line': b'      |               \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.428373] (body_tracking_custom) StderrLine: {'line': b' 1037 |               \x1b[32m\x1b[Kpresent_tracking_ts - start_tracking_ts\x1b[m\x1b[K);\n'}
+[32.428957] (body_tracking_custom) StderrLine: {'line': b'      |               \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.429646] (body_tracking_custom) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.430238] (body_tracking_custom) StderrLine: {'line': b'      |                                   \x1b[32m\x1b[Klong unsigned int\x1b[m\x1b[K\n'}
+[32.430865] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1036:54:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.431449] (body_tracking_custom) StderrLine: {'line': b' 1036 |               "Run TrackingStrategy time ms cost: \x1b[01;36m\x1b[K%llu\x1b[m\x1b[K",\n'}
+[32.432030] (body_tracking_custom) StderrLine: {'line': b'      |                                                   \x1b[01;36m\x1b[K~~~^\x1b[m\x1b[K\n'}
+[32.432602] (body_tracking_custom) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.433170] (body_tracking_custom) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[Klong long unsigned int\x1b[m\x1b[K\n'}
+[32.433736] (body_tracking_custom) StderrLine: {'line': b'      |                                                   \x1b[32m\x1b[K%lu\x1b[m\x1b[K\n'}
+[32.434297] (body_tracking_custom) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[32.434868] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[32.435438] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[32.436005] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[32.436621] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[32.437197] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[32.437761] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[32.438321] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[32.438879] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[32.439536] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[32.440105] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[32.440671] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21\x1b[m\x1b[K,\n'}
+[32.441241] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28\x1b[m\x1b[K,\n'}
+[32.441802] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29\x1b[m\x1b[K,\n'}
+[32.442359] (body_tracking_custom) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15\x1b[m\x1b[K:\n'}
+[32.442915] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrackingManager::FeedSmart(const ConstSharedPtr&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[32.443516] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1049:17:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Ksize_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[32.444100] (body_tracking_custom) StderrLine: {'line': b' 1049 |                 \x1b[01;35m\x1b[K"smart queue len exceed limit: %d"\x1b[m\x1b[K,\n'}
+[32.444652] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.445207] (body_tracking_custom) StderrLine: {'line': b' 1050 |                 \x1b[32m\x1b[Kqueue_len_limit_\x1b[m\x1b[K);\n'}
+[32.445764] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[32.446327] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[32.446891] (body_tracking_custom) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Ksize_t {aka long unsigned int}\x1b[m\x1b[K\n'}
+[32.447465] (body_tracking_custom) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1049:49:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[32.448027] (body_tracking_custom) StderrLine: {'line': b' 1049 |                 "smart queue len exceed limit: \x1b[01;36m\x1b[K%d\x1b[m\x1b[K",\n'}
+[32.448579] (body_tracking_custom) StderrLine: {'line': b'      |                                                \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[32.449203] (body_tracking_custom) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[32.449802] (body_tracking_custom) StderrLine: {'line': b'      |                                                 \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[32.450374] (body_tracking_custom) StderrLine: {'line': b'      |                                                \x1b[32m\x1b[K%ld\x1b[m\x1b[K\n'}
+[32.477939] (-) TimerEvent: {}
+[32.579009] (-) TimerEvent: {}
+[32.680147] (-) TimerEvent: {}
+[32.781118] (-) TimerEvent: {}
+[32.882107] (-) TimerEvent: {}
+[32.983088] (-) TimerEvent: {}
+[33.084102] (-) TimerEvent: {}
+[33.185069] (-) TimerEvent: {}
+[33.286039] (-) TimerEvent: {}
+[33.386997] (-) TimerEvent: {}
+[33.487969] (-) TimerEvent: {}
+[33.588982] (-) TimerEvent: {}
+[33.690009] (-) TimerEvent: {}
+[33.790962] (-) TimerEvent: {}
+[33.891904] (-) TimerEvent: {}
+[33.992951] (-) TimerEvent: {}
+[34.093977] (-) TimerEvent: {}
+[34.195019] (-) TimerEvent: {}
+[34.296066] (-) TimerEvent: {}
+[34.397157] (-) TimerEvent: {}
+[34.498249] (-) TimerEvent: {}
+[34.599354] (-) TimerEvent: {}
+[34.700416] (-) TimerEvent: {}
+[34.801475] (-) TimerEvent: {}
+[34.902546] (-) TimerEvent: {}
+[35.003632] (-) TimerEvent: {}
+[35.104723] (-) TimerEvent: {}
+[35.205920] (-) TimerEvent: {}
+[35.306968] (-) TimerEvent: {}
+[35.408026] (-) TimerEvent: {}
+[35.509166] (-) TimerEvent: {}
+[35.610212] (-) TimerEvent: {}
+[35.711277] (-) TimerEvent: {}
+[35.812323] (-) TimerEvent: {}
+[35.913399] (-) TimerEvent: {}
+[36.014463] (-) TimerEvent: {}
+[36.115537] (-) TimerEvent: {}
+[36.216591] (-) TimerEvent: {}
+[36.317662] (-) TimerEvent: {}
+[36.418754] (-) TimerEvent: {}
+[36.519869] (-) TimerEvent: {}
+[36.620840] (-) TimerEvent: {}
+[36.721918] (-) TimerEvent: {}
+[36.822983] (-) TimerEvent: {}
+[36.924063] (-) TimerEvent: {}
+[37.025154] (-) TimerEvent: {}
+[37.126227] (-) TimerEvent: {}
+[37.227352] (-) TimerEvent: {}
+[37.328416] (-) TimerEvent: {}
+[37.429526] (-) TimerEvent: {}
+[37.530588] (-) TimerEvent: {}
+[37.631662] (-) TimerEvent: {}
+[37.732623] (-) TimerEvent: {}
+[37.833674] (-) TimerEvent: {}
+[37.934653] (-) TimerEvent: {}
+[38.035667] (-) TimerEvent: {}
+[38.136761] (-) TimerEvent: {}
+[38.237808] (-) TimerEvent: {}
+[38.338862] (-) TimerEvent: {}
+[38.439955] (-) TimerEvent: {}
+[38.541015] (-) TimerEvent: {}
+[38.642111] (-) TimerEvent: {}
+[38.743161] (-) TimerEvent: {}
+[38.844218] (-) TimerEvent: {}
+[38.945262] (-) TimerEvent: {}
+[39.046359] (-) TimerEvent: {}
+[39.147447] (-) TimerEvent: {}
+[39.248501] (-) TimerEvent: {}
+[39.349624] (-) TimerEvent: {}
+[39.450734] (-) TimerEvent: {}
+[39.551777] (-) TimerEvent: {}
+[39.652824] (-) TimerEvent: {}
+[39.753869] (-) TimerEvent: {}
+[39.854922] (-) TimerEvent: {}
+[39.955993] (-) TimerEvent: {}
+[40.057023] (-) TimerEvent: {}
+[40.158092] (-) TimerEvent: {}
+[40.259243] (-) TimerEvent: {}
+[40.360339] (-) TimerEvent: {}
+[40.461401] (-) TimerEvent: {}
+[40.562520] (-) TimerEvent: {}
+[40.663563] (-) TimerEvent: {}
+[40.764593] (-) TimerEvent: {}
+[40.865629] (-) TimerEvent: {}
+[40.966654] (-) TimerEvent: {}
+[41.067665] (-) TimerEvent: {}
+[41.168692] (-) TimerEvent: {}
+[41.269793] (-) TimerEvent: {}
+[41.370827] (-) TimerEvent: {}
+[41.471852] (-) TimerEvent: {}
+[41.572909] (-) TimerEvent: {}
+[41.673963] (-) TimerEvent: {}
+[41.775004] (-) TimerEvent: {}
+[41.876059] (-) TimerEvent: {}
+[41.977103] (-) TimerEvent: {}
+[42.078132] (-) TimerEvent: {}
+[42.179209] (-) TimerEvent: {}
+[42.280222] (-) TimerEvent: {}
+[42.381251] (-) TimerEvent: {}
+[42.482285] (-) TimerEvent: {}
+[42.583319] (-) TimerEvent: {}
+[42.684353] (-) TimerEvent: {}
+[42.785391] (-) TimerEvent: {}
+[42.886457] (-) TimerEvent: {}
+[42.987497] (-) TimerEvent: {}
+[43.088517] (-) TimerEvent: {}
+[43.189586] (-) TimerEvent: {}
+[43.290621] (-) TimerEvent: {}
+[43.391643] (-) TimerEvent: {}
+[43.492692] (-) TimerEvent: {}
+[43.593855] (-) TimerEvent: {}
+[43.694887] (-) TimerEvent: {}
+[43.795929] (-) TimerEvent: {}
+[43.896936] (-) TimerEvent: {}
+[43.997878] (-) TimerEvent: {}
+[44.098835] (-) TimerEvent: {}
+[44.199940] (-) TimerEvent: {}
+[44.301025] (-) TimerEvent: {}
+[44.402637] (-) TimerEvent: {}
+[44.503698] (-) TimerEvent: {}
+[44.604743] (-) TimerEvent: {}
+[44.705684] (-) TimerEvent: {}
+[45.199610] (-) TimerEvent: {}
+[45.300698] (-) TimerEvent: {}
+[45.401723] (-) TimerEvent: {}
+[45.502793] (-) TimerEvent: {}
+[45.603796] (-) TimerEvent: {}
+[45.704907] (-) TimerEvent: {}
+[45.805919] (-) TimerEvent: {}
+[45.907010] (-) TimerEvent: {}
+[46.008018] (-) TimerEvent: {}
+[46.109016] (-) TimerEvent: {}
+[46.210059] (-) TimerEvent: {}
+[46.311104] (-) TimerEvent: {}
+[46.412225] (-) TimerEvent: {}
+[46.513248] (-) TimerEvent: {}
+[46.614263] (-) TimerEvent: {}
+[46.715286] (-) TimerEvent: {}
+[46.816299] (-) TimerEvent: {}
+[46.917326] (-) TimerEvent: {}
+[47.018346] (-) TimerEvent: {}
+[47.119344] (-) TimerEvent: {}
+[47.220342] (-) TimerEvent: {}
+[47.321338] (-) TimerEvent: {}
+[47.422326] (-) TimerEvent: {}
+[47.523404] (-) TimerEvent: {}
+[47.624406] (-) TimerEvent: {}
+[47.725397] (-) TimerEvent: {}
+[47.826419] (-) TimerEvent: {}
+[47.927452] (-) TimerEvent: {}
+[48.028462] (-) TimerEvent: {}
+[48.129612] (-) TimerEvent: {}
+[48.230721] (-) TimerEvent: {}
+[48.331761] (-) TimerEvent: {}
+[48.432822] (-) TimerEvent: {}
+[48.533865] (-) TimerEvent: {}
+[48.634903] (-) TimerEvent: {}
+[48.735890] (-) TimerEvent: {}
+[48.837030] (-) TimerEvent: {}
+[48.938055] (-) TimerEvent: {}
+[49.039038] (-) TimerEvent: {}
+[49.140078] (-) TimerEvent: {}
+[49.241046] (-) TimerEvent: {}
+[49.342059] (-) TimerEvent: {}
+[49.443134] (-) TimerEvent: {}
+[49.544256] (-) TimerEvent: {}
+[49.645264] (-) TimerEvent: {}
+[49.746249] (-) TimerEvent: {}
+[49.847260] (-) TimerEvent: {}
+[49.948282] (-) TimerEvent: {}
+[50.049321] (-) TimerEvent: {}
+[50.150448] (-) TimerEvent: {}
+[50.251477] (-) TimerEvent: {}
+[50.352503] (-) TimerEvent: {}
+[50.453563] (-) TimerEvent: {}
+[50.554629] (-) TimerEvent: {}
+[50.655708] (-) TimerEvent: {}
+[50.756806] (-) TimerEvent: {}
+[50.857857] (-) TimerEvent: {}
+[50.958948] (-) TimerEvent: {}
+[51.060039] (-) TimerEvent: {}
+[51.161037] (-) TimerEvent: {}
+[51.262048] (-) TimerEvent: {}
+[51.363065] (-) TimerEvent: {}
+[51.464077] (-) TimerEvent: {}
+[51.565108] (-) TimerEvent: {}
+[51.666148] (-) TimerEvent: {}
+[51.767177] (-) TimerEvent: {}
+[51.868233] (-) TimerEvent: {}
+[51.969315] (-) TimerEvent: {}
+[52.070360] (-) TimerEvent: {}
+[52.171402] (-) TimerEvent: {}
+[52.272415] (-) TimerEvent: {}
+[52.373465] (-) TimerEvent: {}
+[52.474533] (-) TimerEvent: {}
+[52.575544] (-) TimerEvent: {}
+[52.676573] (-) TimerEvent: {}
+[52.777628] (-) TimerEvent: {}
+[52.878727] (-) TimerEvent: {}
+[52.979898] (-) TimerEvent: {}
+[53.080883] (-) TimerEvent: {}
+[53.181963] (-) TimerEvent: {}
+[53.282937] (-) TimerEvent: {}
+[53.383966] (-) TimerEvent: {}
+[53.485020] (-) TimerEvent: {}
+[53.586071] (-) TimerEvent: {}
+[53.687104] (-) TimerEvent: {}
+[53.788129] (-) TimerEvent: {}
+[53.889228] (-) TimerEvent: {}
+[53.990263] (-) TimerEvent: {}
+[54.091300] (-) TimerEvent: {}
+[54.192361] (-) TimerEvent: {}
+[54.293431] (-) TimerEvent: {}
+[54.394552] (-) TimerEvent: {}
+[54.495551] (-) TimerEvent: {}
+[54.596573] (-) TimerEvent: {}
+[54.697512] (-) TimerEvent: {}
+[54.798464] (-) TimerEvent: {}
+[54.899460] (-) TimerEvent: {}
+[55.000411] (-) TimerEvent: {}
+[55.101375] (-) TimerEvent: {}
+[55.202355] (-) TimerEvent: {}
+[55.303282] (-) TimerEvent: {}
+[55.404234] (-) TimerEvent: {}
+[55.505258] (-) TimerEvent: {}
+[55.606240] (-) TimerEvent: {}
+[55.707224] (-) TimerEvent: {}
+[55.808177] (-) TimerEvent: {}
+[55.909197] (-) TimerEvent: {}
+[56.010161] (-) TimerEvent: {}
+[56.111112] (-) TimerEvent: {}
+[56.212108] (-) TimerEvent: {}
+[56.313085] (-) TimerEvent: {}
+[56.414040] (-) TimerEvent: {}
+[56.515003] (-) TimerEvent: {}
+[56.616035] (-) TimerEvent: {}
+[56.717106] (-) TimerEvent: {}
+[56.818054] (-) TimerEvent: {}
+[56.919030] (-) TimerEvent: {}
+[57.020104] (-) TimerEvent: {}
+[57.121197] (-) TimerEvent: {}
+[57.222243] (-) TimerEvent: {}
+[57.323305] (-) TimerEvent: {}
+[57.424320] (-) TimerEvent: {}
+[57.525351] (-) TimerEvent: {}
+[57.626443] (-) TimerEvent: {}
+[57.727497] (-) TimerEvent: {}
+[57.828560] (-) TimerEvent: {}
+[57.929716] (-) TimerEvent: {}
+[58.030798] (-) TimerEvent: {}
+[58.131913] (-) TimerEvent: {}
+[58.232966] (-) TimerEvent: {}
+[58.333953] (-) TimerEvent: {}
+[58.434944] (-) TimerEvent: {}
+[58.535937] (-) TimerEvent: {}
+[58.636960] (-) TimerEvent: {}
+[58.737998] (-) TimerEvent: {}
+[58.839058] (-) TimerEvent: {}
+[58.940186] (-) TimerEvent: {}
+[59.041194] (-) TimerEvent: {}
+[59.142244] (-) TimerEvent: {}
+[59.243310] (-) TimerEvent: {}
+[59.344355] (-) TimerEvent: {}
+[59.445423] (-) TimerEvent: {}
+[59.546466] (-) TimerEvent: {}
+[59.647507] (-) TimerEvent: {}
+[59.748542] (-) TimerEvent: {}
+[59.849629] (-) TimerEvent: {}
+[59.950650] (-) TimerEvent: {}
+[60.051660] (-) TimerEvent: {}
+[60.152627] (-) TimerEvent: {}
+[60.253675] (-) TimerEvent: {}
+[60.354711] (-) TimerEvent: {}
+[60.455755] (-) TimerEvent: {}
+[60.556802] (-) TimerEvent: {}
+[60.657843] (-) TimerEvent: {}
+[60.758894] (-) TimerEvent: {}
+[60.859962] (-) TimerEvent: {}
+[60.960995] (-) TimerEvent: {}
+[61.061990] (-) TimerEvent: {}
+[61.163025] (-) TimerEvent: {}
+[61.264030] (-) TimerEvent: {}
+[61.365050] (-) TimerEvent: {}
+[61.466056] (-) TimerEvent: {}
+[61.567067] (-) TimerEvent: {}
+[61.668101] (-) TimerEvent: {}
+[61.769189] (-) TimerEvent: {}
+[61.870207] (-) TimerEvent: {}
+[61.971224] (-) TimerEvent: {}
+[62.072285] (-) TimerEvent: {}
+[62.173326] (-) TimerEvent: {}
+[62.274341] (-) TimerEvent: {}
+[62.375389] (-) TimerEvent: {}
+[62.476428] (-) TimerEvent: {}
+[62.577519] (-) TimerEvent: {}
+[62.678673] (-) TimerEvent: {}
+[62.779693] (-) TimerEvent: {}
+[62.880704] (-) TimerEvent: {}
+[62.981679] (-) TimerEvent: {}
+[63.082665] (-) TimerEvent: {}
+[63.183659] (-) TimerEvent: {}
+[63.284673] (-) TimerEvent: {}
+[63.385698] (-) TimerEvent: {}
+[63.486727] (-) TimerEvent: {}
+[63.587747] (-) TimerEvent: {}
+[63.688766] (-) TimerEvent: {}
+[63.789838] (-) TimerEvent: {}
+[63.890858] (-) TimerEvent: {}
+[63.991804] (-) TimerEvent: {}
+[64.092823] (-) TimerEvent: {}
+[64.193885] (-) TimerEvent: {}
+[64.294948] (-) TimerEvent: {}
+[64.395985] (-) TimerEvent: {}
+[64.496974] (-) TimerEvent: {}
+[64.597977] (-) TimerEvent: {}
+[64.699009] (-) TimerEvent: {}
+[64.800077] (-) TimerEvent: {}
+[64.901156] (-) TimerEvent: {}
+[65.002158] (-) TimerEvent: {}
+[65.103125] (-) TimerEvent: {}
+[65.204125] (-) TimerEvent: {}
+[65.305077] (-) TimerEvent: {}
+[65.406076] (-) TimerEvent: {}
+[65.507132] (-) TimerEvent: {}
+[65.608142] (-) TimerEvent: {}
+[65.709085] (-) TimerEvent: {}
+[65.810080] (-) TimerEvent: {}
+[65.910988] (-) TimerEvent: {}
+[66.011895] (-) TimerEvent: {}
+[66.044037] (body_tracking_custom) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable body_tracking_custom\x1b[0m\n'}
+[66.112082] (-) TimerEvent: {}
+[66.212976] (-) TimerEvent: {}
+[66.313917] (-) TimerEvent: {}
+[66.414863] (-) TimerEvent: {}
+[66.515857] (-) TimerEvent: {}
+[66.616903] (-) TimerEvent: {}
+[66.718034] (-) TimerEvent: {}
+[66.819094] (-) TimerEvent: {}
+[66.920168] (-) TimerEvent: {}
+[67.021319] (-) TimerEvent: {}
+[67.122328] (-) TimerEvent: {}
+[67.223342] (-) TimerEvent: {}
+[67.324412] (-) TimerEvent: {}
+[67.425535] (-) TimerEvent: {}
+[67.526605] (-) TimerEvent: {}
+[67.627808] (-) TimerEvent: {}
+[67.728945] (-) TimerEvent: {}
+[67.830080] (-) TimerEvent: {}
+[67.931249] (-) TimerEvent: {}
+[68.032398] (-) TimerEvent: {}
+[68.133404] (-) TimerEvent: {}
+[68.234430] (-) TimerEvent: {}
+[68.335511] (-) TimerEvent: {}
+[68.436675] (-) TimerEvent: {}
+[68.537828] (-) TimerEvent: {}
+[68.638983] (-) TimerEvent: {}
+[68.740185] (-) TimerEvent: {}
+[68.841238] (-) TimerEvent: {}
+[68.942274] (-) TimerEvent: {}
+[69.043269] (-) TimerEvent: {}
+[69.144208] (-) TimerEvent: {}
+[69.245199] (-) TimerEvent: {}
+[69.346288] (-) TimerEvent: {}
+[69.447251] (-) TimerEvent: {}
+[69.548197] (-) TimerEvent: {}
+[69.649081] (-) TimerEvent: {}
+[69.749998] (-) TimerEvent: {}
+[69.850924] (-) TimerEvent: {}
+[69.951912] (-) TimerEvent: {}
+[70.052887] (-) TimerEvent: {}
+[70.153879] (-) TimerEvent: {}
+[70.254926] (-) TimerEvent: {}
+[70.355889] (-) TimerEvent: {}
+[70.456874] (-) TimerEvent: {}
+[70.557856] (-) TimerEvent: {}
+[70.658862] (-) TimerEvent: {}
+[70.759924] (-) TimerEvent: {}
+[70.860909] (-) TimerEvent: {}
+[70.961929] (-) TimerEvent: {}
+[71.062918] (-) TimerEvent: {}
+[71.163880] (-) TimerEvent: {}
+[71.264812] (-) TimerEvent: {}
+[71.365798] (-) TimerEvent: {}
+[71.466747] (-) TimerEvent: {}
+[71.470509] (body_tracking_custom) StdoutLine: {'line': b'[100%] Built target body_tracking_custom\n'}
+[71.522666] (body_tracking_custom) CommandEnded: {'returncode': 0}
+[71.525871] (body_tracking_custom) JobProgress: {'identifier': 'body_tracking_custom', 'progress': 'install'}
+[71.566957] (body_tracking_custom) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/down_dection/build/body_tracking_custom'], 'cwd': '/home/sunrise/down_dection/build/body_tracking_custom', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.127.15 61038 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:'), ('BROWSER', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/down_dection/src'), ('TERM_PROGRAM_VERSION', '0.50.7'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-db7cebbf-c3d0-42f1-8e5f-725ebfd76d7a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TROS_DISTRO', 'humble'), ('COLCON_PREFIX_PATH', '/home/sunrise/down_dection/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/tros/humble/bin:/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('CAM_TYPE', 'usb'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-3a00e182b6.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/down_dection/install/fall_detector_py:/home/sunrise/down_dection/install/body_tracking_custom:/opt/tros/humble:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/down_dection/build/body_tracking_custom'), ('SSH_CONNECTION', '192.168.127.15 61038 192.168.127.10 22'), ('PYTHONPATH', '/home/sunrise/down_dection/build/fall_detector_py:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/down_dection/install/body_tracking_custom:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble')]), 'shell': False}
+[71.571784] (-) TimerEvent: {}
+[71.602526] (body_tracking_custom) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[71.604631] (body_tracking_custom) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[71.606689] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/body_tracking_custom\n'}
+[71.647905] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/launch/body_tracking.launch.py\n'}
+[71.671997] (-) TimerEvent: {}
+[71.686775] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/launch/body_tracking_without_gesture.launch.py\n'}
+[71.726896] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/launch/body_tracking_without_input_node.launch.py\n'}
+[71.765009] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/README.md\n'}
+[71.772172] (-) TimerEvent: {}
+[71.804310] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/20220922180336.png\n'}
+[71.842867] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/body_detection.gif\n'}
+[71.872403] (-) TimerEvent: {}
+[71.882717] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/ezgif-5-5c246b7347.gif\n'}
+[71.921929] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/gazebo1.jpeg\n'}
+[71.962034] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/image-ok.png\n'}
+[71.972590] (-) TimerEvent: {}
+[72.000152] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/image-palm.png\n'}
+[72.037785] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/interfaces.jpg\n'}
+[72.072803] (-) TimerEvent: {}
+[72.078135] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/tracking.gif\n'}
+[72.118223] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/webservice.jpeg\n'}
+[72.158016] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/ament_index/resource_index/package_run_dependencies/body_tracking_custom\n'}
+[72.173012] (-) TimerEvent: {}
+[72.197289] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/ament_index/resource_index/parent_prefix_path/body_tracking_custom\n'}
+[72.240533] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/environment/ament_prefix_path.sh\n'}
+[72.273250] (-) TimerEvent: {}
+[72.278688] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/environment/ament_prefix_path.dsv\n'}
+[72.317565] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/environment/path.sh\n'}
+[72.357831] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/environment/path.dsv\n'}
+[72.373423] (-) TimerEvent: {}
+[72.397905] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/local_setup.bash\n'}
+[72.441428] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/local_setup.sh\n'}
+[72.473646] (-) TimerEvent: {}
+[72.480461] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/local_setup.zsh\n'}
+[72.521826] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/local_setup.dsv\n'}
+[72.562735] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.dsv\n'}
+[72.573837] (-) TimerEvent: {}
+[72.606181] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/ament_index/resource_index/packages/body_tracking_custom\n'}
+[72.648015] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[72.674032] (-) TimerEvent: {}
+[72.689164] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/cmake/body_tracking_customConfig.cmake\n'}
+[72.727509] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/cmake/body_tracking_customConfig-version.cmake\n'}
+[72.766640] (body_tracking_custom) StdoutLine: {'line': b'-- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.xml\n'}
+[72.774213] (-) TimerEvent: {}
+[72.814209] (body_tracking_custom) CommandEnded: {'returncode': 0}
+[72.875245] (-) TimerEvent: {}
+[72.940589] (body_tracking_custom) JobEnded: {'identifier': 'body_tracking_custom', 'rc': 0}
+[72.949396] (-) EventReactorShutdown: {}

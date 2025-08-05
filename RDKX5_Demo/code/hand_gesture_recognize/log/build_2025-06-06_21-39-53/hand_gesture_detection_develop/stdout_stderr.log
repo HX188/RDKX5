@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)
+-- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)
+[0minvalid platform, build platform X3 default[0m
+[0mCMAKE_SYSROOT is [0m
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop
+[ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/threads/threadpool.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_postprocess.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_preprocess.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/hand_gesture_det_node.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/lmks_process.cpp.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_postprocess_util.cc.o[0m
+[ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/main.cpp.o[0m
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:[m[K In member function ‘[01m[Kvoid inference::HandGestureDetNode::Publish(ai_msgs::msg::PerceptionTargets_<std::allocator<void> >::ConstSharedPtr, ai_msgs::msg::Perf, const std::unordered_map<long unsigned int, std::shared_ptr<inference::HandGestureRes> >&)[m[K’:
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:308:53:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kstd_msgs::msg::Int32_<std::allocator<void> >::_data_type[m[K’ {aka ‘[01m[Kint[m[K’} in assignment
+  308 |                   gesture_msg.data = [01;31m[KgestureToString(res)[m[K;
+      |                                      [01;31m[K~~~~~~~~~~~~~~~^~~~~[m[K
+      |                                                     [01;31m[K|[m[K
+      |                                                     [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+gmake[2]: *** [CMakeFiles/hand_gesture_detection_develop.dir/build.make:90：CMakeFiles/hand_gesture_detection_develop.dir/src/hand_gesture_det_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hand_gesture_detection_develop.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

@@ -1,0 +1,240 @@
+[0.049s] Invoking command in '/home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg:/home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_whole/install/wheeltec_aiui:/home/sunrise/AI/AI_whole/install/tts:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg/lib:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake /home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2
+[0.354s] -- The C compiler identification is GNU 11.2.0
+[0.672s] -- The CXX compiler identification is GNU 11.2.0
+[0.705s] -- Detecting C compiler ABI info
+[1.064s] -- Detecting C compiler ABI info - done
+[1.111s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.112s] -- Detecting C compile features
+[1.115s] -- Detecting C compile features - done
+[1.131s] -- Detecting CXX compiler ABI info
+[1.547s] -- Detecting CXX compiler ABI info - done
+[1.596s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.597s] -- Detecting CXX compile features
+[1.600s] -- Detecting CXX compile features - done
+[1.613s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.741s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.374s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.395s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.433s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.663s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.871s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.180s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.195s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.617s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.751s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.952s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.000s] -- Looking for pthread.h
+[5.390s] -- Looking for pthread.h - found
+[5.391s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.780s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.786s] -- Found Threads: TRUE  
+[6.121s] -- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+[6.132s] -- Found wheeltec_mic_msg: 0.0.0 (/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake)
+[6.216s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.866s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.894s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.897s] -- Configured cppcheck include dirs: /home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/include
+[6.897s] -- Configured cppcheck exclude dirs and/or files: 
+[6.925s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[6.925s] -- Configured cpplint exclude dirs and/or files: 
+[6.931s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.940s] -- Added test 'lint_cmake' to check CMake code style
+[6.946s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.978s] -- Added test 'uncrustify' to check C / C++ code style
+[6.978s] -- Configured uncrustify additional arguments: 
+[6.983s] -- Added test 'xmllint' to check XML markup files
+[6.992s] -- Configuring done
+[7.120s] -- Generating done
+[7.174s] -- Build files have been written to: /home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2
+[7.253s] Invoked command in '/home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg:/home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_whole/install/wheeltec_aiui:/home/sunrise/AI/AI_whole/install/tts:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg/lib:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake /home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2
+[7.260s] Invoking command in '/home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg:/home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_whole/install/wheeltec_aiui:/home/sunrise/AI/AI_whole/install/tts:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg/lib:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2 -- -j8 -l8
+[7.488s] [ 27%] [32mBuilding CXX object CMakeFiles/command_recognition.dir/src/command_recognition.cpp.o[0m
+[7.490s] [ 45%] [32mBuilding CXX object CMakeFiles/wheeltec_mic.dir/src/ros2_service.cpp.o[0m
+[7.490s] [ 27%] [32mBuilding CXX object CMakeFiles/call_recognition.dir/src/call_recognition.cpp.o[0m
+[7.491s] [ 27%] [32mBuilding CXX object CMakeFiles/wheeltec_mic.dir/src/wheeltec_mic.cpp.o[0m
+[7.494s] [ 54%] [32mBuilding CXX object CMakeFiles/voice_control.dir/src/voice_control.cpp.o[0m
+[7.495s] [ 45%] [32mBuilding CXX object CMakeFiles/node_feedback.dir/src/node_feedback.cpp.o[0m
+[25.500s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:[m[K In member function ‘[01m[Kint SpeechProcess::business_data_t(unsigned char*)[m[K’:
+[25.501s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:235:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[25.502s]   235 | [01;35m[K}[m[K
+[25.502s]       | [01;35m[K^[m[K
+[25.513s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:[m[K In member function ‘[01m[Kint SpeechProcess::finish_record_sound()[m[K’:
+[25.514s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:296:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[25.515s]   296 | [01;35m[K}[m[K
+[25.516s]       | [01;35m[K^[m[K
+[25.538s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:[m[K In member function ‘[01m[Kbool SpeechProcess::Get_Offline_Recognise_Result(const std::shared_ptr<wheeltec_mic_msg::srv::GetOfflineResult_Request_<std::allocator<void> > >&, std::shared_ptr<wheeltec_mic_msg::srv::GetOfflineResult_Response_<std::allocator<void> > >&)[m[K’:
+[25.539s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:369:34:[m[K [01;35m[Kwarning: [m[Kcomparison with string literal results in unspecified behavior [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+[25.540s]   369 |                 if ([01;35m[Kwhole_result != ""[m[K)
+[25.540s]       |                     [01;35m[K~~~~~~~~~~~~~^~~~~[m[K
+[25.586s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:408:32:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[25.587s]   408 |                 whole_result = [01;35m[K""[m[K;
+[25.588s]       |                                [01;35m[K^~[m[K
+[26.034s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/ros2_service.cpp:[m[K In member function ‘[01m[Kbool Wheeltec_Mic::getDeviceTypeCallback(const std::shared_ptr<wheeltec_mic_msg::srv::GetDeviceType_Request_<std::allocator<void> > >&, std::shared_ptr<wheeltec_mic_msg::srv::GetDeviceType_Response_<std::allocator<void> > >&)[m[K’:
+[26.035s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/ros2_service.cpp:36:112:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.036s]    36 | bool Wheeltec_Mic::getDeviceTypeCallback([01;35m[Kconst std::shared_ptr<wheeltec_mic_msg::srv::GetDeviceType::Request>& request[m[K,
+[26.037s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[26.040s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/ros2_service.cpp:[m[K In member function ‘[01m[Kbool Wheeltec_Mic::setAwakeWordCallback(const std::shared_ptr<wheeltec_mic_msg::srv::SetAwakeWord_Request_<std::allocator<void> > >&, std::shared_ptr<wheeltec_mic_msg::srv::SetAwakeWord_Response_<std::allocator<void> > >&)[m[K’:
+[26.041s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/ros2_service.cpp:68:100:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[26.042s]    68 |                                    [01;35m[Kstd::shared_ptr<wheeltec_mic_msg::srv::SetAwakeWord::Response>& response[m[K){
+[26.043s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[31.632s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:[m[K In member function ‘[01m[Kint SpeechProcess::get_record_sound(const char*)[m[K’:
+[31.632s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:285:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[31.634s]   285 | [01;35m[K}[m[K
+[31.635s]       | [01;35m[K^[m[K
+[31.636s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:[m[K In member function ‘[01m[KEffective_Result SpeechProcess::show_result(char*)[m[K’:
+[31.637s] [01m[K/home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/src/voice_control.cpp:334:32:[m[K [01;35m[Kwarning: [m[K‘[01m[Kchar* strncpy(char*, const char*, size_t)[m[K’ destination unchanged after copying no bytes [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wstringop-truncation-Wstringop-truncation]8;;[m[K]
+[31.638s]   334 |                         [01;35m[Kstrncpy(asr_result, "", 0)[m[K;
+[31.638s]       |                         [01;35m[K~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[43.785s] [ 63%] [32m[1mLinking CXX executable voice_control[0m
+[45.923s] [ 72%] [32m[1mLinking CXX executable wheeltec_mic[0m
+[48.952s] [ 72%] Built target voice_control
+[49.059s] [ 72%] Built target wheeltec_mic
+[72.670s] [ 81%] [32m[1mLinking CXX executable call_recognition[0m
+[76.394s] [ 81%] Built target call_recognition
+[83.983s] [ 90%] [32m[1mLinking CXX executable node_feedback[0m
+[85.717s] [100%] [32m[1mLinking CXX executable command_recognition[0m
+[88.142s] [100%] Built target node_feedback
+[89.953s] [100%] Built target command_recognition
+[90.014s] Invoked command in '/home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg:/home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_whole/install/wheeltec_aiui:/home/sunrise/AI/AI_whole/install/tts:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg/lib:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2 -- -j8 -l8
+[90.021s] Invoking command in '/home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg:/home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_whole/install/wheeltec_aiui:/home/sunrise/AI/AI_whole/install/tts:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg/lib:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --install /home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2
+[90.056s] -- Install configuration: ""
+[90.057s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/launch
+[90.057s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/launch/mic_init.launch.py
+[90.058s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/launch/base.launch.py
+[90.058s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config
+[90.059s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/call.bnf
+[90.059s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/recognition_params.yaml
+[90.060s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc
+[90.060s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/msc.cfg
+[90.061s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/grm_lex.log
+[90.061s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/isr.log
+[90.062s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/lgi.log
+[90.068s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res
+[90.069s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr
+[90.069s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld
+[90.070s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/ddykzcaa.d
+[90.071s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/gcoeaaaa.d
+[90.071s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/imqhxtba.d
+[90.072s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/uikawbda.d
+[90.072s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/bzvskdaa.d
+[90.073s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/kcheaaaa.d
+[90.073s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/zwwzwvaa.d
+[90.074s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/zhdfaaaa.d
+[90.074s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/rbswtvaa.d
+[90.075s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/mmheaaaa.d
+[90.075s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/call_16K
+[90.076s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/rlieaaaa.d
+[90.076s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/azcfaaaa.d
+[90.077s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/rtpyyuba.d
+[90.077s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/deofaaaa.d
+[90.078s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/sqieaaaa.d
+[90.078s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/lhheaaaa.d
+[90.079s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/arlfaaaa.d
+[90.079s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/whsnkqba.d
+[90.080s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/call.g
+[90.080s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/mcaudaaa.d
+[90.081s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/qgieaaaa.d
+[90.081s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp
+[90.082s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/ddykzcaa.d
+[90.082s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/gcoeaaaa.d
+[90.083s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/imqhxtba.d
+[90.083s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/uikawbda.d
+[90.084s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/bzvskdaa.d
+[90.084s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/kcheaaaa.d
+[90.085s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/zwwzwvaa.d
+[90.085s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/zhdfaaaa.d
+[90.086s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/rbswtvaa.d
+[90.086s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/mmheaaaa.d
+[90.087s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/call_16K
+[90.087s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/rlieaaaa.d
+[90.088s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/azcfaaaa.d
+[90.088s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/rtpyyuba.d
+[90.089s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/deofaaaa.d
+[90.089s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/sqieaaaa.d
+[90.090s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/lhheaaaa.d
+[90.090s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/arlfaaaa.d
+[90.091s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/whsnkqba.d
+[90.091s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/call.g
+[90.092s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/mcaudaaa.d
+[90.092s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/qgieaaaa.d
+[90.092s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/fyrdwpaa.d
+[90.093s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/commit
+[90.093s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/fyrdwpaa.d
+[90.094s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/common.jet
+[90.151s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/waiter.log
+[90.156s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/isr_local.log
+[90.163s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/msc.log
+[90.218s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice
+[90.218s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/rrt_open.wav
+[90.219s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/find.wav
+[90.219s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/3d_navigation_close.wav
+[90.220s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/car_front.wav
+[90.221s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/2d_navigation_close.wav
+[90.221s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/kcf_open.wav
+[90.223s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/pure3d_mapping_close.wav
+[90.223s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/AR_close.wav
+[90.224s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/pure3d_navigation_close.wav
+[90.225s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/3d_mapping_close.wav
+[90.226s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/classify_close.wav
+[90.227s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/stop.wav
+[90.227s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/pure3d_mapping_open.wav
+[90.229s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/navigation_close.wav
+[90.230s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/3d_mapping_open.wav
+[90.231s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/web_close.wav
+[90.232s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/2d_mapping_close.wav
+[90.233s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/overmap.wav
+[90.234s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/3d_navigation_open.wav
+[90.235s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/2d_mapping.wav
+[90.236s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/awake.wav
+[90.237s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/open_node.wav
+[90.238s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/voice_control.wav
+[90.238s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/search_voice.wav
+[90.239s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/AR_open.wav
+[90.240s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/visual_open.wav
+[90.241s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/visual_close.wav
+[90.242s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/line_close.wav
+[90.243s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/kcf_close.wav
+[90.244s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/pure3d_navigation_open.wav
+[90.245s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/reach_goal.wav
+[90.245s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/web_open.wav
+[90.246s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/rrt_close.wav
+[90.247s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/turn_right.wav
+[90.248s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/turn_left.wav
+[90.249s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/line_open.wav
+[90.250s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/car_back.wav
+[90.250s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/Tracker.wav
+[90.251s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/classify_open.wav
+[90.252s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/2d_navigation.wav
+[90.253s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/close_node.wav
+[90.254s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/OK.wav
+[90.254s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/rplidar_open.wav
+[90.255s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/rplidar_close.wav
+[90.256s] -- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/sleep.wav
+[90.259s] -- Execute custom install script
+[90.260s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/call_recognition
+[90.298s] -- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/call_recognition
+[90.299s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/command_recognition
+[90.348s] -- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/command_recognition
+[90.349s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/node_feedback
+[90.398s] -- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/node_feedback
+[90.400s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/wheeltec_mic
+[90.449s] -- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/wheeltec_mic
+[90.451s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/voice_control
+[90.505s] -- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/voice_control
+[90.508s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/ament_index/resource_index/package_run_dependencies/wheeltec_mic_ros2
+[90.559s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/ament_index/resource_index/parent_prefix_path/wheeltec_mic_ros2
+[90.609s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/environment/ament_prefix_path.sh
+[90.656s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/environment/ament_prefix_path.dsv
+[90.705s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/environment/path.sh
+[90.756s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/environment/path.dsv
+[90.805s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/local_setup.bash
+[90.855s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/local_setup.sh
+[90.906s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/local_setup.zsh
+[90.955s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/local_setup.dsv
+[91.006s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.dsv
+[91.057s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/ament_index/resource_index/packages/wheeltec_mic_ros2
+[91.108s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/cmake/wheeltec_mic_ros2Config.cmake
+[91.154s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/cmake/wheeltec_mic_ros2Config-version.cmake
+[91.205s] -- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.xml
+[91.279s] Invoked command in '/home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg:/home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_whole/install/wheeltec_aiui:/home/sunrise/AI/AI_whole/install/tts:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg/lib:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --install /home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2

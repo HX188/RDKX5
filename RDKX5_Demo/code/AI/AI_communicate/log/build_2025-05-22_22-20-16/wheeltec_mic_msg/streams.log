@@ -1,0 +1,380 @@
+[0.102s] Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg
+[1.855s] -- The C compiler identification is GNU 11.2.0
+[1.857s] -- The CXX compiler identification is GNU 11.2.0
+[1.859s] -- Detecting C compiler ABI info
+[1.860s] -- Detecting C compiler ABI info - done
+[1.861s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.862s] -- Detecting C compile features
+[1.863s] -- Detecting C compile features - done
+[1.864s] -- Detecting CXX compiler ABI info
+[1.867s] -- Detecting CXX compiler ABI info - done
+[1.870s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.873s] -- Detecting CXX compile features
+[1.875s] -- Detecting CXX compile features - done
+[1.877s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.597s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.036s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.147s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.347s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.372s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.416s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.483s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.576s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.820s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.833s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.240s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.370s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.562s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.602s] -- Looking for pthread.h
+[4.984s] -- Looking for pthread.h - found
+[4.985s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.360s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.365s] -- Found Threads: TRUE  
+[5.661s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[7.678s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[10.175s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[11.443s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[11.634s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[11.643s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[11.876s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[11.887s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[11.888s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[11.890s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[12.089s] -- Found PythonExtra: .so  
+[12.640s] -- Configuring done
+[12.948s] -- Generating done
+[13.056s] -- Build files have been written to: /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg
+[13.178s] Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg
+[13.187s] Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg -- -j8 -l8
+[13.463s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[13.534s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[13.759s] [  2%] Built target ament_cmake_python_symlink_wheeltec_mic_msg
+[15.922s] running egg_info
+[15.926s] creating wheeltec_mic_msg.egg-info
+[15.928s] writing wheeltec_mic_msg.egg-info/PKG-INFO
+[15.929s] writing dependency_links to wheeltec_mic_msg.egg-info/dependency_links.txt
+[15.930s] writing top-level names to wheeltec_mic_msg.egg-info/top_level.txt
+[15.931s] writing manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[15.945s] reading manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[15.948s] writing manifest file 'wheeltec_mic_msg.egg-info/SOURCES.txt'
+[16.180s] [  2%] Built target ament_cmake_python_build_wheeltec_mic_msg_egg
+[18.882s] [  5%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/msg/detail/pcm_msg__functions.c.o[0m
+[18.886s] [  5%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/msg/detail/position__functions.c.o[0m
+[18.919s] [  6%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/get_device_type__functions.c.o[0m
+[18.923s] [  7%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/get_offline_result__functions.c.o[0m
+[18.983s] [  8%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/set_awake_word__functions.c.o[0m
+[18.988s] [ 10%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/set_major_mic__functions.c.o[0m
+[19.191s] [ 11%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_mic_msg/srv/detail/switch_mic__functions.c.o[0m
+[19.301s] [ 11%] Built target wheeltec_mic_msg__cpp
+[19.349s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[19.350s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[19.351s] [ 15%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[19.550s] [ 16%] [32m[1mLinking C shared library libwheeltec_mic_msg__rosidl_generator_c.so[0m
+[19.780s] [ 16%] Built target wheeltec_mic_msg__rosidl_generator_c
+[19.828s] [ 20%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[19.829s] [ 20%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[19.830s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[22.380s] [ 21%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/msg/pcm_msg__type_support.cpp.o[0m
+[22.385s] [ 22%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/msg/position__type_support.cpp.o[0m
+[22.407s] [ 24%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/get_device_type__type_support.cpp.o[0m
+[23.191s] [ 25%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/msg/pcm_msg__type_support.cpp.o[0m
+[23.526s] [ 26%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/msg/position__type_support.cpp.o[0m
+[23.795s] [ 27%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/get_device_type__type_support.cpp.o[0m
+[23.824s] [ 29%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.cpp.o[0m
+[24.066s] [ 30%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/get_offline_result__type_support.cpp.o[0m
+[24.341s] [ 31%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/set_awake_word__type_support.cpp.o[0m
+[24.362s] [ 32%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/get_offline_result__type_support.cpp.o[0m
+[24.502s] [ 34%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/set_awake_word__type_support.cpp.o[0m
+[24.518s] [ 35%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/set_major_mic__type_support.cpp.o[0m
+[24.531s] [ 36%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/set_major_mic__type_support.cpp.o[0m
+[24.594s] [ 37%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/msg/detail/dds_fastrtps/pcm_msg__type_support.cpp.o[0m
+[24.642s] [ 39%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.c.o[0m
+[24.652s] [ 40%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/msg/detail/pcm_msg__type_support_c.cpp.o[0m
+[24.707s] [ 41%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_mic_msg/srv/switch_mic__type_support.cpp.o[0m
+[24.932s] [ 43%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/msg/detail/position__type_support.c.o[0m
+[24.980s] [ 44%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_c.so[0m
+[25.200s] [ 45%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/get_device_type__type_support.c.o[0m
+[25.251s] [ 45%] Built target wheeltec_mic_msg__rosidl_typesupport_c
+[25.295s] [ 46%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/msg/detail/dds_fastrtps/position__type_support.cpp.o[0m
+[25.545s] [ 48%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.c.o[0m
+[25.864s] [ 49%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.c.o[0m
+[26.191s] [ 50%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.c.o[0m
+[26.403s] [ 51%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_mic_msg/srv/detail/switch_mic__type_support.c.o[0m
+[26.549s] [ 53%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_mic_msg/srv/switch_mic__type_support.cpp.o[0m
+[26.602s] [ 54%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/get_device_type__type_support.cpp.o[0m
+[26.653s] [ 55%] [32m[1mLinking C shared library libwheeltec_mic_msg__rosidl_typesupport_introspection_c.so[0m
+[26.736s] [ 56%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/msg/detail/position__type_support_c.cpp.o[0m
+[26.998s] [ 58%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/msg/detail/position__type_support.cpp.o[0m
+[26.999s] [ 58%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_c
+[27.044s] [ 59%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/get_device_type__type_support_c.cpp.o[0m
+[27.309s] [ 60%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/get_device_type__type_support.cpp.o[0m
+[28.120s] [ 62%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.cpp.o[0m
+[28.489s] [ 63%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.cpp.o[0m
+[28.530s] [ 64%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_cpp.so[0m
+[28.989s] [ 64%] Built target wheeltec_mic_msg__rosidl_typesupport_cpp
+[29.089s] [ 65%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/get_offline_result__type_support.cpp.o[0m
+[29.325s] [ 67%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/get_offline_result__type_support_c.cpp.o[0m
+[29.659s] [ 68%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.cpp.o[0m
+[29.770s] [ 69%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/set_awake_word__type_support.cpp.o[0m
+[30.032s] [ 70%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_mic_msg/srv/detail/switch_mic__type_support.cpp.o[0m
+[30.509s] [ 72%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/set_major_mic__type_support.cpp.o[0m
+[31.200s] [ 73%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_mic_msg/srv/detail/dds_fastrtps/switch_mic__type_support.cpp.o[0m
+[31.640s] [ 74%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/set_awake_word__type_support_c.cpp.o[0m
+[32.250s] [ 75%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/set_major_mic__type_support_c.cpp.o[0m
+[32.499s] [ 77%] [32mBuilding CXX object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_mic_msg/srv/detail/switch_mic__type_support_c.cpp.o[0m
+[33.062s] [ 78%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_introspection_cpp.so[0m
+[33.584s] [ 78%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_cpp
+[34.178s] [ 79%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[34.667s] [ 79%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp
+[34.896s] [ 81%] [32m[1mLinking CXX shared library libwheeltec_mic_msg__rosidl_typesupport_fastrtps_c.so[0m
+[35.352s] [ 81%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_c
+[35.439s] [ 81%] Built target wheeltec_mic_msg
+[35.528s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[43.594s] [ 82%] Built target wheeltec_mic_msg__py
+[43.690s] [ 84%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/msg/_position_s.c.o[0m
+[43.691s] [ 86%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_get_device_type_s.c.o[0m
+[43.692s] [ 86%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/msg/_pcm_msg_s.c.o[0m
+[43.692s] [ 87%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_get_offline_result_s.c.o[0m
+[43.693s] [ 89%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_set_major_mic_s.c.o[0m
+[43.695s] [ 91%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_set_awake_word_s.c.o[0m
+[43.697s] [ 91%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_mic_msg/srv/_switch_mic_s.c.o[0m
+[44.415s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/libwheeltec_mic_msg__rosidl_generator_py.so[0m
+[44.651s] [ 92%] Built target wheeltec_mic_msg__rosidl_generator_py
+[44.742s] [ 96%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[44.743s] [ 96%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[44.743s] [ 96%] [32mBuilding C object CMakeFiles/wheeltec_mic_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[45.545s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[45.546s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[45.546s] [100%] [32m[1mLinking C shared library rosidl_generator_py/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[45.753s] [100%] Built target wheeltec_mic_msg__rosidl_typesupport_c__pyext
+[45.759s] [100%] Built target wheeltec_mic_msg__rosidl_typesupport_introspection_c__pyext
+[45.761s] [100%] Built target wheeltec_mic_msg__rosidl_typesupport_fastrtps_c__pyext
+[45.817s] Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg -- -j8 -l8
+[45.860s] Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg
+[45.900s] -- Install configuration: ""
+[45.901s] -- Execute custom install script
+[45.902s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/ament_index/resource_index/rosidl_interfaces/wheeltec_mic_msg
+[45.942s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__functions.h
+[45.980s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__struct.h
+[46.017s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.h
+[46.056s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__functions.h
+[46.093s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__struct.h
+[46.130s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__type_support.h
+[46.169s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/pcm_msg.h
+[46.209s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/position.h
+[46.246s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_generator_c__visibility_control.h
+[46.285s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__functions.h
+[46.321s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__struct.h
+[46.358s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__type_support.h
+[46.396s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__functions.h
+[46.434s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__struct.h
+[46.473s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.h
+[46.510s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__functions.h
+[46.548s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__struct.h
+[46.585s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.h
+[46.622s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__functions.h
+[46.660s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__struct.h
+[46.699s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.h
+[46.736s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__functions.h
+[46.773s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__struct.h
+[46.811s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__type_support.h
+[46.848s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/get_device_type.h
+[46.887s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/get_offline_result.h
+[46.924s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/set_awake_word.h
+[46.963s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/set_major_mic.h
+[47.000s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/switch_mic.h
+[47.039s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/library_path.sh
+[47.077s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/library_path.dsv
+[47.120s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__rosidl_typesupport_fastrtps_c.h
+[47.157s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[47.194s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[47.231s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__rosidl_typesupport_fastrtps_c.h
+[47.269s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_fastrtps_c.h
+[47.307s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__rosidl_typesupport_fastrtps_c.h
+[47.344s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__rosidl_typesupport_fastrtps_c.h
+[47.382s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__rosidl_typesupport_fastrtps_c.h
+[47.422s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__builder.hpp
+[47.459s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__struct.hpp
+[47.496s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__traits.hpp
+[47.534s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__type_support.hpp
+[47.571s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__builder.hpp
+[47.609s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__struct.hpp
+[47.646s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__traits.hpp
+[47.686s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__type_support.hpp
+[47.725s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/pcm_msg.hpp
+[47.763s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/position.hpp
+[47.801s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[47.839s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__builder.hpp
+[47.876s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__struct.hpp
+[47.914s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__traits.hpp
+[47.951s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__type_support.hpp
+[47.988s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__builder.hpp
+[48.026s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__struct.hpp
+[48.065s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__traits.hpp
+[48.102s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__type_support.hpp
+[48.139s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__builder.hpp
+[48.178s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__struct.hpp
+[48.216s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__traits.hpp
+[48.253s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__type_support.hpp
+[48.290s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__builder.hpp
+[48.328s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__struct.hpp
+[48.366s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__traits.hpp
+[48.403s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__type_support.hpp
+[48.440s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__builder.hpp
+[48.477s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__struct.hpp
+[48.515s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__traits.hpp
+[48.554s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__type_support.hpp
+[48.591s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/get_device_type.hpp
+[48.629s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/get_offline_result.hpp
+[48.666s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/set_awake_word.hpp
+[48.703s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/set_major_mic.hpp
+[48.742s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/switch_mic.hpp
+[48.783s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__rosidl_typesupport_fastrtps_cpp.hpp
+[48.822s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[48.859s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[48.897s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__rosidl_typesupport_fastrtps_cpp.hpp
+[48.935s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_fastrtps_cpp.hpp
+[48.972s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__rosidl_typesupport_fastrtps_cpp.hpp
+[49.010s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__rosidl_typesupport_fastrtps_cpp.hpp
+[49.047s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__rosidl_typesupport_fastrtps_cpp.hpp
+[49.087s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__rosidl_typesupport_introspection_c.h
+[49.126s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__rosidl_typesupport_introspection_c.h
+[49.164s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[49.202s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__rosidl_typesupport_introspection_c.h
+[49.239s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_introspection_c.h
+[49.277s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__rosidl_typesupport_introspection_c.h
+[49.316s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__rosidl_typesupport_introspection_c.h
+[49.353s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__rosidl_typesupport_introspection_c.h
+[49.392s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/pcm_msg__rosidl_typesupport_introspection_cpp.hpp
+[49.432s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[49.469s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_device_type__rosidl_typesupport_introspection_cpp.hpp
+[49.507s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/get_offline_result__rosidl_typesupport_introspection_cpp.hpp
+[49.545s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_awake_word__rosidl_typesupport_introspection_cpp.hpp
+[49.582s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/set_major_mic__rosidl_typesupport_introspection_cpp.hpp
+[49.621s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/include/wheeltec_mic_msg/wheeltec_mic_msg/srv/detail/switch_mic__rosidl_typesupport_introspection_cpp.hpp
+[49.659s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/pythonpath.sh
+[49.697s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/pythonpath.dsv
+[49.737s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[49.775s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[49.813s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[49.851s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg-0.0.0-py3.10.egg-info/top_level.txt
+[49.892s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/__init__.py
+[49.930s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_c.c
+[49.968s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[50.005s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/_wheeltec_mic_msg_s.ep.rosidl_typesupport_introspection_c.c
+[50.043s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/libwheeltec_mic_msg__rosidl_generator_py.so
+[50.081s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/__init__.py
+[50.120s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_pcm_msg.py
+[50.157s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_pcm_msg_s.c
+[50.195s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_position.py
+[50.233s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_position_s.c
+[50.271s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/__init__.py
+[50.309s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_device_type.py
+[50.348s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_device_type_s.c
+[50.386s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_offline_result.py
+[50.423s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_offline_result_s.c
+[50.461s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_awake_word.py
+[50.500s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_awake_word_s.c
+[50.537s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_major_mic.py
+[50.575s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_major_mic_s.c
+[50.614s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_switch_mic.py
+[50.651s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_switch_mic_s.c
+[50.688s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[50.726s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[50.763s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[50.802s] -- Up-to-date symlink: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[50.803s] -- Up-to-date symlink: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[50.805s] -- Up-to-date symlink: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/wheeltec_mic_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[50.806s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/msg/PcmMsg.idl
+[50.846s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/msg/Position.idl
+[50.884s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetDeviceType.idl
+[50.927s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetOfflineResult.idl
+[50.966s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetAwakeWord.idl
+[51.004s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetMajorMic.idl
+[51.041s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SwitchMic.idl
+[51.080s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/msg/PcmMsg.msg
+[51.119s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/msg/Position.msg
+[51.157s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetDeviceType.srv
+[51.196s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetDeviceType_Request.msg
+[51.236s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetDeviceType_Response.msg
+[51.274s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetOfflineResult.srv
+[51.314s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetOfflineResult_Request.msg
+[51.351s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/GetOfflineResult_Response.msg
+[51.390s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetAwakeWord.srv
+[51.428s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetAwakeWord_Request.msg
+[51.466s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetAwakeWord_Response.msg
+[51.503s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetMajorMic.srv
+[51.541s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetMajorMic_Request.msg
+[51.581s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SetMajorMic_Response.msg
+[51.618s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SwitchMic.srv
+[51.657s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SwitchMic_Request.msg
+[51.696s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/srv/SwitchMic_Response.msg
+[51.734s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/ament_index/resource_index/package_run_dependencies/wheeltec_mic_msg
+[51.774s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/ament_index/resource_index/parent_prefix_path/wheeltec_mic_msg
+[51.812s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/ament_prefix_path.sh
+[51.849s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/ament_prefix_path.dsv
+[51.888s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/path.sh
+[51.926s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/environment/path.dsv
+[51.964s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/local_setup.bash
+[52.003s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/local_setup.sh
+[52.041s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/local_setup.zsh
+[52.081s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/local_setup.dsv
+[52.118s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.dsv
+[52.156s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/ament_index/resource_index/packages/wheeltec_mic_msg
+[52.195s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/rosidl_cmake-extras.cmake
+[52.232s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[52.272s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[52.310s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[52.348s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/ament_cmake_export_targets-extras.cmake
+[52.386s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[52.424s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[52.462s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msgConfig.cmake
+[52.501s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msgConfig-version.cmake
+[52.539s] -- Symlinking: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.xml
+[52.577s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_generator_c.so
+[52.580s] -- Set runtime path of "/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_generator_c.so" to ""
+[52.581s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_fastrtps_c.so
+[52.583s] -- Set runtime path of "/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[52.585s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.so
+[52.586s] -- Set runtime path of "/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[52.586s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_introspection_c.so
+[52.588s] -- Set runtime path of "/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_introspection_c.so" to ""
+[52.589s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_c.so
+[52.590s] -- Set runtime path of "/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_c.so" to ""
+[52.591s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_introspection_cpp.so
+[52.593s] -- Set runtime path of "/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[52.594s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_cpp.so
+[52.595s] -- Set runtime path of "/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_typesupport_cpp.so" to ""
+[52.872s] Listing '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg'...
+[52.872s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/__init__.py'...
+[52.873s] Listing '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg'...
+[52.874s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/__init__.py'...
+[52.875s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_pcm_msg.py'...
+[52.875s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/msg/_position.py'...
+[52.876s] Listing '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv'...
+[52.876s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/__init__.py'...
+[52.877s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_device_type.py'...
+[52.877s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_get_offline_result.py'...
+[52.878s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_awake_word.py'...
+[52.878s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_set_major_mic.py'...
+[52.879s] Compiling '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/local/lib/python3.10/dist-packages/wheeltec_mic_msg/srv/_switch_mic.py'...
+[52.917s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_generator_py.so
+[52.919s] -- Set runtime path of "/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/libwheeltec_mic_msg__rosidl_generator_py.so" to ""
+[52.920s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_cExport.cmake
+[52.920s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_cExport-noconfig.cmake
+[52.921s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[52.922s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[52.922s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_cppExport.cmake
+[52.923s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[52.924s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[52.925s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_introspection_cExport.cmake
+[52.925s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[52.926s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_cExport.cmake
+[52.927s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_cExport-noconfig.cmake
+[52.928s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_introspection_cppExport.cmake
+[52.928s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[52.929s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_cppExport.cmake
+[52.930s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/wheeltec_mic_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[52.931s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_pyExport.cmake
+[52.931s] -- Installing: /home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake/export_wheeltec_mic_msg__rosidl_generator_pyExport-noconfig.cmake
+[52.944s] Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg

@@ -1,0 +1,4 @@
+Invoking command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/yaokong/mqtt_connect/build/ros2_end -- -j8 -l8
+Invoked command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/yaokong/mqtt_connect/build/ros2_end -- -j8 -l8
+Invoking command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/yaokong/mqtt_connect/build/ros2_end
+Invoked command in '/home/sunrise/yaokong/mqtt_connect/build/ros2_end' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/yaokong/mqtt_connect/build/ros2_end

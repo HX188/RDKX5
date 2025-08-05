@@ -1,0 +1,29 @@
+[6.682s] Invoking command in '/home/sunrise/AI/AI_whole/build/ollama_ros_chat': PYTHONPATH=/home/sunrise/AI/AI_whole/build/ollama_ros_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/AI/AI_whole/install/ollama_ros_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sunrise/AI/AI_whole/build/ollama_ros_chat/build --no-deps symlink_data
+[8.685s] running develop
+[10.070s] running egg_info
+[10.071s] creating ollama_ros_chat.egg-info
+[10.072s] writing ollama_ros_chat.egg-info/PKG-INFO
+[10.075s] writing dependency_links to ollama_ros_chat.egg-info/dependency_links.txt
+[10.078s] writing entry points to ollama_ros_chat.egg-info/entry_points.txt
+[10.080s] writing requirements to ollama_ros_chat.egg-info/requires.txt
+[10.082s] writing top-level names to ollama_ros_chat.egg-info/top_level.txt
+[10.086s] writing manifest file 'ollama_ros_chat.egg-info/SOURCES.txt'
+[10.097s] reading manifest file 'ollama_ros_chat.egg-info/SOURCES.txt'
+[10.102s] writing manifest file 'ollama_ros_chat.egg-info/SOURCES.txt'
+[10.112s] running build_ext
+[10.114s] Creating /home/sunrise/AI/AI_whole/install/ollama_ros_chat/lib/python3.10/site-packages/ollama-ros-chat.egg-link (link to .)
+[10.119s] Installing chat_client script to /home/sunrise/AI/AI_whole/install/ollama_ros_chat/lib/ollama_ros_chat
+[10.120s] Installing chat_service script to /home/sunrise/AI/AI_whole/install/ollama_ros_chat/lib/ollama_ros_chat
+[10.121s] Installing topic_client script to /home/sunrise/AI/AI_whole/install/ollama_ros_chat/lib/ollama_ros_chat
+[10.122s] Installing topic_server script to /home/sunrise/AI/AI_whole/install/ollama_ros_chat/lib/ollama_ros_chat
+[10.123s] 
+[10.124s] Installed /home/sunrise/AI/AI_whole/build/ollama_ros_chat
+[10.125s] running symlink_data
+[10.126s] creating /home/sunrise/AI/AI_whole/install/ollama_ros_chat/share/ament_index
+[10.127s] creating /home/sunrise/AI/AI_whole/install/ollama_ros_chat/share/ament_index/resource_index
+[10.128s] creating /home/sunrise/AI/AI_whole/install/ollama_ros_chat/share/ament_index/resource_index/packages
+[10.130s] symbolically linking /home/sunrise/AI/AI_whole/build/ollama_ros_chat/resource/ollama_ros_chat -> /home/sunrise/AI/AI_whole/install/ollama_ros_chat/share/ament_index/resource_index/packages
+[10.132s] symbolically linking /home/sunrise/AI/AI_whole/build/ollama_ros_chat/package.xml -> /home/sunrise/AI/AI_whole/install/ollama_ros_chat/share/ollama_ros_chat
+[10.132s] creating /home/sunrise/AI/AI_whole/install/ollama_ros_chat/share/ollama_ros_chat/launch
+[10.133s] symbolically linking /home/sunrise/AI/AI_whole/build/ollama_ros_chat/launch/ollama_ros_chat.launch.py -> /home/sunrise/AI/AI_whole/install/ollama_ros_chat/share/ollama_ros_chat/launch
+[10.425s] Invoked command in '/home/sunrise/AI/AI_whole/build/ollama_ros_chat' returned '0': PYTHONPATH=/home/sunrise/AI/AI_whole/build/ollama_ros_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/AI/AI_whole/install/ollama_ros_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sunrise/AI/AI_whole/build/ollama_ros_chat/build --no-deps symlink_data

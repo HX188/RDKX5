@@ -1,0 +1,6 @@
+Invoking command in '/home/sunrise/AI/test_to_sound/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/test_to_sound/src/tts_make_ros2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/test_to_sound/install/tts
+Invoked command in '/home/sunrise/AI/test_to_sound/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/test_to_sound/src/tts_make_ros2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/test_to_sound/install/tts
+Invoking command in '/home/sunrise/AI/test_to_sound/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/test_to_sound/build/tts -- -j8 -l8
+Invoked command in '/home/sunrise/AI/test_to_sound/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/test_to_sound/build/tts -- -j8 -l8
+Invoking command in '/home/sunrise/AI/test_to_sound/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/test_to_sound/build/tts
+Invoked command in '/home/sunrise/AI/test_to_sound/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/test_to_sound/build/tts

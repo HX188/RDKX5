@@ -1,0 +1,6 @@
+###该文件集成了语音对话功能###
+rdk_ai_gateway_ros实现了调用在线大模型API实现语音对话的功能（输入文本获取输出文本）
+tts_make_ros2实现了将文本转为语音输出的功能
+wheeltec_aiui与wheeltec_mic结合实现语音识别的功能
+
+整体功能的实现通过指令ros2 launch wheeltec_aiui aiui_start.launch.py

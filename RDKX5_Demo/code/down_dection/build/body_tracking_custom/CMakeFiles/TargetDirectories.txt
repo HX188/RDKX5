@@ -1,0 +1,10 @@
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/uninstall.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/body_tracking_custom_uninstall.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/body_tracking_custom.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/test.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/edit_cache.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/rebuild_cache.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/list_install_components.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/install.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/install/local.dir
+/home/sunrise/down_dection/build/body_tracking_custom/CMakeFiles/install/strip.dir

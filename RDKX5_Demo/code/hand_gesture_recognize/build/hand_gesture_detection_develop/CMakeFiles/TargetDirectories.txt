@@ -1,0 +1,10 @@
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/uninstall.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/hand_gesture_detection_develop_uninstall.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/hand_gesture_detection_develop.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/test.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/edit_cache.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/rebuild_cache.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/list_install_components.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/install.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/install/local.dir
+/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/CMakeFiles/install/strip.dir

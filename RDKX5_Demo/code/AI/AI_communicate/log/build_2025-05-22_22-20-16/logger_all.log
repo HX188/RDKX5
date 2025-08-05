@@ -1,0 +1,374 @@
+[0.619s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.619s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8c54cac0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff8c702710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff8c702710>>)
+[1.731s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.732s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.733s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/AI/AI_communicate'
+[1.733s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.734s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.735s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.805s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.806s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.807s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.808s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.809s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.810s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extensions ['ignore', 'ignore_ament_install']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extension 'ignore'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extension 'ignore_ament_install'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extensions ['colcon_pkg']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extension 'colcon_pkg'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extensions ['colcon_meta']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extension 'colcon_meta'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extensions ['ros']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extension 'ros'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extensions ['cmake', 'python']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extension 'cmake'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extension 'python'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extensions ['python_setup_py']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat) by extension 'python_setup_py'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extensions ['ignore', 'ignore_ament_install']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extension 'ignore'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extension 'ignore_ament_install'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extensions ['colcon_pkg']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extension 'colcon_pkg'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extensions ['colcon_meta']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extension 'colcon_meta'
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extensions ['ros']
+[1.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/ollama_ros_chat/ollama_ros_chat) by extension 'ros'
+[1.835s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ollama_ros_chat/ollama_ros_chat' with type 'ros.ament_python' and name 'ollama_ros_chat'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extensions ['ignore', 'ignore_ament_install']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extension 'ignore'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extension 'ignore_ament_install'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extensions ['colcon_pkg']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extension 'colcon_pkg'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extensions ['colcon_meta']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extension 'colcon_meta'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extensions ['ros']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_aiui) by extension 'ros'
+[1.843s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_aiui' with type 'ros.ament_cmake' and name 'wheeltec_aiui'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extensions ['ignore', 'ignore_ament_install']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extension 'ignore'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extension 'ignore_ament_install'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extensions ['colcon_pkg']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extension 'colcon_pkg'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extensions ['colcon_meta']
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extension 'colcon_meta'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extensions ['ros']
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extension 'ros'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extensions ['cmake', 'python']
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extension 'cmake'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extension 'python'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extensions ['python_setup_py']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic) by extension 'python_setup_py'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extension 'ignore'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extension 'ignore_ament_install'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extensions ['colcon_pkg']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extension 'colcon_pkg'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extensions ['colcon_meta']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extension 'colcon_meta'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extensions ['ros']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_msg) by extension 'ros'
+[1.854s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_mic/wheeltec_mic_msg' with type 'ros.ament_cmake' and name 'wheeltec_mic_msg'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extensions ['ignore', 'ignore_ament_install']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extension 'ignore'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extension 'ignore_ament_install'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extensions ['colcon_pkg']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extension 'colcon_pkg'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extensions ['colcon_meta']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extension 'colcon_meta'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extensions ['ros']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_mic/wheeltec_mic_ros2) by extension 'ros'
+[1.862s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_mic/wheeltec_mic_ros2' with type 'ros.ament_cmake' and name 'wheeltec_mic_ros2'
+[1.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.862s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.863s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.982s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.987s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.988s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.988s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.988s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[1.989s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.989s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.990s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[1.993s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sunrise/AI/AI_communicate/install
+[1.995s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/sunrise/ros2_global_install
+[2.006s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 272 installed packages in /opt/ros/humble
+[2.093s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.360s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'cmake_args' from command line to 'None'
+[2.360s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'cmake_target' from command line to 'None'
+[2.360s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.361s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'cmake_clean_cache' from command line to 'False'
+[2.361s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'cmake_clean_first' from command line to 'False'
+[2.361s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'cmake_force_configure' from command line to 'False'
+[2.361s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'ament_cmake_args' from command line to 'None'
+[2.361s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'catkin_cmake_args' from command line to 'None'
+[2.361s] Level 5:colcon.colcon_core.verb:set package 'ollama_ros_chat' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.362s] DEBUG:colcon.colcon_core.verb:Building package 'ollama_ros_chat' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/AI/AI_communicate/build/ollama_ros_chat', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat', 'merge_install': False, 'path': '/home/sunrise/AI/AI_communicate/src/ollama_ros_chat/ollama_ros_chat', 'symlink_install': True, 'test_result_base': None}
+[2.364s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'cmake_args' from command line to 'None'
+[2.364s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'cmake_target' from command line to 'None'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'cmake_clean_cache' from command line to 'False'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'cmake_clean_first' from command line to 'False'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'cmake_force_configure' from command line to 'False'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'ament_cmake_args' from command line to 'None'
+[2.365s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'catkin_cmake_args' from command line to 'None'
+[2.366s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_aiui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.366s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_aiui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/AI/AI_communicate/build/wheeltec_aiui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui', 'merge_install': False, 'path': '/home/sunrise/AI/AI_communicate/src/wheeltec_aiui', 'symlink_install': True, 'test_result_base': None}
+[2.368s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'cmake_args' from command line to 'None'
+[2.368s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'cmake_target' from command line to 'None'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'cmake_clean_first' from command line to 'False'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'cmake_force_configure' from command line to 'False'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'ament_cmake_args' from command line to 'None'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.369s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.370s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_mic_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg', 'merge_install': False, 'path': '/home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_msg', 'symlink_install': True, 'test_result_base': None}
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'cmake_args' from command line to 'None'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'cmake_target' from command line to 'None'
+[2.372s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.373s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.373s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[2.373s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[2.373s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[2.373s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.373s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_mic_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.374s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_mic_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2', 'merge_install': False, 'path': '/home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_ros2', 'symlink_install': True, 'test_result_base': None}
+[2.374s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.379s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.380s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_msg' with build type 'ament_cmake'
+[2.381s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_msg'
+[2.392s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.393s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.415s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunrise/AI/AI_communicate/src/ollama_ros_chat/ollama_ros_chat' with build type 'ament_python'
+[2.415s] Level 1:colcon.colcon_core.shell:create_environment_hook('ollama_ros_chat', 'ament_prefix_path')
+[2.417s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/hook/ament_prefix_path.ps1'
+[2.421s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/hook/ament_prefix_path.dsv'
+[2.424s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/hook/ament_prefix_path.sh'
+[2.429s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.429s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.448s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/AI/AI_communicate/src/wheeltec_aiui' with build type 'ament_cmake'
+[2.449s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/AI/AI_communicate/src/wheeltec_aiui'
+[2.451s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.486s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg
+[4.209s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunrise/AI/AI_communicate/src/ollama_ros_chat/ollama_ros_chat'
+[4.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_aiui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_communicate/src/wheeltec_aiui -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_communicate/install/wheeltec_aiui
+[6.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/ollama_ros_chat': PYTHONPATH=/home/sunrise/AI/AI_communicate/build/ollama_ros_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sunrise/AI/AI_communicate/build/ollama_ros_chat/build --no-deps symlink_data
+[9.821s] Level 1:colcon.colcon_core.shell:create_environment_hook('ollama_ros_chat', 'pythonpath_develop')
+[9.823s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/build/ollama_ros_chat/share/ollama_ros_chat/hook/pythonpath_develop.ps1'
+[9.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/ollama_ros_chat' returned '0': PYTHONPATH=/home/sunrise/AI/AI_communicate/build/ollama_ros_chat/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sunrise/AI/AI_communicate/build/ollama_ros_chat/build --no-deps symlink_data
+[9.828s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/build/ollama_ros_chat/share/ollama_ros_chat/hook/pythonpath_develop.dsv'
+[9.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/build/ollama_ros_chat/share/ollama_ros_chat/hook/pythonpath_develop.sh'
+[9.846s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat' for CMake module files
+[9.849s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat' for CMake config files
+[9.852s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/lib'
+[9.853s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/bin'
+[9.853s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/lib/pkgconfig/ollama_ros_chat.pc'
+[9.855s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/lib/python3.10/site-packages'
+[9.855s] Level 1:colcon.colcon_core.shell:create_environment_hook('ollama_ros_chat', 'pythonpath')
+[9.857s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/hook/pythonpath.ps1'
+[9.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/hook/pythonpath.dsv'
+[9.862s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/hook/pythonpath.sh'
+[9.865s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/bin'
+[9.866s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ollama_ros_chat)
+[9.869s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/package.ps1'
+[9.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/package.dsv'
+[9.879s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/package.sh'
+[9.884s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/package.bash'
+[9.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/ollama_ros_chat/package.zsh'
+[9.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/AI/AI_communicate/install/ollama_ros_chat/share/colcon-core/packages/ollama_ros_chat)
+[10.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_aiui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_communicate/src/wheeltec_aiui -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_communicate/install/wheeltec_aiui
+[10.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_aiui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_communicate/build/wheeltec_aiui -- -j8 -l8
+[15.562s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg
+[15.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg -- -j8 -l8
+[48.201s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg -- -j8 -l8
+[48.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg
+[55.323s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_mic_msg)
+[55.325s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg' for CMake module files
+[55.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg
+[55.331s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg' for CMake config files
+[55.339s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_mic_msg', 'cmake_prefix_path')
+[55.341s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/cmake_prefix_path.ps1'
+[55.344s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/cmake_prefix_path.dsv'
+[55.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/cmake_prefix_path.sh'
+[55.350s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib'
+[55.350s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_mic_msg', 'ld_library_path_lib')
+[55.352s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/ld_library_path_lib.ps1'
+[55.354s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/ld_library_path_lib.dsv'
+[55.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/ld_library_path_lib.sh'
+[55.358s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/bin'
+[55.359s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/pkgconfig/wheeltec_mic_msg.pc'
+[55.360s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/python3.10/site-packages'
+[55.361s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/bin'
+[55.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.ps1'
+[55.366s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.dsv'
+[55.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.sh'
+[55.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.bash'
+[55.374s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.zsh'
+[55.376s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/colcon-core/packages/wheeltec_mic_msg)
+[55.380s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_mic_msg)
+[55.381s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg' for CMake module files
+[55.386s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg' for CMake config files
+[55.393s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_mic_msg', 'cmake_prefix_path')
+[55.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/cmake_prefix_path.ps1'
+[55.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/cmake_prefix_path.dsv'
+[55.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/cmake_prefix_path.sh'
+[55.402s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib'
+[55.403s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_mic_msg', 'ld_library_path_lib')
+[55.404s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/ld_library_path_lib.ps1'
+[55.407s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/ld_library_path_lib.dsv'
+[55.409s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/hook/ld_library_path_lib.sh'
+[55.411s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/bin'
+[55.412s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/pkgconfig/wheeltec_mic_msg.pc'
+[55.413s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib/python3.10/site-packages'
+[55.415s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/bin'
+[55.417s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.ps1'
+[55.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.dsv'
+[55.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.sh'
+[55.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.bash'
+[55.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/wheeltec_mic_msg/package.zsh'
+[55.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/share/colcon-core/packages/wheeltec_mic_msg)
+[55.434s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_ros2' with build type 'ament_cmake'
+[55.435s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_ros2'
+[55.437s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[55.437s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[55.485s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg:/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_communicate/install/wheeltec_aiui:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake /home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2
+[61.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg:/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_communicate/install/wheeltec_aiui:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake /home/sunrise/AI/AI_communicate/src/wheeltec_mic/wheeltec_mic_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2
+[61.984s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg:/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_communicate/install/wheeltec_aiui:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2 -- -j8 -l8
+[89.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_aiui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_communicate/build/wheeltec_aiui -- -j8 -l8
+[89.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_aiui': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_communicate/build/wheeltec_aiui
+[92.389s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_aiui)
+[92.391s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui' for CMake module files
+[92.395s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui' for CMake config files
+[92.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_aiui', 'cmake_prefix_path')
+[92.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/hook/cmake_prefix_path.ps1'
+[92.402s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/hook/cmake_prefix_path.dsv'
+[92.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/hook/cmake_prefix_path.sh'
+[92.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_aiui' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_communicate/build/wheeltec_aiui
+[92.411s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/lib'
+[92.412s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/bin'
+[92.413s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/lib/pkgconfig/wheeltec_aiui.pc'
+[92.415s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/lib/python3.10/site-packages'
+[92.416s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/bin'
+[92.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.ps1'
+[92.422s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.dsv'
+[92.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.sh'
+[92.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.bash'
+[92.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.zsh'
+[92.439s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/colcon-core/packages/wheeltec_aiui)
+[92.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_aiui)
+[92.446s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui' for CMake module files
+[92.450s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui' for CMake config files
+[92.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_aiui', 'cmake_prefix_path')
+[92.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/hook/cmake_prefix_path.ps1'
+[92.457s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/hook/cmake_prefix_path.dsv'
+[92.460s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/hook/cmake_prefix_path.sh'
+[92.464s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/lib'
+[92.465s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/bin'
+[92.466s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/lib/pkgconfig/wheeltec_aiui.pc'
+[92.467s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/lib/python3.10/site-packages'
+[92.469s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/bin'
+[92.472s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.ps1'
+[92.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.dsv'
+[92.481s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.sh'
+[92.485s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.bash'
+[92.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/wheeltec_aiui/package.zsh'
+[92.493s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/AI/AI_communicate/install/wheeltec_aiui/share/colcon-core/packages/wheeltec_aiui)
+[143.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg:/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_communicate/install/wheeltec_aiui:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --build /home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2 -- -j8 -l8
+[143.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg:/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_communicate/install/wheeltec_aiui:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --install /home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2
+[145.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_mic_ros2)
+[145.109s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2' for CMake module files
+[145.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg:/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2:/home/sunrise/AI/AI_communicate/install/wheeltec_aiui:/home/sunrise/ros2_global_install/ollama_ros_msgs:/home/sunrise/AI/AI_communicate/install/ollama_ros_chat:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/AI/AI_communicate/install/wheeltec_mic_msg/lib:/home/sunrise/ros2_global_install/ollama_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib /usr/bin/cmake --install /home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2
+[145.116s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2' for CMake config files
+[145.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_mic_ros2', 'cmake_prefix_path')
+[145.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/hook/cmake_prefix_path.ps1'
+[145.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/hook/cmake_prefix_path.dsv'
+[145.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/hook/cmake_prefix_path.sh'
+[145.129s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/lib'
+[145.130s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/bin'
+[145.130s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/lib/pkgconfig/wheeltec_mic_ros2.pc'
+[145.132s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/lib/python3.10/site-packages'
+[145.134s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/bin'
+[145.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.ps1'
+[145.140s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.dsv'
+[145.142s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.sh'
+[145.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.bash'
+[145.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.zsh'
+[145.150s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/colcon-core/packages/wheeltec_mic_ros2)
+[145.154s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_mic_ros2)
+[145.155s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2' for CMake module files
+[145.160s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2' for CMake config files
+[145.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_mic_ros2', 'cmake_prefix_path')
+[145.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/hook/cmake_prefix_path.ps1'
+[145.166s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/hook/cmake_prefix_path.dsv'
+[145.168s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/hook/cmake_prefix_path.sh'
+[145.172s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/lib'
+[145.172s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/bin'
+[145.173s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/lib/pkgconfig/wheeltec_mic_ros2.pc'
+[145.174s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/lib/python3.10/site-packages'
+[145.176s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/bin'
+[145.178s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.ps1'
+[145.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.dsv'
+[145.183s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.sh'
+[145.186s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.bash'
+[145.188s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.zsh'
+[145.191s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/AI/AI_communicate/install/wheeltec_mic_ros2/share/colcon-core/packages/wheeltec_mic_ros2)
+[145.192s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[145.193s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[145.194s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[145.194s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[145.225s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[145.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[145.226s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[145.227s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[145.249s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[145.251s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/AI/AI_communicate/install/local_setup.ps1'
+[145.257s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/AI/AI_communicate/install/_local_setup_util_ps1.py'
+[145.267s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/AI/AI_communicate/install/setup.ps1'
+[145.275s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/AI/AI_communicate/install/local_setup.sh'
+[145.278s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/AI/AI_communicate/install/_local_setup_util_sh.py'
+[145.281s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/AI/AI_communicate/install/setup.sh'
+[145.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/AI/AI_communicate/install/local_setup.bash'
+[145.291s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/AI/AI_communicate/install/setup.bash'
+[145.299s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/AI/AI_communicate/install/local_setup.zsh'
+[145.302s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/AI/AI_communicate/install/setup.zsh'

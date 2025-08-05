@@ -1,0 +1,92 @@
+[3.694s] Invoking command in '/home/sunrise/AI/AI_whole/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_whole/src/tts_make_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_whole/install/tts
+[4.012s] -- The C compiler identification is GNU 11.2.0
+[4.352s] -- The CXX compiler identification is GNU 11.2.0
+[4.386s] -- Detecting C compiler ABI info
+[4.778s] -- Detecting C compiler ABI info - done
+[4.832s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.833s] -- Detecting C compile features
+[4.836s] -- Detecting C compile features - done
+[4.852s] -- Detecting CXX compiler ABI info
+[5.313s] -- Detecting CXX compiler ABI info - done
+[5.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.373s] -- Detecting CXX compile features
+[5.376s] -- Detecting CXX compile features - done
+[5.387s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.560s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.051s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.177s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[7.386s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.413s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.460s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.533s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.633s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.890s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.905s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.357s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.491s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.690s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.741s] -- Looking for pthread.h
+[9.145s] -- Looking for pthread.h - found
+[9.147s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.565s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.572s] -- Found Threads: TRUE  
+[9.901s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[10.512s] -- Added test 'copyright' to check source files copyright and LICENSE
+[10.530s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[10.531s] -- Configured cppcheck include dirs: /home/sunrise/AI/AI_whole/src/tts_make_ros2/include
+[10.532s] -- Configured cppcheck exclude dirs and/or files: 
+[10.543s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[10.544s] -- Configured cpplint exclude dirs and/or files: 
+[10.548s] -- Added test 'flake8' to check Python code syntax and style conventions
+[10.555s] -- Added test 'lint_cmake' to check CMake code style
+[10.558s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[10.570s] -- Added test 'uncrustify' to check C / C++ code style
+[10.573s] -- Configured uncrustify additional arguments: 
+[10.574s] -- Added test 'xmllint' to check XML markup files
+[10.582s] -- Configuring done
+[10.628s] -- Generating done
+[10.647s] -- Build files have been written to: /home/sunrise/AI/AI_whole/build/tts
+[10.721s] Invoked command in '/home/sunrise/AI/AI_whole/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_whole/src/tts_make_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_whole/install/tts
+[10.731s] Invoking command in '/home/sunrise/AI/AI_whole/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_whole/build/tts -- -j8 -l8
+[11.004s] [ 50%] [32mBuilding CXX object CMakeFiles/tts_node.dir/src/tts_make.cpp.o[0m
+[103.450s] [100%] [32m[1mLinking CXX executable tts_node[0m
+[103.962s] /usr/bin/ld: 当搜索用于 /home/sunrise/AI/AI_whole/src/tts_make_ros2/libs/x64/libmsc.so 时跳过不兼容的 -lmsc
+[109.567s] [100%] Built target tts_node
+[110.354s] Invoked command in '/home/sunrise/AI/AI_whole/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_whole/build/tts -- -j8 -l8
+[110.364s] Invoking command in '/home/sunrise/AI/AI_whole/build/tts': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_whole/build/tts
+[110.407s] -- Install configuration: ""
+[110.409s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/launch
+[110.411s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/launch/tts_make.launch.py
+[110.411s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config
+[110.414s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/tts_params.yaml
+[110.415s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin
+[110.416s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc
+[110.417s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/msc.cfg
+[110.417s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res
+[110.418s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/tts
+[110.419s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/tts/common.jet
+[110.441s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/tts/xiaofeng.jet
+[110.454s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/tts/xiaoyan.jet
+[110.484s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/xtts
+[110.486s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/xtts/common.jet
+[110.624s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/xtts/xiaofeng.jet
+[110.663s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/xtts/xiaoyan.jet
+[110.703s] -- Installing: /home/sunrise/AI/AI_whole/install/tts/share/tts/config/bin/msc/res/xtts/common_en.jet
+[110.727s] -- Execute custom install script
+[110.729s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/lib/tts/tts_node
+[110.777s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/ament_index/resource_index/package_run_dependencies/tts
+[110.825s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/ament_index/resource_index/parent_prefix_path/tts
+[110.874s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/environment/ament_prefix_path.sh
+[110.922s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/environment/ament_prefix_path.dsv
+[110.968s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/environment/path.sh
+[111.014s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/environment/path.dsv
+[111.065s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/local_setup.bash
+[111.112s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/local_setup.sh
+[112.832s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/local_setup.zsh
+[112.880s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/local_setup.dsv
+[112.924s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/package.dsv
+[112.970s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/ament_index/resource_index/packages/tts
+[113.015s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/cmake/ttsConfig.cmake
+[113.061s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/cmake/ttsConfig-version.cmake
+[113.106s] -- Symlinking: /home/sunrise/AI/AI_whole/install/tts/share/tts/package.xml
+[113.161s] Invoked command in '/home/sunrise/AI/AI_whole/build/tts' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_whole/build/tts

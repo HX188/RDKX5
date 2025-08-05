@@ -1,0 +1,24 @@
+[3.968s] Invoking command in '/home/sunrise/down_dection/build/fall_detector_py': PYTHONPATH=/home/sunrise/down_dection/build/fall_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sunrise/down_dection/build/fall_detector_py/build --no-deps symlink_data
+[5.524s] running develop
+[6.507s] running egg_info
+[6.508s] creating fall_detector_py.egg-info
+[6.509s] writing fall_detector_py.egg-info/PKG-INFO
+[6.510s] writing dependency_links to fall_detector_py.egg-info/dependency_links.txt
+[6.510s] writing entry points to fall_detector_py.egg-info/entry_points.txt
+[6.511s] writing requirements to fall_detector_py.egg-info/requires.txt
+[6.511s] writing top-level names to fall_detector_py.egg-info/top_level.txt
+[6.512s] writing manifest file 'fall_detector_py.egg-info/SOURCES.txt'
+[6.521s] reading manifest file 'fall_detector_py.egg-info/SOURCES.txt'
+[6.524s] writing manifest file 'fall_detector_py.egg-info/SOURCES.txt'
+[6.531s] running build_ext
+[6.533s] Creating /home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages/fall-detector-py.egg-link (link to .)
+[6.537s] Installing fall_detector_node script to /home/sunrise/down_dection/install/fall_detector_py/lib/fall_detector_py
+[6.538s] 
+[6.539s] Installed /home/sunrise/down_dection/build/fall_detector_py
+[6.539s] running symlink_data
+[6.540s] creating /home/sunrise/down_dection/install/fall_detector_py/share/ament_index
+[6.540s] creating /home/sunrise/down_dection/install/fall_detector_py/share/ament_index/resource_index
+[6.541s] creating /home/sunrise/down_dection/install/fall_detector_py/share/ament_index/resource_index/packages
+[6.541s] symbolically linking /home/sunrise/down_dection/build/fall_detector_py/resource/fall_detector_py -> /home/sunrise/down_dection/install/fall_detector_py/share/ament_index/resource_index/packages
+[6.542s] symbolically linking /home/sunrise/down_dection/build/fall_detector_py/package.xml -> /home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py
+[6.784s] Invoked command in '/home/sunrise/down_dection/build/fall_detector_py' returned '0': PYTHONPATH=/home/sunrise/down_dection/build/fall_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/sunrise/down_dection/build/fall_detector_py/build --no-deps symlink_data

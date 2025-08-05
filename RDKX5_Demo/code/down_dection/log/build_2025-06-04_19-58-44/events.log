@@ -1,0 +1,102 @@
+[0.000000] (-) TimerEvent: {}
+[0.002525] (-) JobUnselected: {'identifier': 'body_tracking_custom'}
+[0.003699] (fall_detector_py) JobQueued: {'identifier': 'fall_detector_py', 'dependencies': OrderedDict()}
+[0.004626] (fall_detector_py) JobStarted: {'identifier': 'fall_detector_py'}
+[0.098271] (-) TimerEvent: {}
+[0.199492] (-) TimerEvent: {}
+[0.300520] (-) TimerEvent: {}
+[0.401503] (-) TimerEvent: {}
+[0.571951] (-) TimerEvent: {}
+[0.672959] (-) TimerEvent: {}
+[0.774049] (-) TimerEvent: {}
+[0.874993] (-) TimerEvent: {}
+[0.975903] (-) TimerEvent: {}
+[1.076799] (-) TimerEvent: {}
+[1.177767] (-) TimerEvent: {}
+[1.278642] (-) TimerEvent: {}
+[1.379657] (-) TimerEvent: {}
+[1.480559] (-) TimerEvent: {}
+[1.581405] (-) TimerEvent: {}
+[1.682531] (-) TimerEvent: {}
+[1.783542] (-) TimerEvent: {}
+[1.884558] (-) TimerEvent: {}
+[1.985631] (-) TimerEvent: {}
+[2.086563] (-) TimerEvent: {}
+[2.187672] (-) TimerEvent: {}
+[2.288502] (-) TimerEvent: {}
+[2.389379] (-) TimerEvent: {}
+[2.490273] (-) TimerEvent: {}
+[2.591123] (-) TimerEvent: {}
+[2.691970] (-) TimerEvent: {}
+[2.792789] (-) TimerEvent: {}
+[2.893604] (-) TimerEvent: {}
+[2.994437] (-) TimerEvent: {}
+[3.095254] (-) TimerEvent: {}
+[3.196092] (-) TimerEvent: {}
+[3.296962] (-) TimerEvent: {}
+[3.397851] (-) TimerEvent: {}
+[3.498819] (-) TimerEvent: {}
+[3.599790] (-) TimerEvent: {}
+[3.700668] (-) TimerEvent: {}
+[3.801748] (-) TimerEvent: {}
+[3.902889] (-) TimerEvent: {}
+[4.003776] (-) TimerEvent: {}
+[4.104797] (-) TimerEvent: {}
+[4.205908] (-) TimerEvent: {}
+[4.306973] (-) TimerEvent: {}
+[4.409016] (-) TimerEvent: {}
+[4.510129] (-) TimerEvent: {}
+[4.611357] (-) TimerEvent: {}
+[4.622848] (fall_detector_py) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/sunrise/down_dection/build/fall_detector_py/build', '--no-deps', 'symlink_data'], 'cwd': '/home/sunrise/down_dection/build/fall_detector_py', 'env': {'USER': 'sunrise', 'SSH_CLIENT': '172.30.22.219 64463 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib:', 'BROWSER': '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'TERM_PROGRAM_VERSION': '0.50.7', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-eb8b29aa-b3df-4022-9ec0-f2a6dc2e9582.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/sunrise/down_dection/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/tros/humble/bin:/home/sunrise/.cursor-server/cli/servers/Stable-02270c8441bdc4b2fdbc30e6f470a589ec78d600/server/bin/remote-cli:/home/sunrise/.local/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-3a00e182b6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/down_dection/install/fall_detector_py:/home/sunrise/down_dection/install/body_tracking_custom:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/down_dection/build/fall_detector_py', 'SSH_CONNECTION': '172.30.22.219 64463 172.30.161.177 22', 'PYTHONPATH': '/home/sunrise/down_dection/build/fall_detector_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:/home/sunrise/down_dection/build/fall_detector_py:/home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/down_dection/install/body_tracking_custom'}, 'shell': False}
+[4.711542] (-) TimerEvent: {}
+[4.812437] (-) TimerEvent: {}
+[4.913326] (-) TimerEvent: {}
+[5.014222] (-) TimerEvent: {}
+[5.115160] (-) TimerEvent: {}
+[5.216050] (-) TimerEvent: {}
+[5.317117] (-) TimerEvent: {}
+[5.418013] (-) TimerEvent: {}
+[5.518954] (-) TimerEvent: {}
+[5.619921] (-) TimerEvent: {}
+[5.720783] (-) TimerEvent: {}
+[5.821714] (-) TimerEvent: {}
+[5.922633] (-) TimerEvent: {}
+[6.023446] (-) TimerEvent: {}
+[6.124356] (-) TimerEvent: {}
+[6.225303] (-) TimerEvent: {}
+[6.326189] (-) TimerEvent: {}
+[6.427274] (-) TimerEvent: {}
+[6.478755] (fall_detector_py) StdoutLine: {'line': b'running develop\n'}
+[6.527459] (-) TimerEvent: {}
+[6.628330] (-) TimerEvent: {}
+[6.729204] (-) TimerEvent: {}
+[6.830134] (-) TimerEvent: {}
+[6.931402] (-) TimerEvent: {}
+[7.032375] (-) TimerEvent: {}
+[7.133344] (-) TimerEvent: {}
+[7.234410] (-) TimerEvent: {}
+[7.335401] (-) TimerEvent: {}
+[7.436249] (-) TimerEvent: {}
+[7.537319] (-) TimerEvent: {}
+[7.638447] (-) TimerEvent: {}
+[7.664155] (fall_detector_py) StdoutLine: {'line': b'running egg_info\n'}
+[7.665371] (fall_detector_py) StdoutLine: {'line': b'writing fall_detector_py.egg-info/PKG-INFO\n'}
+[7.666917] (fall_detector_py) StdoutLine: {'line': b'writing dependency_links to fall_detector_py.egg-info/dependency_links.txt\n'}
+[7.667964] (fall_detector_py) StdoutLine: {'line': b'writing entry points to fall_detector_py.egg-info/entry_points.txt\n'}
+[7.668827] (fall_detector_py) StdoutLine: {'line': b'writing requirements to fall_detector_py.egg-info/requires.txt\n'}
+[7.669537] (fall_detector_py) StdoutLine: {'line': b'writing top-level names to fall_detector_py.egg-info/top_level.txt\n'}
+[7.680989] (fall_detector_py) StdoutLine: {'line': b"reading manifest file 'fall_detector_py.egg-info/SOURCES.txt'\n"}
+[7.685690] (fall_detector_py) StdoutLine: {'line': b"writing manifest file 'fall_detector_py.egg-info/SOURCES.txt'\n"}
+[7.695851] (fall_detector_py) StdoutLine: {'line': b'running build_ext\n'}
+[7.697285] (fall_detector_py) StdoutLine: {'line': b'Creating /home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages/fall-detector-py.egg-link (link to .)\n'}
+[7.702801] (fall_detector_py) StdoutLine: {'line': b'Installing fall_detector_node script to /home/sunrise/down_dection/install/fall_detector_py/lib/fall_detector_py\n'}
+[7.704269] (fall_detector_py) StdoutLine: {'line': b'\n'}
+[7.705020] (fall_detector_py) StdoutLine: {'line': b'Installed /home/sunrise/down_dection/build/fall_detector_py\n'}
+[7.705596] (fall_detector_py) StdoutLine: {'line': b'running symlink_data\n'}
+[7.738680] (-) TimerEvent: {}
+[7.839725] (-) TimerEvent: {}
+[7.940748] (-) TimerEvent: {}
+[7.957181] (fall_detector_py) CommandEnded: {'returncode': 0}
+[8.042146] (-) TimerEvent: {}
+[8.088617] (fall_detector_py) JobEnded: {'identifier': 'fall_detector_py', 'rc': 0}
+[8.092246] (-) EventReactorShutdown: {}

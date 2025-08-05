@@ -1,0 +1,18 @@
+[0minvalid platform, build platform X3 default[0m
+[0mCMAKE_SYSROOT is [0m
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:36:29:[m[K [01;31m[Kerror: [m[K‘[01m[Kgesture_type[m[K’ was not declared in this scope; did you mean ‘[01m[Kinference::gesture_type[m[K’?
+   36 | std::string gestureToString([01;31m[Kgesture_type[m[K g) {
+      |                             [01;31m[K^~~~~~~~~~~~[m[K
+      |                             [32m[Kinference::gesture_type[m[K
+In file included from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/gesture_preprocess.h:25[m[K,
+                 from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/hand_gesture_det_node.h:25[m[K,
+                 from [01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:15[m[K:
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/include/gesture_data.h:103:12:[m[K [01;36m[Knote: [m[K‘[01m[Kinference::gesture_type[m[K’ declared here
+  103 | enum class [01;36m[Kgesture_type[m[K {
+      |            [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/hand_gesture_det_node.cpp:36:45:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K{[m[K’ token
+   36 | std::string gestureToString(gesture_type g) [01;31m[K{[m[K
+      |                                             [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/hand_gesture_detection_develop.dir/build.make:90：CMakeFiles/hand_gesture_detection_develop.dir/src/hand_gesture_det_node.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/hand_gesture_detection_develop.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

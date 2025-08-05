@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop/hand_gesture_detection_develop" "TARGETS" "hand_gesture_detection_develop" "RUNTIME_DESTINATION" "lib/hand_gesture_detection_develop")

@@ -1,0 +1,849 @@
+[0.046s] Invoking command in '/home/sunrise/down_dection/build/body_tracking_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/down_dection/src/body_tracking_custom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/down_dection/install/body_tracking_custom
+[0.358s] -- The C compiler identification is GNU 11.2.0
+[0.682s] -- The CXX compiler identification is GNU 11.2.0
+[0.718s] -- Detecting C compiler ABI info
+[1.107s] -- Detecting C compiler ABI info - done
+[1.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.194s] -- Detecting C compile features
+[1.196s] -- Detecting C compile features - done
+[1.210s] -- Detecting CXX compiler ABI info
+[1.627s] -- Detecting CXX compiler ABI info - done
+[1.707s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.708s] -- Detecting CXX compile features
+[1.710s] -- Detecting CXX compile features - done
+[1.721s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.685s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.124s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.259s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[3.455s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.481s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.523s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.588s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.676s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.904s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.916s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.344s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.483s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.672s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.712s] -- Looking for pthread.h
+[5.109s] -- Looking for pthread.h - found
+[5.110s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.522s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.535s] -- Found Threads: TRUE  
+[5.844s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[6.035s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[6.081s] -- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)
+[6.413s] -- Found OpenCV: /usr (found suitable version "4.5.4", minimum required is "4") 
+[6.840s] -- Configuring done
+[6.915s] -- Generating done
+[6.940s] -- Build files have been written to: /home/sunrise/down_dection/build/body_tracking_custom
+[7.014s] Invoked command in '/home/sunrise/down_dection/build/body_tracking_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/down_dection/src/body_tracking_custom -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/down_dection/install/body_tracking_custom
+[7.040s] Invoking command in '/home/sunrise/down_dection/build/body_tracking_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/down_dection/build/body_tracking_custom -- -j8 -l8
+[7.163s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[7.903s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.975s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[8.114s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.129s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.161s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.217s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.287s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.462s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.468s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.937s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.210s] -- Found rclcpp_action: 16.0.12 (/opt/ros/humble/share/rclcpp_action/cmake)
+[9.380s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[9.418s] -- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)
+[10.141s] -- Configuring done
+[10.221s] -- Generating done
+[10.248s] -- Build files have been written to: /home/sunrise/down_dection/build/body_tracking_custom
+[10.428s] gmake[2]: 警告：文件“/home/sunrise/down_dection/src/body_tracking_custom/src/smart_subscriber.cpp”的修改时间在未来 784989278 秒后
+[10.463s] [ 80%] [32mBuilding CXX object CMakeFiles/body_tracking_custom.dir/src/main.cpp.o[0m
+[10.463s] [ 80%] [32mBuilding CXX object CMakeFiles/body_tracking_custom.dir/src/util.cpp.o[0m
+[10.464s] [ 80%] [32mBuilding CXX object CMakeFiles/body_tracking_custom.dir/src/smart_subscriber.cpp.o[0m
+[10.465s] [ 80%] [32mBuilding CXX object CMakeFiles/body_tracking_custom.dir/src/body_tracking.cpp.o[0m
+[32.323s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.324s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.325s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.326s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.327s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.328s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.329s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.329s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.330s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.330s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.331s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.331s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:[m[K In member function ‘[01m[Kbool TrackingManager::RotateSwitch()[m[K’:
+[32.332s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:150:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.332s]   150 |                 [01;35m[K"track_id: %d, serial_lost_num: %d, thr: %d, stop rotate!"[m[K,
+[32.332s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.333s]   151 |                 [32m[Ktrack_info_.track_id[m[K,
+[32.333s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[32.334s]       |                             [32m[K|[m[K
+[32.334s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.335s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:150:29:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.336s]   150 |                 "track_id: [01;36m[K%d[m[K, serial_lost_num: %d, thr: %d, stop rotate!",
+[32.336s]       |                            [01;36m[K~^[m[K
+[32.337s]       |                             [01;36m[K|[m[K
+[32.337s]       |                             [01;36m[Kint[m[K
+[32.338s]       |                            [32m[K%ld[m[K
+[32.363s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.365s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.366s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.367s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.368s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.369s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.370s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.370s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.371s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.371s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.372s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.373s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::DoRotateMove()[m[K’:
+[32.373s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:262:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.374s]   262 |                 [01;35m[K"Do rotate move, ts sec: %llu, nanosec: %llu"[m[K,
+[32.375s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.375s]   263 |                 [32m[Ktrack_info_.frame_ts_sec[m[K,
+[32.376s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.376s]       |                             [32m[K|[m[K
+[32.377s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.377s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:262:45:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.378s]   262 |                 "Do rotate move, ts sec: [01;36m[K%llu[m[K, nanosec: %llu",
+[32.379s]       |                                          [01;36m[K~~~^[m[K
+[32.379s]       |                                             [01;36m[K|[m[K
+[32.380s]       |                                             [01;36m[Klong long unsigned int[m[K
+[32.381s]       |                                          [32m[K%lu[m[K
+[32.382s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.382s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.383s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.384s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.385s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.386s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.387s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.388s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.389s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.389s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.390s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.391s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.391s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:262:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.392s]   262 |                 [01;35m[K"Do rotate move, ts sec: %llu, nanosec: %llu"[m[K,
+[32.392s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.393s]   263 |                 track_info_.frame_ts_sec,
+[32.394s]   264 |                 [32m[Ktrack_info_.frame_ts_nanosec[m[K);
+[32.394s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.395s]       |                             [32m[K|[m[K
+[32.396s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.396s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:262:60:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.397s]   262 |                 "Do rotate move, ts sec: %llu, nanosec: [01;36m[K%llu[m[K",
+[32.397s]       |                                                         [01;36m[K~~~^[m[K
+[32.398s]       |                                                            [01;36m[K|[m[K
+[32.399s]       |                                                            [01;36m[Klong long unsigned int[m[K
+[32.399s]       |                                                         [32m[K%lu[m[K
+[32.415s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.416s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.417s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.418s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.419s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.420s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.421s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.421s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.422s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.422s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.423s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.424s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.424s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.425s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::ProcessSmart(const ConstSharedPtr&)[m[K’:
+[32.426s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:422:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.426s]   422 |               [01;35m[K"process smart frame_ts %llu"[m[K,
+[32.427s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.427s]   423 |               [32m[Kframe_ts[m[K);
+[32.428s]       |               [32m[K~~~~~~~~[m[K
+[32.429s]       |               [32m[K|[m[K
+[32.429s]       |               [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.432s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:422:42:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.433s]   422 |               "process smart frame_ts [01;36m[K%llu[m[K",
+[32.433s]       |                                       [01;36m[K~~~^[m[K
+[32.434s]       |                                          [01;36m[K|[m[K
+[32.435s]       |                                          [01;36m[Klong long unsigned int[m[K
+[32.435s]       |                                       [32m[K%lu[m[K
+[32.436s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.437s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.438s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.439s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.440s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.442s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.443s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.444s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.444s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.445s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.446s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.446s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.448s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:485:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.449s]   485 |                       [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[32.450s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.450s]   486 |                       [32m[Ktarget.track_id[m[K,
+[32.452s]       |                       [32m[K~~~~~~~~~~~~~~~[m[K
+[32.453s]       |                              [32m[K|[m[K
+[32.454s]       |                              [32m[Klong unsigned int[m[K
+[32.454s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:485:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.455s]   485 |                       "track_id: [01;36m[K%d[m[K, attr type: %s, val: %d",
+[32.456s]       |                                  [01;36m[K~^[m[K
+[32.457s]       |                                   [01;36m[K|[m[K
+[32.458s]       |                                   [01;36m[Kint[m[K
+[32.458s]       |                                  [32m[K%ld[m[K
+[32.459s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.460s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.462s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.463s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.464s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.465s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.466s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.467s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.468s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.468s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.469s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.470s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.470s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.471s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:485:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.471s]   485 |                       [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[32.472s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.473s] ......
+[32.475s]   488 |                       [32m[Kattr.value[m[K);
+[32.475s]       |                       [32m[K~~~~~~~~~~[m[K
+[32.476s]       |                            [32m[K|[m[K
+[32.477s]       |                            [32m[Kdouble[m[K
+[32.477s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:485:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.478s]   485 |                       "track_id: %d, attr type: %s, val: [01;36m[K%d[m[K",
+[32.479s]       |                                                          [01;36m[K~^[m[K
+[32.479s]       |                                                           [01;36m[K|[m[K
+[32.480s]       |                                                           [01;36m[Kint[m[K
+[32.480s]       |                                                          [32m[K%f[m[K
+[32.482s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.482s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.483s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.484s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.485s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.486s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.487s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.488s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.488s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.489s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.489s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.490s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.491s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:527:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.491s]   527 |                           [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[32.492s]       |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.493s]   528 |                           [32m[Ktarget.track_id[m[K,
+[32.493s]       |                           [32m[K~~~~~~~~~~~~~~~[m[K
+[32.495s]       |                                  [32m[K|[m[K
+[32.495s]       |                                  [32m[Klong unsigned int[m[K
+[32.496s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:527:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.497s]   527 |                           "track_id: [01;36m[K%d[m[K, attr type: %s, val: %d",
+[32.497s]       |                                      [01;36m[K~^[m[K
+[32.498s]       |                                       [01;36m[K|[m[K
+[32.499s]       |                                       [01;36m[Kint[m[K
+[32.499s]       |                                      [32m[K%ld[m[K
+[32.500s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.501s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.501s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.502s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.503s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.503s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.504s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.505s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.506s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.507s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.507s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.508s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.509s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.509s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:527:27:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.510s]   527 |                           [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[32.510s]       |                           [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.511s] ......
+[32.511s]   530 |                           [32m[Kattr.value[m[K);
+[32.512s]       |                           [32m[K~~~~~~~~~~[m[K
+[32.513s]       |                                [32m[K|[m[K
+[32.513s]       |                                [32m[Kdouble[m[K
+[32.514s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:527:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.514s]   527 |                           "track_id: %d, attr type: %s, val: [01;36m[K%d[m[K",
+[32.515s]       |                                                              [01;36m[K~^[m[K
+[32.515s]       |                                                               [01;36m[K|[m[K
+[32.516s]       |                                                               [01;36m[Kint[m[K
+[32.517s]       |                                                              [32m[K%f[m[K
+[32.517s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.518s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.519s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.520s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.520s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.521s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.522s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.523s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.523s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.524s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.524s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.525s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.526s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:565:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.526s]   565 |                     [01;35m[K"frame_ts %llu, track id: %d recved cancel gesture: %d"[m[K,
+[32.527s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.527s]   566 |                     [32m[Kframe_ts[m[K,
+[32.528s]       |                     [32m[K~~~~~~~~[m[K
+[32.528s]       |                     [32m[K|[m[K
+[32.529s]       |                     [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.529s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:565:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.531s]   565 |                     "frame_ts [01;36m[K%llu[m[K, track id: %d recved cancel gesture: %d",
+[32.532s]       |                               [01;36m[K~~~^[m[K
+[32.532s]       |                                  [01;36m[K|[m[K
+[32.533s]       |                                  [01;36m[Klong long unsigned int[m[K
+[32.533s]       |                               [32m[K%lu[m[K
+[32.534s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.535s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.536s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.536s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.537s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.538s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.539s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.540s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.541s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.542s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.543s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.543s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.544s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:565:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.545s]   565 |                     [01;35m[K"frame_ts %llu, track id: %d recved cancel gesture: %d"[m[K,
+[32.545s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.546s]   566 |                     frame_ts,
+[32.547s]   567 |                     [32m[Ktrack_info_.track_id[m[K,
+[32.547s]       |                     [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[32.548s]       |                                 [32m[K|[m[K
+[32.548s]       |                                 [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.549s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:565:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.550s]   565 |                     "frame_ts %llu, track id: [01;36m[K%d[m[K recved cancel gesture: %d",
+[32.550s]       |                                               [01;36m[K~^[m[K
+[32.551s]       |                                                [01;36m[K|[m[K
+[32.551s]       |                                                [01;36m[Kint[m[K
+[32.552s]       |                                               [32m[K%ld[m[K
+[32.552s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.553s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.554s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.555s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.556s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.557s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.558s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.558s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.559s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.560s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.560s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.561s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.561s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:580:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.562s]   580 |                         [01;35m[K"frame_ts %llu, track id: %d recved cancel gesture: %d"[m[K,
+[32.562s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.563s]   581 |                         [32m[Kframe_ts[m[K,
+[32.564s]       |                         [32m[K~~~~~~~~[m[K
+[32.564s]       |                         [32m[K|[m[K
+[32.565s]       |                         [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.565s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:580:38:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.566s]   580 |                         "frame_ts [01;36m[K%llu[m[K, track id: %d recved cancel gesture: %d",
+[32.567s]       |                                   [01;36m[K~~~^[m[K
+[32.569s]       |                                      [01;36m[K|[m[K
+[32.569s]       |                                      [01;36m[Klong long unsigned int[m[K
+[32.570s]       |                                   [32m[K%lu[m[K
+[32.571s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.571s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.572s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.573s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.574s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.575s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.576s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.577s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.578s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.579s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.579s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.580s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.581s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:580:25:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.583s]   580 |                         [01;35m[K"frame_ts %llu, track id: %d recved cancel gesture: %d"[m[K,
+[32.583s]       |                         [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.584s]   581 |                         frame_ts,
+[32.584s]   582 |                         [32m[Ktrack_info_.track_id[m[K,
+[32.585s]       |                         [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[32.585s]       |                                     [32m[K|[m[K
+[32.586s]       |                                     [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.587s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:580:52:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.588s]   580 |                         "frame_ts %llu, track id: [01;36m[K%d[m[K recved cancel gesture: %d",
+[32.588s]       |                                                   [01;36m[K~^[m[K
+[32.589s]       |                                                    [01;36m[K|[m[K
+[32.590s]       |                                                    [01;36m[Kint[m[K
+[32.590s]       |                                                   [32m[K%ld[m[K
+[32.591s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.591s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.592s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.593s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.594s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.595s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.596s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.596s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.596s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.597s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.597s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.598s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:598:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.598s]   598 |                   [01;35m[K"find track fail! frame_ts %llu"[m[K,
+[32.599s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.599s]   599 |                   [32m[Kframe_ts[m[K);
+[32.600s]       |                   [32m[K~~~~~~~~[m[K
+[32.600s]       |                   [32m[K|[m[K
+[32.601s]       |                   [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.601s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:598:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.602s]   598 |                   "find track fail! frame_ts [01;36m[K%llu[m[K",
+[32.602s]       |                                              [01;36m[K~~~^[m[K
+[32.602s]       |                                                 [01;36m[K|[m[K
+[32.603s]       |                                                 [01;36m[Klong long unsigned int[m[K
+[32.603s]       |                                              [32m[K%lu[m[K
+[32.604s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.604s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.605s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.606s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.607s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.608s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.609s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.610s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.610s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.611s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.611s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.612s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:607:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.612s]   607 |                     [01;35m[K"frame_ts %llu, track id: %d serial lost num: %d"[m[K,
+[32.612s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.613s]   608 |                     [32m[Kframe_ts[m[K,
+[32.613s]       |                     [32m[K~~~~~~~~[m[K
+[32.614s]       |                     [32m[K|[m[K
+[32.615s]       |                     [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.615s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:607:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.616s]   607 |                     "frame_ts [01;36m[K%llu[m[K, track id: %d serial lost num: %d",
+[32.616s]       |                               [01;36m[K~~~^[m[K
+[32.617s]       |                                  [01;36m[K|[m[K
+[32.617s]       |                                  [01;36m[Klong long unsigned int[m[K
+[32.618s]       |                               [32m[K%lu[m[K
+[32.618s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.619s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.620s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.620s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.620s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.621s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.622s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.622s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.623s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.623s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.624s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.624s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.625s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.625s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:607:21:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.626s]   607 |                     [01;35m[K"frame_ts %llu, track id: %d serial lost num: %d"[m[K,
+[32.626s]       |                     [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.627s]   608 |                     frame_ts,
+[32.627s]   609 |                     [32m[Ktrack_info_.track_id[m[K,
+[32.628s]       |                     [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[32.628s]       |                                 [32m[K|[m[K
+[32.629s]       |                                 [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.629s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:607:48:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.630s]   607 |                     "frame_ts %llu, track id: [01;36m[K%d[m[K serial lost num: %d",
+[32.631s]       |                                               [01;36m[K~^[m[K
+[32.631s]       |                                                [01;36m[K|[m[K
+[32.632s]       |                                                [01;36m[Kint[m[K
+[32.632s]       |                                               [32m[K%ld[m[K
+[32.633s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.633s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.634s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.635s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.636s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.637s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.637s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.638s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.638s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.639s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.640s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.640s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.641s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.641s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:616:22:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.642s]   616 |                      [01;35m[K"track id: %d serial lost num exceed limit: %d"[m[K,
+[32.642s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.643s]   617 |                      [32m[Ktrack_info_.track_id[m[K,
+[32.643s]       |                      [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[32.644s]       |                                  [32m[K|[m[K
+[32.644s]       |                                  [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.645s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:616:34:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.646s]   616 |                      "track id: [01;36m[K%d[m[K serial lost num exceed limit: %d",
+[32.646s]       |                                 [01;36m[K~^[m[K
+[32.647s]       |                                  [01;36m[K|[m[K
+[32.647s]       |                                  [01;36m[Kint[m[K
+[32.648s]       |                                 [32m[K%ld[m[K
+[32.648s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.649s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.650s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.651s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.652s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.653s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.654s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.654s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.655s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.655s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.656s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.656s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:661:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.657s]   661 |                       [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[32.657s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.658s]   662 |                       [32m[Ktarget.track_id[m[K,
+[32.658s]       |                       [32m[K~~~~~~~~~~~~~~~[m[K
+[32.659s]       |                              [32m[K|[m[K
+[32.659s]       |                              [32m[Klong unsigned int[m[K
+[32.660s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:661:35:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.661s]   661 |                       "track_id: [01;36m[K%d[m[K, attr type: %s, val: %d",
+[32.661s]       |                                  [01;36m[K~^[m[K
+[32.662s]       |                                   [01;36m[K|[m[K
+[32.662s]       |                                   [01;36m[Kint[m[K
+[32.663s]       |                                  [32m[K%ld[m[K
+[32.663s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.664s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.665s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.666s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.667s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.668s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.669s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.669s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.670s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.670s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.671s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.672s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:661:23:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.672s]   661 |                       [01;35m[K"track_id: %d, attr type: %s, val: %d"[m[K,
+[32.673s]       |                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.673s] ......
+[32.674s]   664 |                       [32m[Kattr.value[m[K);
+[32.674s]       |                       [32m[K~~~~~~~~~~[m[K
+[32.675s]       |                            [32m[K|[m[K
+[32.676s]       |                            [32m[Kdouble[m[K
+[32.676s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:661:59:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.677s]   661 |                       "track_id: %d, attr type: %s, val: [01;36m[K%d[m[K",
+[32.678s]       |                                                          [01;36m[K~^[m[K
+[32.678s]       |                                                           [01;36m[K|[m[K
+[32.679s]       |                                                           [01;36m[Kint[m[K
+[32.680s]       |                                                          [32m[K%f[m[K
+[32.680s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.681s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.683s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.684s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.685s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.686s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.686s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.687s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.687s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.688s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.688s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.689s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.689s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:807:19:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.690s]   807 |                   [01;35m[K"update frame_ts %llu, %d"[m[K,
+[32.691s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.691s]   808 |                   [32m[Kframe_ts[m[K,
+[32.692s]       |                   [32m[K~~~~~~~~[m[K
+[32.692s]       |                   [32m[K|[m[K
+[32.693s]       |                   [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.693s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:807:39:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.694s]   807 |                   "update frame_ts [01;36m[K%llu[m[K, %d",
+[32.694s]       |                                    [01;36m[K~~~^[m[K
+[32.695s]       |                                       [01;36m[K|[m[K
+[32.695s]       |                                       [01;36m[Klong long unsigned int[m[K
+[32.696s]       |                                    [32m[K%lu[m[K
+[32.696s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.697s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.697s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.698s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.699s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.700s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.701s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.702s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.702s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.703s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.703s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.704s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::RunTrackLostProtectionStrategy()[m[K’:
+[32.704s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:896:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.705s]   896 |                 [01;35m[K"track lost warnning! serial_lost_face_head_num: %d"[m[K,
+[32.705s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.706s]   897 |                 [32m[Ktrack_info_.serial_lost_face_head_num[m[K);
+[32.706s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.707s]       |                             [32m[K|[m[K
+[32.707s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.708s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:896:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.708s]   896 |                 "track lost warnning! serial_lost_face_head_num: [01;36m[K%d[m[K",
+[32.709s]       |                                                                  [01;36m[K~^[m[K
+[32.709s]       |                                                                   [01;36m[K|[m[K
+[32.710s]       |                                                                   [01;36m[Kint[m[K
+[32.710s]       |                                                                  [32m[K%ld[m[K
+[32.711s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.711s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.712s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.713s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.714s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.715s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.716s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.717s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.717s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.718s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.718s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.719s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::RunOverMovingProtectionStrategy()[m[K’:
+[32.719s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:930:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.720s]   930 |                 [01;35m[K"frame_ts %llu, robot over moving warnning! The angle between "[m[K
+[32.720s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.721s]   931 | [01;35m[K                "robot and track is %d, less than limit %d, robot overmoving "[m[K
+[32.721s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.722s]   932 | [01;35m[K                "strategy is activated!"[m[K,
+[32.722s]       |                 [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.723s]   933 |                 [32m[Ktrack_info_.frame_ts[m[K,
+[32.724s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[32.724s]       |                             [32m[K|[m[K
+[32.725s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.725s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:930:30:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.726s]   930 |                 "frame_ts [01;36m[K%llu[m[K, robot over moving warnning! The angle between "
+[32.726s]       |                           [01;36m[K~~~^[m[K
+[32.727s]       |                              [01;36m[K|[m[K
+[32.727s]       |                              [01;36m[Klong long unsigned int[m[K
+[32.728s]       |                           [32m[K%lu[m[K
+[32.728s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.729s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.730s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.731s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.732s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.732s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.733s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.733s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.734s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.734s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.735s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.735s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.736s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.737s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::TrackingWithoutNavStrategy(const ConstSharedPtr&)[m[K’:
+[32.737s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:995:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.738s]   995 |                 [01;35m[K"update smart fail! msg frame_ts %llu, track frame_ts %llu"[m[K,
+[32.738s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.739s]   996 |                 [32m[Kframe_ts[m[K,
+[32.739s]       |                 [32m[K~~~~~~~~[m[K
+[32.740s]       |                 [32m[K|[m[K
+[32.740s]       |                 [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.741s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:995:53:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.741s]   995 |                 "update smart fail! msg frame_ts [01;36m[K%llu[m[K, track frame_ts %llu",
+[32.742s]       |                                                  [01;36m[K~~~^[m[K
+[32.742s]       |                                                     [01;36m[K|[m[K
+[32.743s]       |                                                     [01;36m[Klong long unsigned int[m[K
+[32.743s]       |                                                  [32m[K%lu[m[K
+[32.744s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.745s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.745s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.746s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.747s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.748s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.749s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.750s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.750s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.751s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.751s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.752s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:995:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 6 has type ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.752s]   995 |                 [01;35m[K"update smart fail! msg frame_ts %llu, track frame_ts %llu"[m[K,
+[32.753s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.754s]   996 |                 frame_ts,
+[32.754s]   997 |                 [32m[Ktrack_info_.frame_ts[m[K);
+[32.755s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~[m[K
+[32.755s]       |                             [32m[K|[m[K
+[32.756s]       |                             [32m[Kuint64_t {aka long unsigned int}[m[K
+[32.757s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:995:74:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.757s]   995 |                 "update smart fail! msg frame_ts %llu, track frame_ts [01;36m[K%llu[m[K",
+[32.758s]       |                                                                       [01;36m[K~~~^[m[K
+[32.758s]       |                                                                          [01;36m[K|[m[K
+[32.759s]       |                                                                          [01;36m[Klong long unsigned int[m[K
+[32.759s]       |                                                                       [32m[K%lu[m[K
+[32.760s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.760s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.761s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.762s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.763s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.763s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.764s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.765s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.765s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.766s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.766s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.767s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.767s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.768s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::RunTrackingStrategy(const ConstSharedPtr&)[m[K’:
+[32.768s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1026:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.769s]  1026 |                 [01;35m[K"Run TrackingStrategy time ms diff: %llu"[m[K,
+[32.769s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.770s]  1027 |                 [32m[Kpresent_tracking_ts - last_tracking_ts[m[K);
+[32.770s]       |                 [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.771s]       |                                     [32m[K|[m[K
+[32.771s]       |                                     [32m[Klong unsigned int[m[K
+[32.772s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1026:56:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.772s]  1026 |                 "Run TrackingStrategy time ms diff: [01;36m[K%llu[m[K",
+[32.773s]       |                                                     [01;36m[K~~~^[m[K
+[32.773s]       |                                                        [01;36m[K|[m[K
+[32.774s]       |                                                        [01;36m[Klong long unsigned int[m[K
+[32.774s]       |                                                     [32m[K%lu[m[K
+[32.775s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.775s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.776s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.776s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.777s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.777s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.778s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.779s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.779s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.780s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.780s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.781s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.781s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.782s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.783s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1038:15:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%llu[m[K’ expects argument of type ‘[01m[Klong long unsigned int[m[K’, but argument 5 has type ‘[01m[Klong unsigned int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.783s]  1038 |               [01;35m[K"Run TrackingStrategy time ms cost: %llu"[m[K,
+[32.784s]       |               [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.784s]  1039 |               [32m[Kpresent_tracking_ts - start_tracking_ts[m[K);
+[32.785s]       |               [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.785s]       |                                   [32m[K|[m[K
+[32.786s]       |                                   [32m[Klong unsigned int[m[K
+[32.787s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1038:54:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.787s]  1038 |               "Run TrackingStrategy time ms cost: [01;36m[K%llu[m[K",
+[32.788s]       |                                                   [01;36m[K~~~^[m[K
+[32.788s]       |                                                      [01;36m[K|[m[K
+[32.789s]       |                                                      [01;36m[Klong long unsigned int[m[K
+[32.789s]       |                                                   [32m[K%lu[m[K
+[32.790s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[32.790s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[32.791s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[32.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[32.792s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[32.793s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[32.793s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[32.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[32.794s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[32.795s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[32.795s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[32.796s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/smart_subscriber.h:21[m[K,
+[32.796s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/common.h:28[m[K,
+[32.797s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/include/body_tracking.h:29[m[K,
+[32.797s]                  from [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:15[m[K:
+[32.798s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:[m[K In member function ‘[01m[Kvoid TrackingManager::FeedSmart(const ConstSharedPtr&)[m[K’:
+[32.798s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1051:17:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 5 has type ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[32.799s]  1051 |                 [01;35m[K"smart queue len exceed limit: %d"[m[K,
+[32.799s]       |                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[32.800s]  1052 |                 [32m[Kqueue_len_limit_[m[K);
+[32.800s]       |                 [32m[K~~~~~~~~~~~~~~~~[m[K
+[32.801s]       |                 [32m[K|[m[K
+[32.801s]       |                 [32m[Ksize_t {aka long unsigned int}[m[K
+[32.802s] [01m[K/home/sunrise/down_dection/src/body_tracking_custom/src/body_tracking.cpp:1051:49:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[32.802s]  1051 |                 "smart queue len exceed limit: [01;36m[K%d[m[K",
+[32.803s]       |                                                [01;36m[K~^[m[K
+[32.803s]       |                                                 [01;36m[K|[m[K
+[32.804s]       |                                                 [01;36m[Kint[m[K
+[32.804s]       |                                                [32m[K%ld[m[K
+[65.425s] [100%] [32m[1mLinking CXX executable body_tracking_custom[0m
+[70.563s] gmake[2]: 警告：检测到时钟错误。您的构建版本可能是不完整的。
+[70.602s] [100%] Built target body_tracking_custom
+[70.656s] Invoked command in '/home/sunrise/down_dection/build/body_tracking_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/down_dection/build/body_tracking_custom -- -j8 -l8
+[70.708s] Invoking command in '/home/sunrise/down_dection/build/body_tracking_custom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/down_dection/build/body_tracking_custom
+[70.744s] -- Install configuration: ""
+[70.746s] -- Execute custom install script
+[70.748s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/body_tracking_custom
+[70.789s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/launch/body_tracking.launch.py
+[70.831s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/launch/body_tracking_without_gesture.launch.py
+[70.878s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/launch/body_tracking_without_input_node.launch.py
+[70.928s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/README.md
+[70.980s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/20220922180336.png
+[71.027s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/body_detection.gif
+[71.075s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/ezgif-5-5c246b7347.gif
+[71.123s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/gazebo1.jpeg
+[71.170s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/image-ok.png
+[71.217s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/image-palm.png
+[71.264s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/interfaces.jpg
+[71.312s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/tracking.gif
+[71.361s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/lib/body_tracking_custom/images/webservice.jpeg
+[71.411s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/ament_index/resource_index/package_run_dependencies/body_tracking_custom
+[71.459s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/ament_index/resource_index/parent_prefix_path/body_tracking_custom
+[71.509s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/environment/ament_prefix_path.sh
+[71.556s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/environment/ament_prefix_path.dsv
+[71.605s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/environment/path.sh
+[71.654s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/environment/path.dsv
+[71.702s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/local_setup.bash
+[71.750s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/local_setup.sh
+[71.802s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/local_setup.zsh
+[71.850s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/local_setup.dsv
+[71.898s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.dsv
+[71.948s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/ament_index/resource_index/packages/body_tracking_custom
+[71.997s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.044s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/cmake/body_tracking_customConfig.cmake
+[72.092s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/cmake/body_tracking_customConfig-version.cmake
+[72.143s] -- Symlinking: /home/sunrise/down_dection/install/body_tracking_custom/share/body_tracking_custom/package.xml
+[72.211s] Invoked command in '/home/sunrise/down_dection/build/body_tracking_custom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/down_dection/install/fall_detector_py:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/down_dection/build/body_tracking_custom

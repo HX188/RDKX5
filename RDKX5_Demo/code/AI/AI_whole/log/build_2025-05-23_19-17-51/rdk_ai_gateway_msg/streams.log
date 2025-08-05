@@ -1,0 +1,216 @@
+[3.710s] Invoking command in '/home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_whole/src/rdk_ai_gateway_ros/rdk_ai_gateway_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg
+[4.055s] -- The C compiler identification is GNU 11.2.0
+[4.394s] -- The CXX compiler identification is GNU 11.2.0
+[4.431s] -- Detecting C compiler ABI info
+[4.822s] -- Detecting C compiler ABI info - done
+[4.881s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.882s] -- Detecting C compile features
+[4.885s] -- Detecting C compile features - done
+[4.900s] -- Detecting CXX compiler ABI info
+[5.355s] -- Detecting CXX compiler ABI info - done
+[5.407s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.408s] -- Detecting CXX compile features
+[5.411s] -- Detecting CXX compile features - done
+[5.423s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.585s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[7.113s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[7.232s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[7.439s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.466s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[7.511s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.582s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.679s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.930s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.944s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[8.379s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[8.515s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.718s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.765s] -- Looking for pthread.h
+[9.180s] -- Looking for pthread.h - found
+[9.182s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.609s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.614s] -- Found Threads: TRUE  
+[9.953s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[12.847s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[18.390s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[19.761s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[19.935s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[19.943s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[20.136s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[20.137s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[20.138s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[20.138s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[20.311s] -- Found PythonExtra: .so  
+[20.695s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[20.814s] -- Added test 'lint_cmake' to check CMake code style
+[20.820s] -- Added test 'xmllint' to check XML markup files
+[20.847s] -- Configuring done
+[21.063s] -- Generating done
+[21.137s] -- Build files have been written to: /home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg
+[21.242s] Invoked command in '/home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake /home/sunrise/AI/AI_whole/src/rdk_ai_gateway_ros/rdk_ai_gateway_msg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg
+[21.244s] Invoking command in '/home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg -- -j8 -l8
+[21.440s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[21.489s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[21.530s] [  6%] Built target ament_cmake_python_symlink_rdk_ai_gateway_msg
+[24.176s] running egg_info
+[24.186s] creating rdk_ai_gateway_msg.egg-info
+[24.188s] writing rdk_ai_gateway_msg.egg-info/PKG-INFO
+[24.190s] writing dependency_links to rdk_ai_gateway_msg.egg-info/dependency_links.txt
+[24.195s] writing top-level names to rdk_ai_gateway_msg.egg-info/top_level.txt
+[24.196s] writing manifest file 'rdk_ai_gateway_msg.egg-info/SOURCES.txt'
+[24.212s] reading manifest file 'rdk_ai_gateway_msg.egg-info/SOURCES.txt'
+[24.216s] writing manifest file 'rdk_ai_gateway_msg.egg-info/SOURCES.txt'
+[24.468s] [  6%] Built target rdk_ai_gateway_msg__cpp
+[24.617s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[24.619s] [  9%] Built target ament_cmake_python_build_rdk_ai_gateway_msg_egg
+[24.634s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[24.662s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[24.739s] [ 19%] [32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_generator_c.dir/rosidl_generator_c/rdk_ai_gateway_msg/srv/detail/text_to_text__functions.c.o[0m
+[25.267s] [ 22%] [32m[1mLinking C shared library librdk_ai_gateway_msg__rosidl_generator_c.so[0m
+[25.833s] [ 22%] Built target rdk_ai_gateway_msg__rosidl_generator_c
+[25.994s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[25.999s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[26.000s] [ 32%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[27.346s] [ 35%] [32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/rdk_ai_gateway_msg/srv/detail/dds_fastrtps/text_to_text__type_support.cpp.o[0m
+[28.257s] [ 38%] [32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/rdk_ai_gateway_msg/srv/text_to_text__type_support.cpp.o[0m
+[28.626s] [ 41%] [32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support.cpp.o[0m
+[29.043s] [ 45%] [32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/rdk_ai_gateway_msg/srv/text_to_text__type_support.cpp.o[0m
+[29.482s] [ 48%] [32m[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_c.so[0m
+[29.868s] [ 51%] [32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support.c.o[0m
+[30.015s] [ 51%] Built target rdk_ai_gateway_msg__rosidl_typesupport_c
+[30.118s] [ 54%] [32mBuilding CXX object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support_c.cpp.o[0m
+[30.242s] [ 58%] [32m[1mLinking C shared library librdk_ai_gateway_msg__rosidl_typesupport_introspection_c.so[0m
+[30.592s] [ 58%] Built target rdk_ai_gateway_msg__rosidl_typesupport_introspection_c
+[31.411s] [ 61%] [32m[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_cpp.so[0m
+[31.875s] [ 61%] Built target rdk_ai_gateway_msg__rosidl_typesupport_cpp
+[32.294s] [ 64%] [32m[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp.so[0m
+[33.126s] [ 64%] Built target rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp
+[33.271s] [ 67%] [32m[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp.so[0m
+[33.769s] [ 70%] [32m[1mLinking CXX shared library librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c.so[0m
+[33.936s] [ 70%] Built target rdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp
+[34.836s] [ 70%] Built target rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c
+[35.100s] [ 70%] Built target rdk_ai_gateway_msg
+[35.428s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[40.754s] [ 74%] Built target rdk_ai_gateway_msg__py
+[41.048s] [ 77%] [32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_generator_py.dir/rosidl_generator_py/rdk_ai_gateway_msg/srv/_text_to_text_s.c.o[0m
+[42.277s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/rdk_ai_gateway_msg/librdk_ai_gateway_msg__rosidl_generator_py.so[0m
+[42.650s] [ 80%] Built target rdk_ai_gateway_msg__rosidl_generator_py
+[42.771s] [ 83%] [32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_c.c.o[0m
+[42.865s] [ 87%] [32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[42.921s] [ 90%] [32mBuilding C object CMakeFiles/rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[43.658s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[43.748s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[43.773s] [100%] [32m[1mLinking C shared library rosidl_generator_py/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[43.984s] [100%] Built target rdk_ai_gateway_msg__rosidl_typesupport_c__pyext
+[44.089s] [100%] Built target rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c__pyext
+[44.156s] [100%] Built target rdk_ai_gateway_msg__rosidl_typesupport_introspection_c__pyext
+[44.222s] Invoked command in '/home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg -- -j8 -l8
+[44.276s] Invoking command in '/home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg
+[44.315s] -- Install configuration: ""
+[44.319s] -- Execute custom install script
+[44.325s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/ament_index/resource_index/rosidl_interfaces/rdk_ai_gateway_msg
+[44.379s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_generator_c__visibility_control.h
+[44.425s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__functions.h
+[44.474s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__struct.h
+[44.520s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support.h
+[44.575s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/text_to_text.h
+[44.629s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/library_path.sh
+[44.676s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/library_path.dsv
+[44.722s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[44.768s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__rosidl_typesupport_fastrtps_c.h
+[44.813s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_generator_cpp__visibility_control.hpp
+[44.858s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__builder.hpp
+[44.906s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__struct.hpp
+[44.948s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__traits.hpp
+[44.993s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__type_support.hpp
+[45.036s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/text_to_text.hpp
+[45.080s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[45.123s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__rosidl_typesupport_fastrtps_cpp.hpp
+[45.168s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[45.208s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__rosidl_typesupport_introspection_c.h
+[45.249s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/include/rdk_ai_gateway_msg/rdk_ai_gateway_msg/srv/detail/text_to_text__rosidl_typesupport_introspection_cpp.hpp
+[45.289s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/pythonpath.sh
+[45.332s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/pythonpath.dsv
+[45.376s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg-0.0.0-py3.10.egg-info/PKG-INFO
+[45.419s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg-0.0.0-py3.10.egg-info/SOURCES.txt
+[45.460s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg-0.0.0-py3.10.egg-info/dependency_links.txt
+[45.501s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg-0.0.0-py3.10.egg-info/top_level.txt
+[45.547s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/__init__.py
+[45.588s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_c.c
+[45.629s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_fastrtps_c.c
+[45.671s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/_rdk_ai_gateway_msg_s.ep.rosidl_typesupport_introspection_c.c
+[45.712s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/librdk_ai_gateway_msg__rosidl_generator_py.so
+[45.753s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[45.795s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[45.835s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[45.875s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/__init__.py
+[45.915s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/_text_to_text.py
+[45.956s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/_text_to_text_s.c
+[45.999s] -- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[46.000s] -- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[46.013s] -- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[46.014s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/srv/TextToText.idl
+[46.055s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/srv/TextToText.srv
+[46.097s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/srv/TextToText_Request.msg
+[46.139s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/srv/TextToText_Response.msg
+[46.182s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/ament_index/resource_index/package_run_dependencies/rdk_ai_gateway_msg
+[46.223s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/ament_index/resource_index/parent_prefix_path/rdk_ai_gateway_msg
+[46.266s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/ament_prefix_path.sh
+[46.308s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/ament_prefix_path.dsv
+[46.349s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/path.sh
+[46.390s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/environment/path.dsv
+[46.431s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/local_setup.bash
+[46.472s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/local_setup.sh
+[46.514s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/local_setup.zsh
+[46.556s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/local_setup.dsv
+[46.598s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/package.dsv
+[46.639s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/ament_index/resource_index/packages/rdk_ai_gateway_msg
+[46.679s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rosidl_cmake-extras.cmake
+[46.722s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.762s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/ament_cmake_export_include_directories-extras.cmake
+[46.803s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/ament_cmake_export_libraries-extras.cmake
+[46.845s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/ament_cmake_export_targets-extras.cmake
+[46.887s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[46.929s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[46.971s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msgConfig.cmake
+[47.011s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msgConfig-version.cmake
+[47.053s] -- Symlinking: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/package.xml
+[47.096s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_generator_c.so
+[47.097s] -- Set runtime path of "/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_generator_c.so" to ""
+[47.098s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c.so
+[47.099s] -- Set runtime path of "/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_c.so" to ""
+[47.100s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp.so
+[47.102s] -- Set runtime path of "/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cpp.so" to ""
+[47.102s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_introspection_c.so
+[47.104s] -- Set runtime path of "/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_introspection_c.so" to ""
+[47.104s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_c.so
+[47.106s] -- Set runtime path of "/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_c.so" to ""
+[47.106s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp.so
+[47.108s] -- Set runtime path of "/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_introspection_cpp.so" to ""
+[47.109s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_cpp.so
+[47.110s] -- Set runtime path of "/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_typesupport_cpp.so" to ""
+[47.370s] Listing '/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg'...
+[47.371s] Compiling '/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/__init__.py'...
+[47.372s] Listing '/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv'...
+[47.372s] Compiling '/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/__init__.py'...
+[47.373s] Compiling '/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/local/lib/python3.10/dist-packages/rdk_ai_gateway_msg/srv/_text_to_text.py'...
+[47.421s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_generator_py.so
+[47.423s] -- Set runtime path of "/home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/lib/librdk_ai_gateway_msg__rosidl_generator_py.so" to ""
+[47.424s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_cExport.cmake
+[47.424s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_cExport-noconfig.cmake
+[47.425s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cExport.cmake
+[47.426s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[47.427s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_cppExport.cmake
+[47.428s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cppExport.cmake
+[47.429s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[47.430s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cExport.cmake
+[47.431s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[47.432s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_cExport.cmake
+[47.433s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_cExport-noconfig.cmake
+[47.434s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cppExport.cmake
+[47.435s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[47.436s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_cppExport.cmake
+[47.436s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/rdk_ai_gateway_msg__rosidl_typesupport_cppExport-noconfig.cmake
+[47.437s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_pyExport.cmake
+[47.438s] -- Installing: /home/sunrise/AI/AI_whole/install/rdk_ai_gateway_msg/share/rdk_ai_gateway_msg/cmake/export_rdk_ai_gateway_msg__rosidl_generator_pyExport-noconfig.cmake
+[47.452s] Invoked command in '/home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/AI/AI_whole/install/rdk_ai_gateway:/home/sunrise/AI/AI_whole/install/ollama_ros_chat:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/AI/AI_whole/build/rdk_ai_gateway_msg

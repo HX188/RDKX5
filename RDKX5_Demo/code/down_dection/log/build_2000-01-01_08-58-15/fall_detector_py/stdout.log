@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating fall_detector_py.egg-info
+writing fall_detector_py.egg-info/PKG-INFO
+writing dependency_links to fall_detector_py.egg-info/dependency_links.txt
+writing entry points to fall_detector_py.egg-info/entry_points.txt
+writing requirements to fall_detector_py.egg-info/requires.txt
+writing top-level names to fall_detector_py.egg-info/top_level.txt
+writing manifest file 'fall_detector_py.egg-info/SOURCES.txt'
+reading manifest file 'fall_detector_py.egg-info/SOURCES.txt'
+writing manifest file 'fall_detector_py.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sunrise/down_dection/install/fall_detector_py/lib/python3.10/site-packages/fall-detector-py.egg-link (link to .)
+Installing fall_detector_node script to /home/sunrise/down_dection/install/fall_detector_py/lib/fall_detector_py
+
+Installed /home/sunrise/down_dection/build/fall_detector_py
+running symlink_data
+creating /home/sunrise/down_dection/install/fall_detector_py/share/ament_index
+creating /home/sunrise/down_dection/install/fall_detector_py/share/ament_index/resource_index
+creating /home/sunrise/down_dection/install/fall_detector_py/share/ament_index/resource_index/packages
+symbolically linking /home/sunrise/down_dection/build/fall_detector_py/resource/fall_detector_py -> /home/sunrise/down_dection/install/fall_detector_py/share/ament_index/resource_index/packages
+symbolically linking /home/sunrise/down_dection/build/fall_detector_py/package.xml -> /home/sunrise/down_dection/install/fall_detector_py/share/fall_detector_py

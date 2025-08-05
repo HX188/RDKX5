@@ -1,0 +1,17 @@
+<view class="control-container"
+      bindtouchstart="onMultiTouchStart"
+      bindtouchmove="onMultiTouchMove"
+      bindtouchend="onMultiTouchEnd">
+
+  <image class="bg" src="/images/bg2.png" mode="aspectFill"></image>
+
+  <view class="slider-container">
+    <view class="slider-track"></view>
+    <view class="slider-thumb" style="transform: translateX({{sliderX}}rpx);"></view>
+  </view>
+
+  <view class="joystick">
+    <view class="joystick-base"></view>
+    <view class="joystick-handle" style="transform: translate({{handleX}}rpx, {{handleY}}rpx);"></view>
+  </view>
+</view>

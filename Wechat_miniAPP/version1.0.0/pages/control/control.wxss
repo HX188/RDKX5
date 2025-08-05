@@ -1,0 +1,82 @@
+.control-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: -1;
+}
+
+.slider-container {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 500rpx;
+  height: 60rpx;
+  margin-left: -250rpx; 
+  background-color: rgba(77, 156, 209, 0.2);
+  border-radius: 30rpx;
+  user-select: none;
+  z-index: 10;
+}
+
+.slider-track {
+  position: absolute;
+  width: 99%;
+  height: 98%;
+  border: 2rpx solid rgba(114, 148, 163, 0.877);
+  border-radius: 30rpx;
+}
+
+.slider-thumb {
+  position: absolute;
+  top: 5%;
+  left: 47%;
+  width: 6%;
+  height: 90%;
+  background-color: rgba(229, 255, 0, 0.7);
+  border-radius: 20rpx;
+  border: 2rpx solid rgba(0, 122, 255, 0.7);
+  transition: transform 0.1s ease-out;
+}
+
+.joystick {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  width: 500rpx;
+  height: 500rpx;
+  margin-left: -250rpx; 
+  margin-top: -250rpx; 
+  background-color: rgba(77, 156, 209, 0.2);
+  border-radius: 50%;
+  user-select: none;
+}
+
+.joystick-base {
+  position: absolute;
+  width: 99%;
+  height: 99%;
+  border-radius: 50%;
+  border: 4rpx solid rgba(114, 148, 163, 0.877);
+}
+
+.joystick-handle {
+  position: absolute;
+  top: 44%;
+  left: 44%;
+  width: 12%;
+  height: 12%;
+  background-color: rgba(229, 255, 0, 0.7);
+  border-radius: 50%;
+  border: 2rpx solid rgba(0, 122, 255, 0.7);
+  transition: transform 0.1s ease-out;
+}

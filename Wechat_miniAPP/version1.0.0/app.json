@@ -1,0 +1,11 @@
+{
+  "pages": ["pages/index/index", "pages/logs/logs", "pages/control/control"],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "幼儿监伴陪护机器人",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

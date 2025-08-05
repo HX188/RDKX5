@@ -1,0 +1,9 @@
+source;share/rdk_ai_gateway/hook/pythonpath.ps1
+source;share/rdk_ai_gateway/hook/pythonpath.dsv
+source;share/rdk_ai_gateway/hook/pythonpath.sh
+source;share/rdk_ai_gateway/hook/ament_prefix_path.ps1
+source;share/rdk_ai_gateway/hook/ament_prefix_path.dsv
+source;share/rdk_ai_gateway/hook/ament_prefix_path.sh
+source;../../build/rdk_ai_gateway/share/rdk_ai_gateway/hook/pythonpath_develop.ps1
+source;../../build/rdk_ai_gateway/share/rdk_ai_gateway/hook/pythonpath_develop.dsv
+source;../../build/rdk_ai_gateway/share/rdk_ai_gateway/hook/pythonpath_develop.sh

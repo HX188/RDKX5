@@ -1,0 +1,14 @@
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/uninstall.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/wheeltec_mic_ros2_uninstall.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/call_recognition.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/command_recognition.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/node_feedback.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/wheeltec_mic.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/voice_control.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/test.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/edit_cache.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/rebuild_cache.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/list_install_components.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/install.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/install/local.dir
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_ros2/CMakeFiles/install/strip.dir

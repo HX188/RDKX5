@@ -1,0 +1,7 @@
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:msg/PcmMsg.idl
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:msg/Position.idl
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/GetDeviceType.idl
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/GetOfflineResult.idl
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/SetAwakeWord.idl
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/SetMajorMic.idl
+/home/sunrise/AI/AI_communicate/build/wheeltec_mic_msg/rosidl_adapter/wheeltec_mic_msg:srv/SwitchMic.idl

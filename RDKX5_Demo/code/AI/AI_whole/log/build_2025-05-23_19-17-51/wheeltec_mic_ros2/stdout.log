@@ -1,0 +1,203 @@
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+-- Found wheeltec_mic_msg: 0.0.0 (/home/sunrise/AI/AI_whole/install/wheeltec_mic_msg/share/wheeltec_mic_msg/cmake)
+-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: /home/sunrise/AI/AI_whole/src/wheeltec_mic/wheeltec_mic_ros2/include
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/sunrise/AI/AI_whole/build/wheeltec_mic_ros2
+[ 27%] [32mBuilding CXX object CMakeFiles/command_recognition.dir/src/command_recognition.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/wheeltec_mic.dir/src/ros2_service.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/call_recognition.dir/src/call_recognition.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/wheeltec_mic.dir/src/wheeltec_mic.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/voice_control.dir/src/voice_control.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/node_feedback.dir/src/node_feedback.cpp.o[0m
+[ 63%] [32m[1mLinking CXX executable voice_control[0m
+[ 72%] [32m[1mLinking CXX executable wheeltec_mic[0m
+[ 72%] Built target voice_control
+[ 72%] Built target wheeltec_mic
+[ 81%] [32m[1mLinking CXX executable call_recognition[0m
+[ 81%] Built target call_recognition
+[ 90%] [32m[1mLinking CXX executable node_feedback[0m
+[100%] [32m[1mLinking CXX executable command_recognition[0m
+[100%] Built target node_feedback
+[100%] Built target command_recognition
+-- Install configuration: ""
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/launch
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/launch/mic_init.launch.py
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/launch/base.launch.py
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/call.bnf
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/recognition_params.yaml
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/msc.cfg
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/grm_lex.log
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/isr.log
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/lgi.log
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/ddykzcaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/gcoeaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/imqhxtba.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/uikawbda.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/bzvskdaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/kcheaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/zwwzwvaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/zhdfaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/rbswtvaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/mmheaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/call_16K
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/rlieaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/azcfaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/rtpyyuba.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/deofaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/sqieaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/lhheaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/arlfaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/whsnkqba.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/call.g
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/mcaudaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/qgieaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/ddykzcaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/gcoeaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/imqhxtba.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/uikawbda.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/bzvskdaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/kcheaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/zwwzwvaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/zhdfaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/rbswtvaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/mmheaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/call_16K
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/rlieaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/azcfaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/rtpyyuba.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/deofaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/sqieaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/lhheaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/arlfaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/whsnkqba.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/call.g
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/mcaudaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/qgieaaaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/fyrdwpaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/temp/commit
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/GrmBuilld/fyrdwpaa.d
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/res/asr/common.jet
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/waiter.log
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/isr_local.log
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/config/msc/msc.log
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/rrt_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/find.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/3d_navigation_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/car_front.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/2d_navigation_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/kcf_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/pure3d_mapping_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/AR_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/pure3d_navigation_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/3d_mapping_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/classify_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/stop.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/pure3d_mapping_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/navigation_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/3d_mapping_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/web_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/2d_mapping_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/overmap.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/3d_navigation_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/2d_mapping.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/awake.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/open_node.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/voice_control.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/search_voice.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/AR_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/visual_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/visual_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/line_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/kcf_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/pure3d_navigation_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/reach_goal.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/web_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/rrt_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/turn_right.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/turn_left.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/line_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/car_back.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/Tracker.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/classify_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/2d_navigation.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/close_node.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/OK.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/rplidar_open.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/rplidar_close.wav
+-- Installing: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/feedback_voice/sleep.wav
+-- Execute custom install script
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/call_recognition
+-- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/call_recognition
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/command_recognition
+-- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/command_recognition
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/node_feedback
+-- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/node_feedback
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/wheeltec_mic
+-- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/wheeltec_mic
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/voice_control
+-- Up-to-date symlink: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/lib/wheeltec_mic_ros2/voice_control
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/ament_index/resource_index/package_run_dependencies/wheeltec_mic_ros2
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/ament_index/resource_index/parent_prefix_path/wheeltec_mic_ros2
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/environment/ament_prefix_path.sh
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/environment/ament_prefix_path.dsv
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/environment/path.sh
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/environment/path.dsv
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/local_setup.bash
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/local_setup.sh
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/local_setup.zsh
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/local_setup.dsv
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.dsv
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/ament_index/resource_index/packages/wheeltec_mic_ros2
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/cmake/wheeltec_mic_ros2Config.cmake
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/cmake/wheeltec_mic_ros2Config-version.cmake
+-- Symlinking: /home/sunrise/AI/AI_whole/install/wheeltec_mic_ros2/share/wheeltec_mic_ros2/package.xml

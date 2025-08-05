@@ -1,0 +1,25 @@
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:28:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   52 |         mqtt_ = new Mqtt_C([01;35m[K"tcp://w16e190a.ala.cn-hangzhou.emqxsl.cn:1883"[m[K, "c-client", "test", "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,
+      |                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:77:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   52 |         mqtt_ = new Mqtt_C("tcp://w16e190a.ala.cn-hangzhou.emqxsl.cn:1883", [01;35m[K"c-client"[m[K, "test", "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,
+      |                                                                             [01;35m[K^~~~~~~~~~[m[K
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:89:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   52 |         mqtt_ = new Mqtt_C("tcp://w16e190a.ala.cn-hangzhou.emqxsl.cn:1883", "c-client", [01;35m[K"test"[m[K, "test", "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,
+      |                                                                                         [01;35m[K^~~~~~[m[K
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:97:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   52 |   mqtt_ = new Mqtt_C("tcp://w16e190a.ala.cn-hangzhou.emqxsl.cn:1883", "c-client", "test", [01;35m[K"test"[m[K, "/wechat_ros/mqtt", 0, std::bind(&MinimalPublisher::getMqttMessage,
+      |                                                                                           [01;35m[K^~~~~~[m[K
+
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:52:105:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   52 | = new Mqtt_C("tcp://w16e190a.ala.cn-hangzhou.emqxsl.cn:1883", "c-client", "test", "test", [01;35m[K"/wechat_ros/mqtt"[m[K, 0, std::bind(&MinimalPublisher::getMqttMessage,
+      |                                                                                           [01;35m[K^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::getMqttMessage(void*, char*, int, MQTTClient_message*)[m[K’:
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:67:31:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kcontext[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   67 |     void getMqttMessage([01;35m[Kvoid *context[m[K, char *topicName, int topicLen, MQTTClient_message *message) {
+      |                         [01;35m[K~~~~~~^~~~~~~[m[K
+[01m[K/home/sunrise/yaokong/mqtt_connect/src/ros2_end/src/main.cpp:67:61:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KtopicLen[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   67 |     void getMqttMessage(void *context, char *topicName, [01;35m[Kint topicLen[m[K, MQTTClient_message *message) {
+      |                                                         [01;35m[K~~~~^~~~~~~~[m[K

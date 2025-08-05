@@ -1,0 +1,4 @@
+source;share/rdk_ai_gateway_msg/local_setup.bash
+source;share/rdk_ai_gateway_msg/local_setup.dsv
+source;share/rdk_ai_gateway_msg/local_setup.sh
+source;share/rdk_ai_gateway_msg/local_setup.zsh

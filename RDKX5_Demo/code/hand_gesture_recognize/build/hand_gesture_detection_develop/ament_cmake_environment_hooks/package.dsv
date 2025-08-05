@@ -1,0 +1,4 @@
+source;share/hand_gesture_detection_develop/local_setup.bash
+source;share/hand_gesture_detection_develop/local_setup.dsv
+source;share/hand_gesture_detection_develop/local_setup.sh
+source;share/hand_gesture_detection_develop/local_setup.zsh

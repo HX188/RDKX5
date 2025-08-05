@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/sunrise/AI/talk/build/rdk_ai_gateway_msg/rosidl_generator_py/rdk_ai_gateway_msg/rdk_ai_gateway_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" "TARGETS" "rdk_ai_gateway_msg__rosidl_typesupport_c__pyext" "DESTINATION" "local/lib/python3.10/dist-packages/rdk_ai_gateway_msg")

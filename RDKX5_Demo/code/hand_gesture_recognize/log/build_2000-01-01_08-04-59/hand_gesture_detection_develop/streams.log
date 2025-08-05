@@ -1,0 +1,97 @@
+[0.054s] Invoking command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop
+[0.685s] -- The C compiler identification is GNU 11.2.0
+[1.273s] -- The CXX compiler identification is GNU 11.2.0
+[1.319s] -- Detecting C compiler ABI info
+[1.725s] -- Detecting C compiler ABI info - done
+[1.786s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.795s] -- Detecting C compile features
+[1.798s] -- Detecting C compile features - done
+[1.818s] -- Detecting CXX compiler ABI info
+[2.260s] -- Detecting CXX compiler ABI info - done
+[2.325s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.327s] -- Detecting CXX compile features
+[2.329s] -- Detecting CXX compile features - done
+[2.350s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.276s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.691s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.856s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[4.095s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.125s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.176s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.358s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.628s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.644s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.111s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[5.246s] -- Found FastRTPS: /opt/ros/humble/include  
+[5.442s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.494s] -- Looking for pthread.h
+[5.905s] -- Looking for pthread.h - found
+[5.907s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[6.314s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[6.322s] -- Found Threads: TRUE  
+[6.675s] -- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)
+[7.006s] -- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)
+[7.016s] [0minvalid platform, build platform X3 default[0m
+[7.017s] [0mCMAKE_SYSROOT is [0m
+[7.442s] -- Configuring done
+[7.514s] -- Generating done
+[7.536s] -- Build files have been written to: /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop
+[7.598s] Invoked command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop
+[7.609s] Invoking command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop -- -j8 -l8
+[7.722s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[8.437s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[8.473s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[8.611s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.626s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.657s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.713s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.782s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.956s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.963s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.434s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.705s] -- Found ai_msgs: 2.0.1 (/opt/tros/humble/share/ai_msgs/cmake)
+[9.977s] -- Found dnn_node: 2.4.2 (/opt/tros/humble/share/dnn_node/cmake)
+[9.985s] [0minvalid platform, build platform X3 default[0m
+[9.986s] [0mCMAKE_SYSROOT is [0m
+[10.397s] -- Configuring done
+[10.459s] -- Generating done
+[10.481s] -- Build files have been written to: /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop
+[10.648s] gmake[2]: 警告：文件“/home/sunrise/hand_gesture_recognize/src/hand_gesture_detection_develop/src/main.cpp”的修改时间在未来 785303231 秒后
+[10.684s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_preprocess.cpp.o[0m
+[10.686s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/hand_gesture_det_node.cpp.o[0m
+[10.686s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/lmks_process.cpp.o[0m
+[10.687s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_postprocess_util.cc.o[0m
+[10.688s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/threads/threadpool.cpp.o[0m
+[10.689s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/main.cpp.o[0m
+[10.690s] [ 87%] [32mBuilding CXX object CMakeFiles/hand_gesture_detection_develop.dir/src/gesture_postprocess.cpp.o[0m
+[84.289s] [100%] [32m[1mLinking CXX executable hand_gesture_detection_develop[0m
+[92.085s] gmake[2]: 警告：检测到时钟错误。您的构建版本可能是不完整的。
+[92.122s] [100%] Built target hand_gesture_detection_develop
+[92.179s] Invoked command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop -- -j8 -l8
+[92.229s] Invoking command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop
+[92.266s] -- Install configuration: ""
+[92.268s] -- Execute custom install script
+[92.270s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/hand_gesture_detection_develop/hand_gesture_detection_develop
+[92.311s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/hand_gesture_detection_develop/config//gestureDet_32x21.hbm
+[92.351s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/hand_gesture_detection_develop/config//gestureDet_8x21.hbm
+[92.397s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/lib/hand_gesture_detection_develop/config//person_face_hand.jpg
+[92.451s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/launch/hand_gesture_detection.launch.py
+[92.498s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/launch/hand_gesture_fusion.launch.py
+[92.547s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/launch/hand_gesture_fusion_img_fb.launch.py
+[92.599s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/ament_index/resource_index/package_run_dependencies/hand_gesture_detection_develop
+[92.648s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/ament_index/resource_index/parent_prefix_path/hand_gesture_detection_develop
+[92.696s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/environment/ament_prefix_path.sh
+[92.754s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/environment/ament_prefix_path.dsv
+[92.801s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/environment/path.sh
+[92.850s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/environment/path.dsv
+[92.901s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/local_setup.bash
+[92.948s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/local_setup.sh
+[92.995s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/local_setup.zsh
+[93.045s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/local_setup.dsv
+[93.095s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.dsv
+[93.145s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/ament_index/resource_index/packages/hand_gesture_detection_develop
+[93.195s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/cmake/hand_gesture_detection_developConfig.cmake
+[93.241s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/cmake/hand_gesture_detection_developConfig-version.cmake
+[93.291s] -- Symlinking: /home/sunrise/hand_gesture_recognize/install/hand_gesture_detection_develop/share/hand_gesture_detection_develop/package.xml
+[93.356s] Invoked command in '/home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/hand_gesture_recognize/build/hand_gesture_detection_develop

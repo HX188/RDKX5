@@ -1,0 +1,49 @@
+<view class="container">
+  <image class="bg" src="/images/bg1.png" mode="aspectFill"></image>
+
+  <view class="label">连接地址（域名）：</view>
+  <view class="readonly-host">{{ host }}</view>
+
+  <view class="label">订阅主题：</view>
+  <input bindinput="setSubTopic" value="{{ subTopic }}" />
+
+  <view class="is-flex">
+    <button 
+      type="primary" 
+      bindtap="subscribe" 
+      disabled="{{ isSubscribed }}"
+      class="custom-subscribe-btn"
+      hover-class="none">
+      {{ isSubscribed ? '已订阅' : '订阅' }}
+    </button>
+    <button 
+      type="warn" 
+      bindtap="unsubscribe" 
+      disabled="{{ !isSubscribed }}">
+      取消订阅
+    </button>
+  </view>
+
+  <view class="label">发布主题：</view>
+  <input bindinput="setPubTopic" value="{{ pubTopic }}" />
+
+  <view class="label">发布消息：</view>
+  <input bindinput="setPubMsg" value="{{ pubMsg }}" />
+
+  <view class="is-flex">
+    <button type="primary" bindtap="publish">发布</button>
+  </view>
+
+  <view class="label">收到的消息：</view>
+  <view class="received-msg-wrapper">
+    <view class="clear-btn" bindtap="clearReceivedMsg">清空</view>
+    <scroll-view scroll-y="true" style="height: 450rpx;" scroll-into-view="{{scrollToView}}" scroll-with-animation>
+      <view class="received-msg-box">
+        <rich-text nodes="{{receivedMsg}}"></rich-text>
+        <view id="msg-end" style="height: 1px; margin-bottom: 16rpx;"></view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <button bindtap="goToControl" class="to_control">进入遥控界面</button>
+</view>

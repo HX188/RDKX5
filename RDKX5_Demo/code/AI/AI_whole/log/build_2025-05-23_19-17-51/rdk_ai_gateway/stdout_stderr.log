@@ -1,0 +1,29 @@
+running develop
+running egg_info
+creating rdk_ai_gateway.egg-info
+writing rdk_ai_gateway.egg-info/PKG-INFO
+writing dependency_links to rdk_ai_gateway.egg-info/dependency_links.txt
+writing entry points to rdk_ai_gateway.egg-info/entry_points.txt
+writing requirements to rdk_ai_gateway.egg-info/requires.txt
+writing top-level names to rdk_ai_gateway.egg-info/top_level.txt
+writing manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'
+reading manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'
+writing manifest file 'rdk_ai_gateway.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/lib/python3.10/site-packages/rdk-ai-gateway.egg-link (link to .)
+Installing apply script to /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/lib/rdk_ai_gateway
+Installing client script to /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/lib/rdk_ai_gateway
+Installing service script to /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/lib/rdk_ai_gateway
+
+Installed /home/sunrise/AI/AI_whole/build/rdk_ai_gateway
+running symlink_data
+creating /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/share/ament_index
+creating /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/share/ament_index/resource_index
+creating /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/share/ament_index/resource_index/packages
+symbolically linking /home/sunrise/AI/AI_whole/build/rdk_ai_gateway/resource/rdk_ai_gateway -> /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/share/ament_index/resource_index/packages
+symbolically linking /home/sunrise/AI/AI_whole/build/rdk_ai_gateway/package.xml -> /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/share/rdk_ai_gateway
+symbolically linking /home/sunrise/AI/AI_whole/build/rdk_ai_gateway/lib/vocano_apply.cpython-310-aarch64-linux-gnu.so -> /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/lib/rdk_ai_gateway
+symbolically linking /home/sunrise/AI/AI_whole/build/rdk_ai_gateway/lib/decode.cpython-310-aarch64-linux-gnu.so -> /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/lib/rdk_ai_gateway
+symbolically linking /home/sunrise/AI/AI_whole/build/rdk_ai_gateway/config/param.yaml -> /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/share/rdk_ai_gateway
+creating /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/share/rdk_ai_gateway/launch
+symbolically linking /home/sunrise/AI/AI_whole/build/rdk_ai_gateway/launch/ai.launch.py -> /home/sunrise/AI/AI_whole/install/rdk_ai_gateway/share/rdk_ai_gateway/launch

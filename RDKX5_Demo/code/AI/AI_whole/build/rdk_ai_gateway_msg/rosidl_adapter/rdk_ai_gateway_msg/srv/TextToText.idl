@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from rdk_ai_gateway_msg/srv/TextToText.srv
+// generated code does not contain a copyright notice
+
+
+module rdk_ai_gateway_msg {
+  module srv {
+    struct TextToText_Request {
+      string input;
+
+      string model;
+    };
+    struct TextToText_Response {
+      string output;
+    };
+  };
+};
